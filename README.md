@@ -2,7 +2,7 @@
 <div align="center">
 
 <a href="https://github.com/Kein95">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=30&duration=3000&pause=800&color=0D6E6E&center=true&vCenter=true&width=640&lines=Xin+ch%C3%A0o%2C+t%C3%B4i+l%C3%A0+Kien+%F0%9F%91%8B;Maintainer+of+LUONVUITUOI-CERT;Certificate+portal+toolkit+builder;Python+%E2%80%A2+Flask+%E2%80%A2+SQLite+%E2%80%A2+Vercel+%E2%80%A2+Docker" alt="Typing SVG">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=800&color=0D6E6E&center=true&vCenter=true&width=720&lines=Xin+ch%C3%A0o%2C+t%C3%B4i+l%C3%A0+Kien+%F0%9F%91%8B;Maintainer+of+LUONVUITUOI-CERT;Certificate+portal+toolkit+builder;Python+%C2%B7+Flask+%C2%B7+Vercel+%C2%B7+Docker" alt="Typing SVG">
 </a>
 
 </div>
