@@ -26,6 +26,12 @@ behind competitions, training programs, and award cohorts.
 - 🧭 **Mentor**: [@duongtruongbinh](https://github.com/duongtruongbinh) — AI Researcher at AI Vietnam
 - 🤝 **Teammate**: [@Liamlenguyen](https://github.com/Liamlenguyen) — watch for more **LUONVUITUOI TEAM** collabs ✨
 
+## 🏆 Achievements
+
+| Year | Competition | Track | Result |
+|------|-------------|-------|--------|
+| 2026 | [JOAI2026 — 2nd Japanese Olympiad in AI](https://joai.jp/) | Open | 🥉 **Honorable Mention** (努力賞) — [certificate](./JOAI2026_KIEN_努力賞.pdf) |
+
 ## 📌 Pinned
 
 <table>
