@@ -30,7 +30,17 @@ behind competitions, training programs, and award cohorts.
 
 | Year | Competition | Track | Result |
 |------|-------------|-------|--------|
-| 2026 | [JOAI2026 — 2nd Japanese Olympiad in AI](https://joai.jp/) | Open | 🥉 **Honorable Mention** (努力賞) — [certificate](./JOAI2026_KIEN_努力賞.pdf) |
+| 2026 | [JOAI2026 — 2nd Japanese Olympiad in AI](https://joai.jp/) | Open | 🥉 **Honorable Mention** (努力賞) |
+
+<div align="center">
+
+<a href="./JOAI2026_KIEN_努力賞.pdf">
+  <img src="./JOAI2026_KIEN_honorable_mention.png" alt="JOAI2026 Honorable Mention certificate" width="420">
+</a>
+
+<sub>📜 Click to download the signed PDF</sub>
+
+</div>
 
 ## 📌 Pinned
 
