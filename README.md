@@ -83,14 +83,6 @@ Researcher at AI Vietnam. More from **LUONVUITUOI TEAM** coming.
 
 </div>
 
-## 🏆 Trophies
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=Kein95&theme=flat&column=6&no-frame=true&no-bg=true" alt="Trophies">
-
-</div>
-
 ## 📬 Contact
 
 | Channel | Link |
