@@ -106,7 +106,7 @@ Researcher at AI Vietnam. More from **LUONVUITUOI TEAM** coming.
 | 📧 Email | [htkien95@gmail.com](mailto:htkien95@gmail.com) |
 | 📱 Phone / Zalo | [+84 348 635 408](tel:+84348635408) |
 | 🐙 GitHub | [@Kein95](https://github.com/Kein95) |
-| 🌐 Live project | [kein95.github.io/luonvuituoi-cert](https://kein95.github.io/luonvuituoi-cert/) |
+| 🌐 Live projects | [kein95.github.io/luonvuituoi-cert](https://kein95.github.io/luonvuituoi-cert/) · [lpr-dataset-hub.vercel.app](https://lpr-dataset-hub.vercel.app/) |
 
 ---
 
