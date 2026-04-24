@@ -18,9 +18,12 @@ I build config-driven toolkits that turn "bring your own data + template" into
 verification, shipment tracking — the boring-but-important infrastructure
 behind competitions, training programs, and award cohorts.
 
-- 🚀 **Shipped**: [`LUONVUITUOI-CERT`](https://github.com/Kein95/luonvuituoi-cert) — full-stack cert portal toolkit (Python + Flask + MkDocs Material, bilingual EN/VI docs, Vercel + Docker deploy)
+- 🚀 **Shipped**:
+  - [`LUONVUITUOI-CERT`](https://github.com/Kein95/luonvuituoi-cert) — full-stack cert portal toolkit (Python + Flask + MkDocs Material, bilingual EN/VI docs, Vercel + Docker deploy)
+  - [`LUONVUITUOI-LPR-DATAHUB`](https://github.com/Kein95/luonvuituoi-lpr-datahub) — all-in-one gateway for License Plate Recognition research (16+ datasets, 10+ countries)
 - 🛠️ **Stack**: Python, Flask, SQLite, Pydantic, openpyxl, reportlab, Docker, Vercel, MkDocs Material
-- 🌱 **Exploring**: Supabase, Cloudflare R2, FastAPI, edge deploys
+- 🌱 **Exploring**: Computer Vision, LPR datasets, Supabase, Cloudflare R2, FastAPI
+- 🧭 **Mentor**: [@duongtruongbinh](https://github.com/duongtruongbinh) — AI Researcher at AI Vietnam
 - 🤝 **Teammate**: [@Liamlenguyen](https://github.com/Liamlenguyen) — watch for more **LUONVUITUOI TEAM** collabs ✨
 
 ## 📌 Pinned
@@ -47,11 +50,17 @@ import/export. MIT license, 460+ tests, bilingual docs.
 </td>
 <td width="50%">
 
-### ⚡ Coming soon
+### [🚘 LUONVUITUOI-LPR-DATAHUB](https://github.com/Kein95/luonvuituoi-lpr-datahub)
 
-More from **LUONVUITUOI TEAM** — tools for Vietnamese education &
-competition organizers. Follow [@Kein95](https://github.com/Kein95) and
-[@Liamlenguyen](https://github.com/Liamlenguyen) to stay tuned.
+All-in-one gateway for License Plate Recognition research — 16+ datasets
+across 10+ countries, unified metadata, quick-start notebooks.
+
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![OpenCV](https://img.shields.io/badge/-OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
+![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+
+Mentored by [@duongtruongbinh](https://github.com/duongtruongbinh) — AI
+Researcher at AI Vietnam. More from **LUONVUITUOI TEAM** coming.
 
 </td>
 </tr>
@@ -95,7 +104,7 @@ competition organizers. Follow [@Kein95](https://github.com/Kein95) and
 
 <div align="center">
 
-<sub>🙏 Cảm ơn đồng đội <a href="https://github.com/Liamlenguyen">@Liamlenguyen</a> — stay tuned for more collabs from <strong>LUONVUITUOI TEAM</strong> ✨</sub>
+<sub>🧭 Mentor <a href="https://github.com/duongtruongbinh">@duongtruongbinh</a> &nbsp;·&nbsp; 🤝 Teammate <a href="https://github.com/Liamlenguyen">@Liamlenguyen</a> — stay tuned for more collabs from <strong>LUONVUITUOI TEAM</strong> ✨</sub>
 
 <img src="https://komarev.com/ghpvc/?username=Kein95&label=Profile+views&color=0D6E6E&style=flat" alt="Profile views">
 
