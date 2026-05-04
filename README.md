@@ -76,7 +76,7 @@ across 10+ countries, unified metadata, quick-start notebooks.
 ![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
 
 Mentored by [@duongtruongbinh](https://github.com/duongtruongbinh) — AI
-Researcher at AI Vietnam. More from **LUONVUITUOI TEAM** coming.
+Researcher at AI Vietnam.
 
 </td>
 </tr>
@@ -112,7 +112,9 @@ Researcher at AI Vietnam. More from **LUONVUITUOI TEAM** coming.
 
 <div align="center">
 
-<sub>🧭 Mentor <a href="https://github.com/duongtruongbinh">@duongtruongbinh</a> &nbsp;·&nbsp; 🤝 Teammate <a href="https://github.com/Liamlenguyen">@Liamlenguyen</a> — stay tuned for more collabs from <strong>LUONVUITUOI TEAM</strong> ✨</sub>
+<sub>🧭 Mentor <a href="https://github.com/duongtruongbinh">@duongtruongbinh</a> &nbsp;·&nbsp; 🤝 Teammate <a href="https://github.com/Liamlenguyen">@Liamlenguyen</a></sub>
+<br>
+<sub>Stay tuned for more collabs from <strong>LUONVUITUOI TEAM</strong> ✨</sub>
 
 <img src="https://komarev.com/ghpvc/?username=Kein95&label=Profile+views&color=0D6E6E&style=flat" alt="Profile views">
 
