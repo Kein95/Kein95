@@ -28,17 +28,40 @@ behind competitions, training programs, and award cohorts.
 
 ## 🏆 Achievements
 
-| Year | Competition | Track | Result |
+| Year | Program / Competition | Focus | Result |
 |------|-------------|-------|--------|
-| 2026 | [JOAI2026 — 2nd Japanese Olympiad in AI](https://joai.jp/) | Open | 🥉 **Honorable Mention** (努力賞) |
+| 2026 | [JOAI2026 — 2nd Japanese Olympiad in AI](https://joai.jp/) | Open category | 🥉 **Honorable Mention** (努力賞) |
+| 2024 | [AI Vietnam AIO2024](https://aivietnam.edu.vn/) | Data Science and Artificial Intelligence All-In-One course | **Completed course** |
 
 <div align="center">
 
 <a href="./JOAI2026_KIEN_努力賞.pdf">
-  <img src="./JOAI2026_KIEN_honorable_mention.png" alt="JOAI2026 Honorable Mention certificate" width="420">
+  <img src="./JOAI2026_KIEN_honorable_mention.png" alt="JOAI2026 Honorable Mention certificate" width="240">
 </a>
 
 <sub>📜 Click to download the signed PDF</sub>
+
+</div>
+
+### 🎓 AI Vietnam AIO2024
+
+<div align="center">
+
+AIO2024 is AI Vietnam's All-In-One course for Data Science and Artificial Intelligence.
+<br>
+🎓 Completed the course and earned three certificates: Machine Learning, Deep Learning, and GenAI/LLM.
+<br>
+🌐 Public channels: [AI Vietnam website](https://aivietnam.edu.vn/) · [Facebook fanpage](https://www.facebook.com/aivietnam.edu.vn)
+<br>
+🔎 Verify certificates: [Certificate verification portal](https://lms.aivietnam.edu.vn/verification)
+<br><br>
+
+<a href="./0306/certificate_machine_learning_ho_trung_kien_23148920.png"><img src="./0306/certificate_machine_learning_ho_trung_kien_23148920.png" alt="AI Vietnam AIO2024 Machine Learning certificate" width="180"></a>
+<a href="./0306/certificate_deep_learning_ho_trung_kien_44828246.png"><img src="./0306/certificate_deep_learning_ho_trung_kien_44828246.png" alt="AI Vietnam AIO2024 Deep Learning certificate" width="180"></a>
+<a href="./0306/certificate_genai_llm_ho_trung_kien_81865591.png"><img src="./0306/certificate_genai_llm_ho_trung_kien_81865591.png" alt="AI Vietnam AIO2024 GenAI and LLM certificate" width="180"></a>
+
+<br>
+<sub>🔎 Click each certificate image to view full size</sub>
 
 </div>
 
@@ -81,23 +104,6 @@ Researcher at AI Vietnam.
 </td>
 </tr>
 </table>
-
-## 📊 GitHub Stats
-
-<div align="center">
-
-<img width="48%" src="https://github-readme-stats.vercel.app/api?username=Kein95&show_icons=true&theme=default&title_color=0D6E6E&icon_color=0D6E6E&hide_border=true" alt="GitHub stats">
-<img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kein95&layout=compact&theme=default&title_color=0D6E6E&hide_border=true" alt="Top languages">
-
-<br>
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Kein95&theme=default&hide_border=true&ring=0D6E6E&fire=D97706&currStreakLabel=0D6E6E" alt="Streak">
-
-<br>
-
-<img width="85%" src="https://github-readme-activity-graph.vercel.app/graph?username=Kein95&theme=minimal&hide_border=true&color=0D6E6E&line=14B8A6&point=D97706" alt="Activity graph">
-
-</div>
 
 ## 📬 Contact
 
