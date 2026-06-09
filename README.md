@@ -31,7 +31,8 @@ behind competitions, training programs, and award cohorts.
 | Year | Program / Competition | Focus | Result |
 |------|-------------|-------|--------|
 | 2026 | [JOAI2026 — 2nd Japanese Olympiad in AI](https://joai.jp/) | Open category | 🥉 **Honorable Mention** (努力賞) |
-| 2024 | [AI Vietnam AIO2024](https://aivietnam.edu.vn/) | Data Science and Artificial Intelligence All-In-One course | **Completed course** |
+| 2026 | [AI for Impact — Giáo dục thời AI](https://steamforvietnam.org/) | Quản trị & sáng tạo trong thời đại AI | **Completed course** |
+| 2024–2025 | [AI Vietnam AIO2024](https://aivietnam.edu.vn/) | Data Science and Artificial Intelligence All-In-One course | **Completed course** |
 
 <div align="center">
 
@@ -39,6 +40,26 @@ behind competitions, training programs, and award cohorts.
   <img src="./JOAI2026_KIEN_honorable_mention.png" alt="JOAI2026 Honorable Mention certificate" width="240">
 </a>
 
+<sub>📜 Click to download the signed PDF</sub>
+
+</div>
+
+### 🎓 AI for Impact — Giáo dục thời AI
+
+<div align="center">
+
+"Giáo dục thời AI: Quản trị và sáng tạo" — part of the **AI for Impact** program under the **AI Opportunity Fund: Asia Pacific**.
+<br>
+🤝 An initiative by **AVPN**, organized by **STEAM for Vietnam**, with support from **Google.org**, **ADB** and **U.S. Mission Vietnam**.
+<br>
+🔎 Verify certificate: [eduone.ai verification portal](https://lms.eduone.ai/certificates/1058862c5c8a474c994443116571d568)
+<br><br>
+
+<a href="./ai_for_impact_giao_duc_thoi_ai_ho_trung_kien.pdf">
+  <img src="./ai_for_impact_giao_duc_thoi_ai_ho_trung_kien.png" alt="AI for Impact — Giáo dục thời AI certificate" width="320">
+</a>
+
+<br>
 <sub>📜 Click to download the signed PDF</sub>
 
 </div>
