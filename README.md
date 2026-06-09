@@ -30,11 +30,11 @@ behind competitions, training programs, and award cohorts.
 
 | Year | Program / Competition | Focus | Result |
 |------|-------------|-------|--------|
-| 2026 | [JOAI2026 — 2nd Japanese Olympiad in AI](https://joai.jp/) | Open category | 🥉 **Honorable Mention** (努力賞) |
+| 2026 | [JOAI2026 — 2nd Japanese Olympiad in AI](https://joai.jp/) | Open category | 🏅 **Honorable Mention** (努力賞) |
 | 2026 | [AI for Impact — Giáo dục thời AI](https://steamforvietnam.org/) | Quản trị & sáng tạo trong thời đại AI | **Completed course** |
 | 2024–2025 | [AI Vietnam AIO2024](https://aivietnam.edu.vn/) | Data Science and Artificial Intelligence All-In-One course | **Completed course** |
 
-### 🥉 JOAI2026 — 2nd Japanese Olympiad in AI
+### 🏅 JOAI2026 — 2nd Japanese Olympiad in AI
 
 <div align="center">
 
