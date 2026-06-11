@@ -11,51 +11,53 @@
 
 ## 👨‍💻 About Me
 
-Xin chào! I'm **Kien** — based in 🇻🇳 Vietnam.
+Xin chào! I'm **Kien**, based in 🇻🇳 Vietnam.
 
 I build config-driven toolkits that turn "bring your own data + template" into
 "deployable portal in an afternoon." Current focus: certificate issuance, QR
-verification, shipment tracking — the boring-but-important infrastructure
+verification, and shipment tracking. It's the boring-but-important infrastructure
 behind competitions, training programs, and award cohorts.
 
 - 🚀 **Shipped**:
-  - [`LUONVUITUOI-CERT`](https://github.com/Kein95/luonvuituoi-cert) — full-stack cert portal toolkit (Python + Flask + MkDocs Material, bilingual EN/VI docs, Vercel + Docker deploy)
-  - [`LUONVUITUOI-LPR-DATAHUB`](https://github.com/Kein95/luonvuituoi-lpr-datahub) — all-in-one gateway for License Plate Recognition research (16+ datasets, 10+ countries)
+  - [`LUONVUITUOI-CERT`](https://github.com/Kein95/luonvuituoi-cert): full-stack cert portal toolkit (Python + Flask + MkDocs Material, bilingual EN/VI docs, Vercel + Docker deploy)
+  - [`LUONVUITUOI-LPR-DATAHUB`](https://github.com/Kein95/luonvuituoi-lpr-datahub): all-in-one gateway for License Plate Recognition research (16+ datasets, 10+ countries)
 - 🛠️ **Stack**: Python, Flask, SQLite, Pydantic, openpyxl, reportlab, Docker, Vercel, MkDocs Material
 - 🌱 **Exploring**: Computer Vision, LPR datasets, Supabase, Cloudflare R2, FastAPI
-- 🧭 **Mentor**: [@duongtruongbinh](https://github.com/duongtruongbinh) — AI Researcher at AI Vietnam
-- 🤝 **Teammate**: [@Liamlenguyen](https://github.com/Liamlenguyen) — watch for more **LUONVUITUOI TEAM** collabs ✨
+- 🧭 **Mentor**: [@duongtruongbinh](https://github.com/duongtruongbinh), AI Researcher at AI Vietnam
+- 🤝 **Teammate**: [@Liamlenguyen](https://github.com/Liamlenguyen). Watch for more **LUONVUITUOI TEAM** collabs ✨
 
 ## 🏆 Achievements
 
 | Year | Program / Competition | Focus | Result |
 |------|-------------|-------|--------|
-| 2026 | [ICPR 2026 — Low-Resolution License Plate Recognition](https://www.codabench.org/competitions/12259/) | License plate recognition on low-resolution imagery | 🏆 **Top 20** (269 teams · 41 countries) |
-| 2026 | [JOAI2026 — 2nd Japanese Olympiad in AI](https://ioai-japan.org/) | Open category | 🏅 **Honorable Mention** (努力賞) |
-| 2026 | [AI for Impact — Giáo dục thời AI](https://steamforvietnam.org/) | Quản trị & sáng tạo trong thời đại AI | **Completed course** |
+| 2026 | [ICPR 2026 Competition on Low-Resolution License Plate Recognition](https://www.codabench.org/competitions/12259/) | License plate recognition on low-resolution imagery | 🏆 **Top 20** (269 teams · 41 countries) |
+| 2026 | [JOAI2026: 2nd Japanese Olympiad in AI](https://ioai-japan.org/) | Open category | 🏅 **Honorable Mention** (努力賞) |
+| 2026 | [AI for Impact: Giáo dục thời AI](https://steamforvietnam.org/) | Quản trị & sáng tạo trong thời đại AI | **Completed course** |
 | 2024–2025 | [AI Vietnam AIO2024](https://aivietnam.edu.vn/) | Data Science and Artificial Intelligence All-In-One course | **Completed course** |
 
-### 🚘 ICPR 2026 — Low-Resolution License Plate Recognition
+### 🚘 ICPR 2026 Competition on Low-Resolution License Plate Recognition
 
 <div align="center">
 
-Ranked **Top 20** in the **ICPR 2026 Competition on Low-Resolution License Plate Recognition** — a global challenge on reading license plates from heavily degraded, low-resolution imagery (the **LRLPR-26** dataset).
+Ranked **Top 20** in the **ICPR 2026 Competition on Low-Resolution License Plate Recognition**, a global challenge on reading license plates from heavily degraded, low-resolution imagery (the **LRLPR-26** dataset).
 <br>
-🌍 **269 teams** · **41 countries** · **99 valid submissions** · best recognition rate **82.13%**
+🌍 **269 teams** · **41 countries** · **99 valid submissions**
 <br>
 🔎 Leaderboard: [Codabench results](https://www.codabench.org/competitions/12259/#/results-tab) &nbsp;·&nbsp; 📄 Report: [arXiv:2604.22506](https://arxiv.org/abs/2604.22506) &nbsp;·&nbsp; 🔗 Related: [LUONVUITUOI-LPR-DATAHUB](https://github.com/Kein95/luonvuituoi-lpr-datahub)
 
 </div>
 
-> **🙏 Please support & cite the organizers.** The competition report ([arXiv:2604.22506](https://arxiv.org/abs/2604.22506)) credits the **top 5 teams** as named co-authors. Teams placed **6th–20th — including mine — contributed results but are _not_ listed as authors.** Sharing this for transparency: my name is **not** on the paper — full credit belongs to the authors.
+> **🙏 Please support and cite the authors.** The competition report ([arXiv:2604.22506](https://arxiv.org/abs/2604.22506)) credits the **top 5 teams** as named co-authors. Teams ranked **6th to 20th**, including mine, contributed results but are not listed as authors. I'm noting this for transparency: my name is **not** on the paper, and full credit goes to the authors below.
 
 <details>
-<summary>📌 Citation (BibTeX)</summary>
+<summary>📌 Authors & citation (BibTeX)</summary>
+
+**Authors:** Rayson Laroca, Valfride Nascimento, Donggun Kim, Sanghyeok Chung, Subin Bae, Uihwan Seo, Seungsang Oh, Chi M. Phung, Minh G. Vo, Xingsong Ye, Yongkun Du, Yuchen Su, Zhineng Chen, Sunhee Heo, Hyangwoo Lee, Kihyun Na, Khanh V. Vu Nguyen, Sang T. Pham, Duc N. N. Phung, Trong P. Le, Vy N. Vo Tran, David Menotti.
 
 ```bibtex
 @article{laroca2026lrlpr,
   title   = {{ICPR} 2026 Competition on Low-Resolution License Plate Recognition},
-  author  = {Laroca, Rayson and Nascimento, Valfride and Kim, Donggun and others},
+  author  = {Rayson Laroca and Valfride Nascimento and Donggun Kim and Sanghyeok Chung and Subin Bae and Uihwan Seo and Seungsang Oh and Chi M. Phung and Minh G. Vo and Xingsong Ye and Yongkun Du and Yuchen Su and Zhineng Chen and Sunhee Heo and Hyangwoo Lee and Kihyun Na and Khanh V. Vu Nguyen and Sang T. Pham and Duc N. N. Phung and Trong P. Le and Vy N. Vo Tran and David Menotti},
   journal = {arXiv preprint arXiv:2604.22506},
   year    = {2026}
 }
@@ -63,7 +65,7 @@ Ranked **Top 20** in the **ICPR 2026 Competition on Low-Resolution License Plate
 
 </details>
 
-### 🏅 JOAI2026 — 2nd Japanese Olympiad in AI
+### 🏅 JOAI2026: 2nd Japanese Olympiad in AI
 
 <div align="center">
 
@@ -75,11 +77,11 @@ Ranked **Top 20** in the **ICPR 2026 Competition on Low-Resolution License Plate
 
 </div>
 
-### 🎓 AI for Impact — Giáo dục thời AI
+### 🎓 AI for Impact: Giáo dục thời AI
 
 <div align="center">
 
-"Giáo dục thời AI: Quản trị và sáng tạo" — part of the **AI for Impact** program under the **AI Opportunity Fund: Asia Pacific**.
+"Giáo dục thời AI: Quản trị và sáng tạo", part of the **AI for Impact** program under the **AI Opportunity Fund: Asia Pacific**.
 <br>
 🤝 An initiative by **AVPN**, organized by **STEAM for Vietnam**, with support from **Google.org**, **ADB** and **U.S. Mission Vietnam**.
 <br>
@@ -87,7 +89,7 @@ Ranked **Top 20** in the **ICPR 2026 Competition on Low-Resolution License Plate
 <br><br>
 
 <a href="./ai_for_impact_giao_duc_thoi_ai_ho_trung_kien.pdf">
-  <img src="./ai_for_impact_giao_duc_thoi_ai_ho_trung_kien.png" alt="AI for Impact — Giáo dục thời AI certificate" width="320">
+  <img src="./ai_for_impact_giao_duc_thoi_ai_ho_trung_kien.png" alt="AI for Impact: Giáo dục thời AI certificate" width="320">
 </a>
 
 <br>
@@ -143,14 +145,14 @@ import/export. MIT license, 460+ tests, bilingual docs.
 
 ### [🚘 LUONVUITUOI-LPR-DATAHUB](https://github.com/Kein95/luonvuituoi-lpr-datahub)
 
-All-in-one gateway for License Plate Recognition research — 16+ datasets
+All-in-one gateway for License Plate Recognition research: 16+ datasets
 across 10+ countries, unified metadata, quick-start notebooks.
 
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![OpenCV](https://img.shields.io/badge/-OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
 
-Mentored by [@duongtruongbinh](https://github.com/duongtruongbinh) — AI
+Mentored by [@duongtruongbinh](https://github.com/duongtruongbinh), AI
 Researcher at AI Vietnam.
 
 </td>
