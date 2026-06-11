@@ -30,7 +30,7 @@ behind competitions, training programs, and award cohorts.
 
 | Year | Program / Competition | Focus | Result |
 |------|-------------|-------|--------|
-| 2026 | [ICPR 2026 Competition on Low-Resolution License Plate Recognition](https://www.codabench.org/competitions/12259/) | License plate recognition on low-resolution imagery | 🏆 **Top 20** (269 teams · 41 countries) |
+| 2026 | [ICPR 2026 Competition on Low-Resolution License Plate Recognition](https://www.codabench.org/competitions/12259/) | License plate recognition on low-resolution imagery | 🏆 **#20 of 99** (269 teams · 41 countries) |
 | 2026 | [JOAI2026: 2nd Japanese Olympiad in AI](https://ioai-japan.org/) | Open category | 🏅 **Honorable Mention** (努力賞) |
 | 2026 | [AI for Impact: Giáo dục thời AI](https://steamforvietnam.org/) | Quản trị & sáng tạo trong thời đại AI | **Completed course** |
 | 2024–2025 | [AI Vietnam AIO2024](https://aivietnam.edu.vn/) | Data Science and Artificial Intelligence All-In-One course | **Completed course** |
@@ -39,9 +39,7 @@ behind competitions, training programs, and award cohorts.
 
 <div align="center">
 
-Ranked **Top 20** in the **ICPR 2026 Competition on Low-Resolution License Plate Recognition**, a global challenge on reading license plates from heavily degraded, low-resolution imagery (the **LRLPR-26** dataset).
-<br>
-🌍 **269 teams** · **41 countries** · **99 valid submissions**
+As team **AIO_RIVA_RICE**, I placed **#20 of 99 valid submissions** (269 teams from 41 countries) in the **ICPR 2026 Competition on Low-Resolution License Plate Recognition**, reaching a recognition rate of **76.47%**. The task: reading license plates from heavily degraded, low-resolution imagery (the **LRLPR-26** dataset).
 <br>
 🔎 Leaderboard: [Codabench results](https://www.codabench.org/competitions/12259/#/results-tab) &nbsp;·&nbsp; 📄 Report: [arXiv:2604.22506](https://arxiv.org/abs/2604.22506) &nbsp;·&nbsp; 🔗 Related: [LUONVUITUOI-LPR-DATAHUB](https://github.com/Kein95/luonvuituoi-lpr-datahub)
 
