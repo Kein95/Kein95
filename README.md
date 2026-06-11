@@ -30,9 +30,38 @@ behind competitions, training programs, and award cohorts.
 
 | Year | Program / Competition | Focus | Result |
 |------|-------------|-------|--------|
-| 2026 | [JOAI2026 — 2nd Japanese Olympiad in AI](https://joai.jp/) | Open category | 🏅 **Honorable Mention** (努力賞) |
+| 2026 | [ICPR 2026 — Low-Resolution License Plate Recognition](https://www.codabench.org/competitions/12259/) | License plate recognition on low-resolution imagery | 🏆 **Top 20** (269 teams · 41 countries) |
+| 2026 | [JOAI2026 — 2nd Japanese Olympiad in AI](https://ioai-japan.org/) | Open category | 🏅 **Honorable Mention** (努力賞) |
 | 2026 | [AI for Impact — Giáo dục thời AI](https://steamforvietnam.org/) | Quản trị & sáng tạo trong thời đại AI | **Completed course** |
 | 2024–2025 | [AI Vietnam AIO2024](https://aivietnam.edu.vn/) | Data Science and Artificial Intelligence All-In-One course | **Completed course** |
+
+### 🚘 ICPR 2026 — Low-Resolution License Plate Recognition
+
+<div align="center">
+
+Ranked **Top 20** in the **ICPR 2026 Competition on Low-Resolution License Plate Recognition** — a global challenge on reading license plates from heavily degraded, low-resolution imagery (the **LRLPR-26** dataset).
+<br>
+🌍 **269 teams** · **41 countries** · **99 valid submissions** · best recognition rate **82.13%**
+<br>
+🔎 Leaderboard: [Codabench results](https://www.codabench.org/competitions/12259/#/results-tab) &nbsp;·&nbsp; 📄 Report: [arXiv:2604.22506](https://arxiv.org/abs/2604.22506) &nbsp;·&nbsp; 🔗 Related: [LUONVUITUOI-LPR-DATAHUB](https://github.com/Kein95/luonvuituoi-lpr-datahub)
+
+</div>
+
+> **🙏 Please support & cite the organizers.** The competition report ([arXiv:2604.22506](https://arxiv.org/abs/2604.22506)) credits the **top 5 teams** as named co-authors. Teams placed **6th–20th — including mine — contributed results but are _not_ listed as authors.** Sharing this for transparency: my name is **not** on the paper — full credit belongs to the authors.
+
+<details>
+<summary>📌 Citation (BibTeX)</summary>
+
+```bibtex
+@article{laroca2026lrlpr,
+  title   = {{ICPR} 2026 Competition on Low-Resolution License Plate Recognition},
+  author  = {Laroca, Rayson and Nascimento, Valfride and Kim, Donggun and others},
+  journal = {arXiv preprint arXiv:2604.22506},
+  year    = {2026}
+}
+```
+
+</details>
 
 ### 🏅 JOAI2026 — 2nd Japanese Olympiad in AI
 
