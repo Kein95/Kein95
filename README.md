@@ -24,7 +24,7 @@ behind competitions, training programs, and award cohorts.
 - 🛠️ **Stack**: Python, Flask, SQLite, Pydantic, openpyxl, reportlab, Docker, Vercel, MkDocs Material
 - 🌱 **Exploring**: Computer Vision, LPR datasets, Supabase, Cloudflare R2, FastAPI
 - 🧭 **Mentor**: [@duongtruongbinh](https://github.com/duongtruongbinh), AI Researcher at AI Vietnam
-- 🤝 **Teammate**: [@Liamlenguyen](https://github.com/Liamlenguyen). Watch for more **LUONVUITUOI TEAM** collabs ✨
+- 🤝 **Teammate**: [@Liamlenguyen](https://github.com/Liamlenguyen). Farewell, and wishing you success on the path you've chosen ✨
 
 ## 🏆 Achievements
 
@@ -172,7 +172,7 @@ Researcher at AI Vietnam.
 
 <sub>🧭 Mentor <a href="https://github.com/duongtruongbinh">@duongtruongbinh</a> &nbsp;·&nbsp; 🤝 Teammate <a href="https://github.com/Liamlenguyen">@Liamlenguyen</a></sub>
 <br>
-<sub>Stay tuned for more collabs from <strong>LUONVUITUOI TEAM</strong> ✨</sub>
+<sub>Farewell to our teammate <a href="https://github.com/Liamlenguyen">@Liamlenguyen</a>. Wishing you success on the path you've chosen ✨</sub>
 
 <img src="https://komarev.com/ghpvc/?username=Kein95&label=Profile+views&color=0D6E6E&style=flat" alt="Profile views">
 
