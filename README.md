@@ -2,7 +2,7 @@
 <div align="center">
 
 <a href="https://github.com/Kein95">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=800&color=0D6E6E&center=true&vCenter=true&width=720&lines=Xin+ch%C3%A0o%2C+t%C3%B4i+l%C3%A0+Kien+%F0%9F%91%8B;Maintainer+of+LUONVUITUOI-CERT;Builder+of+LUONVUITUOI-HONOR+ROLL;Config-driven+portal+toolkit+builder;Python+%C2%B7+Flask+%C2%B7+Vercel+%C2%B7+Docker" alt="Typing SVG">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=800&color=0D6E6E&center=true&vCenter=true&width=720&lines=Xin+ch%C3%A0o%2C+t%C3%B4i+l%C3%A0+Kien+%F0%9F%91%8B;Vibe+coder+%F0%9F%A4%96;Maintainer+of+LUONVUITUOI-CERT;Builder+of+LUONVUITUOI-HONOR+ROLL;Config-driven+portal+toolkit+builder;Python+%C2%B7+Flask+%C2%B7+Vercel+%C2%B7+Docker" alt="Typing SVG">
 </a>
 
 </div>
@@ -11,7 +11,7 @@
 
 ## 👨‍💻 About Me
 
-Xin chào! I'm **Kien**, based in 🇻🇳 Vietnam.
+Xin chào! I'm **Kien**, a 🇻🇳 Vietnam-based **vibe coder**: I build fast by pairing with AI, then test, review, and harden every line until it ships.
 
 I build config-driven toolkits that turn "bring your own data + template" into
 "deployable portal in an afternoon." Current focus: certificate issuance, QR
@@ -187,7 +187,7 @@ Researcher at AI Vietnam.
 
 | Channel | Link |
 |---------|------|
-| 📧 Email | [htkien95@gmail.com](mailto:htkien95@gmail.com) |
+| 📧 Email | [htkien95@gmail.com](mailto:htkien95@gmail.com) · [htkien95@luonvuituoi.work](mailto:htkien95@luonvuituoi.work) |
 | 📱 Phone / Zalo | [+84 348 635 408](tel:+84348635408) |
 | 🐙 GitHub | [@Kein95](https://github.com/Kein95) |
 | 🌐 Live projects | [honor-roll demo](https://honor-roll-vercel-demo.vercel.app) · [luonvuituoi-cert docs](https://kein95.github.io/luonvuituoi-cert/) · [lpr-dataset-hub](https://lpr-dataset-hub.vercel.app/) |
