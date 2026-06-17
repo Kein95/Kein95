@@ -90,7 +90,7 @@ As team **AIO_RIVA_RICE**, I placed **#20 of 99 valid submissions** (269 teams f
 <br>
 🤝 An initiative by **AVPN**, organized by **STEAM for Vietnam**, with support from **Google.org**, **ADB** and **U.S. Mission Vietnam**.
 <br>
-🔎 Verify certificate: [eduone.ai verification portal](https://lms.eduone.ai/certificates/1058862c5c8a474c994443116571d568)
+✅ Verify certificate: [eduone.ai verification portal](https://lms.eduone.ai/certificates/1058862c5c8a474c994443116571d568)
 <br><br>
 
 <a href="./ai_for_impact_giao_duc_thoi_ai_ho_trung_kien.pdf">
@@ -112,13 +112,12 @@ AIO2024 is AI Vietnam's All-In-One course for Data Science and Artificial Intell
 <br>
 🌐 Public channels: [AI Vietnam website](https://aivietnam.edu.vn/) · [Facebook fanpage](https://www.facebook.com/aivietnam.edu.vn)
 <br>
-🔎 Verify certificates: [Certificate verification portal](https://lms.aivietnam.edu.vn/verification)
+✅ Verify certificates: [Certificate verification portal](https://lms.aivietnam.edu.vn/verification)
 <br><br>
 
 <a href="./0306/certificate_machine_learning_ho_trung_kien_23148920.png"><img src="./0306/certificate_machine_learning_ho_trung_kien_23148920.png" alt="AI Vietnam AIO2024 Machine Learning certificate" width="180"></a>
 <a href="./0306/certificate_deep_learning_ho_trung_kien_44828246.png"><img src="./0306/certificate_deep_learning_ho_trung_kien_44828246.png" alt="AI Vietnam AIO2024 Deep Learning certificate" width="180"></a>
 <a href="./0306/certificate_genai_llm_ho_trung_kien_81865591.png"><img src="./0306/certificate_genai_llm_ho_trung_kien_81865591.png" alt="AI Vietnam AIO2024 GenAI and LLM certificate" width="180"></a>
-
 <br>
 <sub>🔎 Click each certificate image to view full size</sub>
 
