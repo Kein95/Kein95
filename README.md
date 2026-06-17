@@ -2,7 +2,7 @@
 <div align="center">
 
 <a href="https://github.com/Kein95">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=800&color=0D6E6E&center=true&vCenter=true&width=720&lines=Xin+ch%C3%A0o%2C+t%C3%B4i+l%C3%A0+Kien+%F0%9F%91%8B;Maintainer+of+LUONVUITUOI-CERT;Certificate+portal+toolkit+builder;Python+%C2%B7+Flask+%C2%B7+Vercel+%C2%B7+Docker" alt="Typing SVG">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=800&color=0D6E6E&center=true&vCenter=true&width=720&lines=Xin+ch%C3%A0o%2C+t%C3%B4i+l%C3%A0+Kien+%F0%9F%91%8B;Maintainer+of+LUONVUITUOI-CERT;Builder+of+LUONVUITUOI-HONOR+ROLL;Config-driven+portal+toolkit+builder;Python+%C2%B7+Flask+%C2%B7+Vercel+%C2%B7+Docker" alt="Typing SVG">
 </a>
 
 </div>
@@ -15,11 +15,13 @@ Xin chào! I'm **Kien**, based in 🇻🇳 Vietnam.
 
 I build config-driven toolkits that turn "bring your own data + template" into
 "deployable portal in an afternoon." Current focus: certificate issuance, QR
-verification, and shipment tracking. It's the boring-but-important infrastructure
-behind competitions, training programs, and award cohorts.
+verification, shipment tracking, and public honor-roll showcases. It's the
+boring-but-important infrastructure behind competitions, training programs, and
+award cohorts.
 
 - 🚀 **Shipped**:
   - [`LUONVUITUOI-CERT`](https://github.com/Kein95/luonvuituoi-cert): full-stack cert portal toolkit (Python + Flask + MkDocs Material, bilingual EN/VI docs, Vercel + Docker deploy)
+  - [`LUONVUITUOI-HONOR ROLL`](https://github.com/Kein95/luonvuituoi-honor-roll): config-driven student honor-roll toolkit (search, Hall of Fame, team awards, admin) with a [live demo](https://honor-roll-vercel-demo.vercel.app) on Vercel
   - [`LUONVUITUOI-LPR-DATAHUB`](https://github.com/Kein95/luonvuituoi-lpr-datahub): all-in-one gateway for License Plate Recognition research (16+ datasets, 10+ countries)
 - 🛠️ **Stack**: Python, Flask, SQLite, Pydantic, openpyxl, reportlab, Docker, Vercel, MkDocs Material
 - 🌱 **Exploring**: Computer Vision, LPR datasets, Supabase, Cloudflare R2, FastAPI
@@ -123,6 +125,23 @@ AIO2024 is AI Vietnam's All-In-One course for Data Science and Artificial Intell
 <tr>
 <td width="50%">
 
+### [🏆 LUONVUITUOI-HONOR ROLL](https://github.com/Kein95/luonvuituoi-honor-roll)
+
+Config-driven student honor-roll toolkit. Public award gallery, student
+search, all-time Hall of Fame, team awards, and a password-protected
+admin. Bilingual docs, animated UI, login hardening (rate-limit + CSRF + audit).
+
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Flask](https://img.shields.io/badge/-Flask-000000?style=flat-square&logo=flask&logoColor=white)
+![SQLite](https://img.shields.io/badge/-SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
+![Vercel](https://img.shields.io/badge/-Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
+
+[→ Live demo](https://honor-roll-vercel-demo.vercel.app) &nbsp;·&nbsp;
+[→ Docs](https://kein95.github.io/luonvuituoi-honor-roll/)
+
+</td>
+<td width="50%">
+
 ### [🎓 LUONVUITUOI-CERT](https://github.com/Kein95/luonvuituoi-cert)
 
 Config-driven certificate portal toolkit. Bring your PDF template +
@@ -139,6 +158,8 @@ import/export. MIT license, 460+ tests, bilingual docs.
 [→ Docs VI](https://kein95.github.io/luonvuituoi-cert/vi/)
 
 </td>
+</tr>
+<tr>
 <td width="50%">
 
 ### [🚘 LUONVUITUOI-LPR-DATAHUB](https://github.com/Kein95/luonvuituoi-lpr-datahub)
@@ -154,6 +175,11 @@ Mentored by [@duongtruongbinh](https://github.com/duongtruongbinh), AI
 Researcher at AI Vietnam.
 
 </td>
+<td width="50%">
+
+<sub>🔭 Browse every repository on [github.com/Kein95](https://github.com/Kein95?tab=repositories).</sub>
+
+</td>
 </tr>
 </table>
 
@@ -164,7 +190,7 @@ Researcher at AI Vietnam.
 | 📧 Email | [htkien95@gmail.com](mailto:htkien95@gmail.com) |
 | 📱 Phone / Zalo | [+84 348 635 408](tel:+84348635408) |
 | 🐙 GitHub | [@Kein95](https://github.com/Kein95) |
-| 🌐 Live projects | [kein95.github.io/luonvuituoi-cert](https://kein95.github.io/luonvuituoi-cert/) · [lpr-dataset-hub.vercel.app](https://lpr-dataset-hub.vercel.app/) |
+| 🌐 Live projects | [honor-roll demo](https://honor-roll-vercel-demo.vercel.app) · [luonvuituoi-cert docs](https://kein95.github.io/luonvuituoi-cert/) · [lpr-dataset-hub](https://lpr-dataset-hub.vercel.app/) |
 
 ---
 
