@@ -11,7 +11,7 @@
 
 ## 👨‍💻 About Me
 
-Xin chào! I'm **Kien**, a 🇻🇳 Vietnam-based **vibe coder**: I build fast by pairing with AI, then test, review, and harden every line until it ships.
+Xin chào! I'm **Kien**, a Vietnam-based **vibe coder**: I build fast by pairing with AI, then test, review, and harden every line until it ships.
 
 I build config-driven toolkits that turn "bring your own data + template" into
 "deployable portal in an afternoon." Current focus: certificate issuance, QR
@@ -19,14 +19,19 @@ verification, shipment tracking, and public honor-roll showcases. It's the
 boring-but-important infrastructure behind competitions, training programs, and
 award cohorts.
 
-- 🚀 **Shipped**:
-  - [`LUONVUITUOI-CERT`](https://github.com/Kein95/luonvuituoi-cert): full-stack cert portal toolkit (Python + Flask + MkDocs Material, bilingual EN/VI docs, Vercel + Docker deploy)
-  - [`LUONVUITUOI-HONOR ROLL`](https://github.com/Kein95/luonvuituoi-honor-roll): config-driven student honor-roll toolkit (search, Hall of Fame, team awards, admin) with a [live demo](https://honor-roll-vercel-demo.vercel.app) on Vercel
-  - [`LUONVUITUOI-LPR-DATAHUB`](https://github.com/Kein95/luonvuituoi-lpr-datahub): all-in-one gateway for License Plate Recognition research (16+ datasets, 10+ countries)
-- 🛠️ **Stack**: Python, Flask, SQLite, Pydantic, openpyxl, reportlab, Docker, Vercel, MkDocs Material
-- 🌱 **Exploring**: Computer Vision, LPR datasets, Supabase, Cloudflare R2, FastAPI
-- 🧭 **Mentor**: [@duongtruongbinh](https://github.com/duongtruongbinh), AI Researcher at AI Vietnam
-- 🤝 **Teammate**: [@Liamlenguyen](https://github.com/Liamlenguyen). Farewell, and wishing you success on the path you've chosen ✨
+**🚀 Shipped**
+
+- [`LUONVUITUOI-CERT`](https://github.com/Kein95/luonvuituoi-cert): full-stack cert portal toolkit (Python + Flask + MkDocs Material, bilingual EN/VI docs, Vercel + Docker deploy)
+- [`LUONVUITUOI-HONOR ROLL`](https://github.com/Kein95/luonvuituoi-honor-roll): config-driven student honor-roll toolkit (search, Hall of Fame, team awards, admin) with a [live demo](https://honor-roll-vercel-demo.vercel.app) on Vercel
+- [`LUONVUITUOI-LPR-DATAHUB`](https://github.com/Kein95/luonvuituoi-lpr-datahub): all-in-one gateway for License Plate Recognition research (16+ datasets, 10+ countries)
+
+**🛠️ Stack**: Python, Flask, SQLite, Pydantic, openpyxl, reportlab, Docker, Vercel, MkDocs Material
+
+**🌱 Exploring**: Computer Vision, LPR datasets, Supabase, Cloudflare R2, FastAPI
+
+**🧭 Mentor**: [@duongtruongbinh](https://github.com/duongtruongbinh), AI Researcher at AI Vietnam
+
+**🤝 Teammate**: [@Liamlenguyen](https://github.com/Liamlenguyen). Farewell, and wishing you success on the path you've chosen ✨
 
 ## 🏆 Achievements
 
@@ -35,7 +40,7 @@ award cohorts.
 | 2026 | [ICPR 2026 Competition on Low-Resolution License Plate Recognition](https://www.codabench.org/competitions/12259/) | License plate recognition on low-resolution imagery | 🏆 **#20 of 99** (269 teams · 41 countries) |
 | 2026 | [JOAI2026: 2nd Japanese Olympiad in AI](https://ioai-japan.org/) | Open category | 🏅 **Honorable Mention** (努力賞) |
 | 2026 | [AI for Impact: Giáo dục thời AI](https://steamforvietnam.org/) | Quản trị & sáng tạo trong thời đại AI | **Completed course** |
-| 2024–2025 | [AI Vietnam AIO2024](https://aivietnam.edu.vn/) | Data Science and Artificial Intelligence All-In-One course | **Completed course** |
+| 2024&#8209;2025 | [AI Vietnam AIO2024](https://aivietnam.edu.vn/) | Data Science and Artificial Intelligence All-In-One course | **Completed course** |
 
 ### 🚘 ICPR 2026 Competition on Low-Resolution License Plate Recognition
 
