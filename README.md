@@ -46,7 +46,7 @@ award cohorts.
 |------|-------------|-------|--------|
 | 2026 | [ICPR 2026 Competition on Low-Resolution License Plate Recognition](https://www.codabench.org/competitions/12259/) | License plate recognition on low-resolution imagery | 🏆 **#20 of 99** (269 teams · 41 countries) |
 | 2026 | [JOAI2026: 2nd Japanese Olympiad in AI](https://ioai-japan.org/) | Open category | 🏅 **Honorable Mention** (努力賞) |
-| 2026 | [AI for Impact: Giáo dục thời AI](https://steamforvietnam.org/) | Governance & creativity in the AI era | **Completed course** |
+| 2026 | [AI for Impact: Education in the AI Era](https://steamforvietnam.org/) | Governance & creativity in the AI era | **Completed course** |
 | 2024&#8209;2025 | [AI Vietnam AIO2024](https://aivietnam.edu.vn/) | Data Science and Artificial Intelligence All-In-One course | **Completed course** |
 
 ### 🚘 ICPR 2026 Competition on Low-Resolution License Plate Recognition
@@ -89,11 +89,11 @@ As team **AIO_RIVA_RICE**, I placed **#20 of 99 valid submissions** (269 teams f
 
 </div>
 
-### 🎓 AI for Impact: Giáo dục thời AI
+### 🎓 AI for Impact: Education in the AI Era
 
 <div align="center">
 
-"Giáo dục thời AI: Quản trị và sáng tạo", part of the **AI for Impact** program under the **AI Opportunity Fund: Asia Pacific**.
+"Education in the AI Era: Governance and Creativity", part of the **AI for Impact** program under the **AI Opportunity Fund: Asia Pacific**.
 <br>
 🤝 An initiative by **AVPN**, organized by **STEAM for Vietnam**, with support from **Google.org**, **ADB** and **U.S. Mission Vietnam**.
 <br>
@@ -101,7 +101,7 @@ As team **AIO_RIVA_RICE**, I placed **#20 of 99 valid submissions** (269 teams f
 <br><br>
 
 <a href="./ai_for_impact_giao_duc_thoi_ai_ho_trung_kien.pdf">
-  <img src="./ai_for_impact_giao_duc_thoi_ai_ho_trung_kien.png" alt="AI for Impact: Giáo dục thời AI certificate" width="320">
+  <img src="./ai_for_impact_giao_duc_thoi_ai_ho_trung_kien.png" alt="AI for Impact: Education in the AI Era certificate" width="320">
 </a>
 
 <br>
