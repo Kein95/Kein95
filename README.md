@@ -1,3 +1,10 @@
+<!-- Cover Banner -->
+<div align="center">
+  <a href="https://github.com/Kein95">
+    <img src="assets/luonvuituoi-cover.png" alt="LUONVUITUOI" width="100%">
+  </a>
+</div>
+
 <!-- Header -->
 <div align="center">
 
