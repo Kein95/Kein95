@@ -29,7 +29,7 @@ award cohorts.
 **🚀 Shipped**
 
 - [`LUONVUITUOI-CERT`](https://github.com/Kein95/luonvuituoi-cert): full-stack cert portal toolkit (Python + Flask + MkDocs Material, bilingual EN/VI docs, Vercel + Docker deploy)
-- [`LUONVUITUOI-HONOR ROLL`](https://github.com/Kein95/luonvuituoi-honor-roll): config-driven student honor-roll toolkit (search, Hall of Fame, team awards, admin) with a [live demo](https://honor-roll-vercel-demo.vercel.app) on Vercel
+- [`LUONVUITUOI-HONOR ROLL`](https://github.com/Kein95/luonvuituoi-honor-roll): config-driven student honor-roll toolkit (search, Hall of Fame, team awards, admin) with a [live demo](https://honor-roll.luonvuituoi.work) on Vercel
 - [`LUONVUITUOI-LPR-DATAHUB`](https://github.com/Kein95/luonvuituoi-lpr-datahub): all-in-one gateway for License Plate Recognition research (16+ datasets, 10+ countries)
 
 **🛠️ Stack**: Python, Flask, SQLite, Pydantic, openpyxl, reportlab, Docker, Vercel, MkDocs Material
@@ -147,7 +147,7 @@ admin. Bilingual docs, animated UI, login hardening (rate-limit + CSRF + audit).
 ![SQLite](https://img.shields.io/badge/-SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
 ![Vercel](https://img.shields.io/badge/-Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
 
-[→ Live demo](https://honor-roll-vercel-demo.vercel.app) &nbsp;·&nbsp;
+[→ Live demo](https://honor-roll.luonvuituoi.work) &nbsp;·&nbsp;
 [→ Docs](https://kein95.github.io/luonvuituoi-honor-roll/)
 
 </td>
@@ -201,7 +201,7 @@ Researcher at AI Vietnam.
 | 📧 Email | [htkien95@gmail.com](mailto:htkien95@gmail.com) · [htkien95@luonvuituoi.work](mailto:htkien95@luonvuituoi.work) |
 | 📱 Phone / Zalo | [+84 348 635 408](tel:+84348635408) |
 | 🐙 GitHub | [@Kein95](https://github.com/Kein95) |
-| 🌐 Live projects | [honor-roll demo](https://honor-roll-vercel-demo.vercel.app) · [luonvuituoi-cert docs](https://kein95.github.io/luonvuituoi-cert/) · [lpr-dataset-hub](https://lpr-dataset-hub.vercel.app/) |
+| 🌐 Live projects | [honor-roll demo](https://honor-roll.luonvuituoi.work) · [luonvuituoi-cert docs](https://kein95.github.io/luonvuituoi-cert/) · [lpr-dataset-hub](https://lpr-dataset-hub.vercel.app/) |
 
 ---
 
