@@ -36,7 +36,7 @@ award cohorts.
 
 **🌱 Exploring**: Computer Vision, LPR datasets, Supabase, Cloudflare R2, FastAPI
 
-**🧭 Mentor**: [@duongtruongbinh](https://github.com/duongtruongbinh), AI Researcher at AI Vietnam
+**🧭 Mentor**: [@duongtruongbinh](https://github.com/duongtruongbinh), AI Researcher at [AI VIET NAM](https://aivietnam.edu.vn/)
 
 **🤝 Teammate**: [@Liamlenguyen](https://github.com/Liamlenguyen). Farewell, and wishing you success on the path you've chosen ✨
 
@@ -59,7 +59,7 @@ As team **AIO_RIVA_RICE**, I placed **#20 of 99 valid submissions** (269 teams f
 
 </div>
 
-> **🙏 Please support and cite the authors.** The competition report ([arXiv:2604.22506](https://arxiv.org/abs/2604.22506)) credits the **top 5 teams** as named co-authors. Teams ranked **6th to 20th**, including mine, contributed results but are not listed as authors. I'm noting this for transparency: my name is **not** on the paper, and full credit goes to the authors below.
+> **🙏 If this work interests you and the paper fits your research, please don't forget to cite it.** The competition report ([arXiv:2604.22506](https://arxiv.org/abs/2604.22506)) names the **top 5 teams** as co-authors; my team ranked **6th to 20th**, so full credit goes to the authors listed below.
 
 <details>
 <summary>📌 Authors & citation (BibTeX)</summary>
@@ -183,7 +183,7 @@ across 10+ countries, unified metadata, quick-start notebooks.
 ![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
 
 Mentored by [@duongtruongbinh](https://github.com/duongtruongbinh), AI
-Researcher at AI Vietnam.
+Researcher at [AI VIET NAM](https://aivietnam.edu.vn/).
 
 </td>
 <td width="50%">
