@@ -30,7 +30,7 @@ award cohorts.
 
 - [`LUONVUITUOI-CERT`](https://github.com/Kein95/luonvuituoi-cert): full-stack cert portal toolkit (Python + Flask + MkDocs Material, bilingual EN/VI docs, Vercel + Docker deploy)
 - [`LUONVUITUOI-HONOR ROLL`](https://github.com/Kein95/luonvuituoi-honor-roll): config-driven student honor-roll toolkit (search, Hall of Fame, team awards, admin) with a [live demo](https://honor-roll.luonvuituoi.work) on Vercel
-- [`LUONVUITUOI-LPR-DATAHUB`](https://github.com/Kein95/luonvuituoi-lpr-datahub): all-in-one gateway for License Plate Recognition research (16+ datasets, 10+ countries)
+- [`LUONVUITUOI-LPR-DATAHUB`](https://github.com/Kein95/luonvuituoi-lpr-datahub): all-in-one gateway for License Plate Recognition research (16+ datasets, 10+ countries) with a [live site](https://lpr-datahub.luonvuituoi.work) on Vercel
 
 **🛠️ Stack**: Python, Flask, SQLite, Pydantic, openpyxl, reportlab, Docker, Vercel, MkDocs Material
 
@@ -192,6 +192,8 @@ across 10+ countries, unified metadata, quick-start notebooks.
 ![OpenCV](https://img.shields.io/badge/-OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
 
+[→ Live site](https://lpr-datahub.luonvuituoi.work)
+
 Mentored by [@duongtruongbinh](https://github.com/duongtruongbinh), AI
 Researcher at [AI VIET NAM](https://aivietnam.edu.vn/).
 
@@ -211,7 +213,7 @@ Researcher at [AI VIET NAM](https://aivietnam.edu.vn/).
 | 📧 Email | [htkien95@gmail.com](mailto:htkien95@gmail.com) · [htkien95@luonvuituoi.work](mailto:htkien95@luonvuituoi.work) |
 | 📱 Phone / Zalo | [+84 348 635 408](tel:+84348635408) |
 | 🐙 GitHub | [@Kein95](https://github.com/Kein95) |
-| 🌐 Live projects | [honor-roll demo](https://honor-roll.luonvuituoi.work) · [luonvuituoi-cert docs](https://kein95.github.io/luonvuituoi-cert/) · [lpr-dataset-hub](https://lpr-dataset-hub.vercel.app/) |
+| 🌐 Live projects | [honor-roll demo](https://honor-roll.luonvuituoi.work) · [luonvuituoi-cert docs](https://kein95.github.io/luonvuituoi-cert/) · [lpr-dataset-hub](https://lpr-datahub.luonvuituoi.work) |
 
 ---
 
