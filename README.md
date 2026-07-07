@@ -55,7 +55,7 @@ award cohorts.
 
 As team **AIO_RIVA_RICE**, I placed **#20 of 99 valid submissions** (269 teams from 41 countries) in the **ICPR 2026 Competition on Low-Resolution License Plate Recognition**. The task: reading license plates from heavily degraded, low-resolution imagery (the **LRLPR-26** dataset).
 <br>
-🔎 Leaderboard: [Codabench results](https://www.codabench.org/competitions/12259/#/results-tab) &nbsp;·&nbsp; 📄 Report: [arXiv:2604.22506](https://arxiv.org/abs/2604.22506) &nbsp;·&nbsp; 🔗 Related: [LUONVUITUOI-LPR-DATAHUB](https://github.com/Kein95/luonvuituoi-lpr-datahub)
+🔎 Leaderboard: [Codabench results](https://www.codabench.org/competitions/12259/#/results-tab) &nbsp;·&nbsp; 📄 Report: [arXiv:2604.22506](https://arxiv.org/abs/2604.22506) &nbsp;·&nbsp; 💾 Dataset: [lrlpr-26-dataset](https://github.com/raysonlaroca/lrlpr-26-dataset) &nbsp;·&nbsp; 🔗 Related: [LUONVUITUOI-LPR-DATAHUB](https://github.com/Kein95/luonvuituoi-lpr-datahub)
 <br>
 ✅ Verify certificates: [Ranking (Top&nbsp;20)](https://icpr26lrlpr.github.io/certificates/ranking/htkien95.pdf) &nbsp;·&nbsp; [Participation](https://icpr26lrlpr.github.io/certificates/participation/htkien95.pdf)
 <br><br>
@@ -81,11 +81,13 @@ As team **AIO_RIVA_RICE**, I placed **#20 of 99 valid submissions** (269 teams f
 **Authors:** Rayson Laroca, Valfride Nascimento, Donggun Kim, Sanghyeok Chung, Subin Bae, Uihwan Seo, Seungsang Oh, Chi M. Phung, Minh G. Vo, Xingsong Ye, Yongkun Du, Yuchen Su, Zhineng Chen, Sunhee Heo, Hyangwoo Lee, Kihyun Na, Khanh V. Vu Nguyen, Sang T. Pham, Duc N. N. Phung, Trong P. Le, Vy N. Vo Tran, David Menotti.
 
 ```bibtex
-@article{laroca2026lrlpr,
-  title   = {{ICPR} 2026 Competition on Low-Resolution License Plate Recognition},
-  author  = {Rayson Laroca and Valfride Nascimento and Donggun Kim and Sanghyeok Chung and Subin Bae and Uihwan Seo and Seungsang Oh and Chi M. Phung and Minh G. Vo and Xingsong Ye and Yongkun Du and Yuchen Su and Zhineng Chen and Sunhee Heo and Hyangwoo Lee and Kihyun Na and Khanh V. Vu Nguyen and Sang T. Pham and Duc N. N. Phung and Trong P. Le and Vy N. Vo Tran and David Menotti},
-  journal = {arXiv preprint arXiv:2604.22506},
-  year    = {2026}
+@inproceedings{laroca2026competition,
+  title = {{ICPR} 2026 {C}ompetition on Low-Resolution License Plate Recognition},
+  author = {R. {Laroca} and V. {Nascimento} and D. {Kim} and S. {Chung} and S. {Bae} and U. {Seo} and S. {Oh} and C. M. {Phung} and M. G. {Vo} and X. {Ye} and Y. {Du} and Y. {Su} and Z. {Chen} and S. {Heo} and H. {Lee} and K. {Na} and K. V. {Vu Nguyen} and S. T. {Pham} and D. N. N. {Phung} and T. P. {Le} and V. N. {Vo Tran} and D. {Menotti}},
+  year = {2026},
+  month = {Aug},
+  booktitle = {International Conference on Pattern Recognition (ICPR)},
+  pages = {1-20}
 }
 ```
 
