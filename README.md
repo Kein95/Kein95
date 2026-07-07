@@ -57,15 +57,19 @@ As team **AIO_RIVA_RICE**, I placed **#20 of 99 valid submissions** (269 teams f
 <br>
 🔎 Leaderboard: [Codabench results](https://www.codabench.org/competitions/12259/#/results-tab) &nbsp;·&nbsp; 📄 Report: [arXiv:2604.22506](https://arxiv.org/abs/2604.22506) &nbsp;·&nbsp; 🔗 Related: [LUONVUITUOI-LPR-DATAHUB](https://github.com/Kein95/luonvuituoi-lpr-datahub)
 <br>
-✅ Verify certificate: [icpr26lrlpr.github.io](https://icpr26lrlpr.github.io/certificates/participation/htkien95.pdf)
+✅ Verify certificates: [Participation](https://icpr26lrlpr.github.io/certificates/participation/htkien95.pdf) &nbsp;·&nbsp; [Ranking (Top&nbsp;20)](https://icpr26lrlpr.github.io/certificates/ranking/htkien95.pdf)
 <br><br>
 
 <a href="./htkien95.pdf">
-  <img src="./icpr2026_participation_ho_trung_kien.png" alt="ICPR 2026 Certificate of Participation" width="360">
+  <img src="./icpr2026_participation_ho_trung_kien.png" alt="ICPR 2026 Certificate of Participation" width="340">
+</a>
+&nbsp;&nbsp;
+<a href="./htkien95-team.pdf">
+  <img src="./icpr2026_ranking_ho_trung_kien.png" alt="ICPR 2026 Top-20 Ranking Certificate" width="340">
 </a>
 
 <br>
-<sub>📜 Click to download the signed PDF</sub>
+<sub>📜 Click either certificate to download the signed PDF</sub>
 
 </div>
 
