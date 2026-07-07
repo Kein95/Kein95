@@ -55,7 +55,7 @@ award cohorts.
 
 As team **AIO_RIVA_RICE**, I placed **#20 of 99 valid submissions** (269 teams from 41 countries) in the **ICPR 2026 Competition on Low-Resolution License Plate Recognition**. The task: reading license plates from heavily degraded, low-resolution imagery (the **LRLPR-26** dataset).
 <br>
-🔎 Leaderboard: [Codabench results](https://www.codabench.org/competitions/12259/#/results-tab) &nbsp;·&nbsp; 📄 Report: [arXiv:2604.22506](https://arxiv.org/abs/2604.22506) &nbsp;·&nbsp; 💾 Dataset: [lrlpr-26-dataset](https://github.com/raysonlaroca/lrlpr-26-dataset) &nbsp;·&nbsp; 🔗 Related: [LUONVUITUOI-LPR-DATAHUB](https://github.com/Kein95/luonvuituoi-lpr-datahub)
+🔎 Leaderboard: [Codabench results](https://www.codabench.org/competitions/12259/#/results-tab) &nbsp;·&nbsp; 📄 Report: [arXiv:2604.22506](https://arxiv.org/abs/2604.22506) &nbsp;·&nbsp; 💾 Dataset: [lrlpr-26-dataset](https://github.com/raysonlaroca/lrlpr-26-dataset)
 <br>
 ✅ Verify certificates: [Ranking (Top&nbsp;20)](https://icpr26lrlpr.github.io/certificates/ranking/htkien95.pdf) &nbsp;·&nbsp; [Participation](https://icpr26lrlpr.github.io/certificates/participation/htkien95.pdf)
 <br><br>
