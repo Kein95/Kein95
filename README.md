@@ -50,6 +50,14 @@ award cohorts.
 | 2026 | [AI for Impact: Education in the AI Era](https://steamforvietnam.org/) | Governance & creativity in the AI era | **Completed course** |
 | 2024&#8209;2025 | [AI Vietnam AIO2024](https://aivietnam.edu.vn/) | Data Science and Artificial Intelligence All-In-One course | **Completed course** |
 
+## 📄 Publications
+
+**LVT-EG: Edge-Guided License Plate Recognition via Learned Visual Tactility**
+
+- 📚 Venue: [**MAPR 2026**](https://mapr.uit.edu.vn/) — International Conference on Multimedia Analysis and Pattern Recognition
+- ✅ Status: accepted 6 Jul 2026 (paper #37) · see the [list of accepted papers](https://mapr.uit.edu.vn/list-accepted-papers-mapr-2026)
+- 🧭 Mentor: [@duongtruongbinh](https://github.com/duongtruongbinh)
+
 ### 🚘 ICPR 2026 Competition on Low-Resolution License Plate Recognition
 
 <div align="center">
@@ -146,14 +154,6 @@ AIO2024 is AI Vietnam's All-In-One course for Data Science and Artificial Intell
 <sub>🔎 Click each certificate image to view full size</sub>
 
 </div>
-
-## 📄 Publications
-
-**LVT-EG: Edge-Guided License Plate Recognition via Learned Visual Tactility**
-
-- 📚 Venue: [**MAPR 2026**](https://mapr.uit.edu.vn/) — International Conference on Multimedia Analysis and Pattern Recognition
-- ✅ Status: accepted 6 Jul 2026 (paper #37) · see the [list of accepted papers](https://mapr.uit.edu.vn/list-accepted-papers-mapr-2026)
-- 🧭 Mentor: [@duongtruongbinh](https://github.com/duongtruongbinh)
 
 ## 📌 Pinned
 
