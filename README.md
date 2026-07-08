@@ -1,7 +1,7 @@
 <!-- Cover Banner -->
 <div align="center">
   <a href="https://github.com/Kein95">
-    <img src="assets/luonvuituoi-cover.webp" alt="LUONVUITUOI" width="100%">
+    <img src="https://cdn.jsdelivr.net/gh/Kein95/Kein95@main/assets/luonvuituoi-cover.webp" alt="LUONVUITUOI" width="100%">
   </a>
 </div>
 
@@ -70,11 +70,11 @@ As team **AIO_RIVA_RICE**, I placed **#20 of 99 valid submissions** (269 teams f
 <br><br>
 
 <a href="./htkien95-team.pdf">
-  <img src="./icpr2026_top20_ranking_cert.png" alt="ICPR 2026 Top-20 Ranking Certificate" width="340">
+  <img src="https://cdn.jsdelivr.net/gh/Kein95/Kein95@main/icpr2026_top20_ranking_cert.png" alt="ICPR 2026 Top-20 Ranking Certificate" width="340">
 </a>
 &nbsp;&nbsp;
 <a href="./htkien95.pdf">
-  <img src="./icpr2026_participation_ho_trung_kien.png" alt="ICPR 2026 Certificate of Participation" width="340">
+  <img src="https://cdn.jsdelivr.net/gh/Kein95/Kein95@main/icpr2026_participation_ho_trung_kien.png" alt="ICPR 2026 Certificate of Participation" width="340">
 </a>
 
 <br>
@@ -107,7 +107,7 @@ As team **AIO_RIVA_RICE**, I placed **#20 of 99 valid submissions** (269 teams f
 <div align="center">
 
 <a href="./JOAI2026_KIEN_努力賞.pdf">
-  <img src="./JOAI2026_KIEN_honorable_mention.png" alt="JOAI2026 Honorable Mention certificate" width="240">
+  <img src="https://cdn.jsdelivr.net/gh/Kein95/Kein95@main/JOAI2026_KIEN_honorable_mention.png" alt="JOAI2026 Honorable Mention certificate" width="240">
 </a>
 
 <sub>📜 Click to download the signed PDF</sub>
@@ -126,7 +126,7 @@ As team **AIO_RIVA_RICE**, I placed **#20 of 99 valid submissions** (269 teams f
 <br><br>
 
 <a href="./ai_for_impact_giao_duc_thoi_ai_ho_trung_kien.pdf">
-  <img src="./ai_for_impact_giao_duc_thoi_ai_ho_trung_kien.png" alt="AI for Impact: Education in the AI Era certificate" width="320">
+  <img src="https://cdn.jsdelivr.net/gh/Kein95/Kein95@main/ai_for_impact_giao_duc_thoi_ai_ho_trung_kien.png" alt="AI for Impact: Education in the AI Era certificate" width="320">
 </a>
 
 <br>
@@ -147,9 +147,9 @@ AIO2024 is AI Vietnam's All-In-One course for Data Science and Artificial Intell
 ✅ Verify certificates: [Certificate verification portal](https://lms.aivietnam.edu.vn/verification)
 <br><br>
 
-<a href="./0306/certificate_machine_learning_ho_trung_kien_23148920.png"><img src="./0306/certificate_machine_learning_ho_trung_kien_23148920.png" alt="AI Vietnam AIO2024 Machine Learning certificate" width="180"></a>
-<a href="./0306/certificate_deep_learning_ho_trung_kien_44828246.png"><img src="./0306/certificate_deep_learning_ho_trung_kien_44828246.png" alt="AI Vietnam AIO2024 Deep Learning certificate" width="180"></a>
-<a href="./0306/certificate_genai_llm_ho_trung_kien_81865591.png"><img src="./0306/certificate_genai_llm_ho_trung_kien_81865591.png" alt="AI Vietnam AIO2024 GenAI and LLM certificate" width="180"></a>
+<a href="https://cdn.jsdelivr.net/gh/Kein95/Kein95@main/0306/certificate_machine_learning_ho_trung_kien_23148920.png"><img src="https://cdn.jsdelivr.net/gh/Kein95/Kein95@main/0306/certificate_machine_learning_ho_trung_kien_23148920.png" alt="AI Vietnam AIO2024 Machine Learning certificate" width="180"></a>
+<a href="https://cdn.jsdelivr.net/gh/Kein95/Kein95@main/0306/certificate_deep_learning_ho_trung_kien_44828246.png"><img src="https://cdn.jsdelivr.net/gh/Kein95/Kein95@main/0306/certificate_deep_learning_ho_trung_kien_44828246.png" alt="AI Vietnam AIO2024 Deep Learning certificate" width="180"></a>
+<a href="https://cdn.jsdelivr.net/gh/Kein95/Kein95@main/0306/certificate_genai_llm_ho_trung_kien_81865591.png"><img src="https://cdn.jsdelivr.net/gh/Kein95/Kein95@main/0306/certificate_genai_llm_ho_trung_kien_81865591.png" alt="AI Vietnam AIO2024 GenAI and LLM certificate" width="180"></a>
 <br>
 <sub>🔎 Click each certificate image to view full size</sub>
 
