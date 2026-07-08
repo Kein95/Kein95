@@ -146,6 +146,10 @@ AIO2024 is AI Vietnam's All-In-One course for Data Science and Artificial Intell
 
 </div>
 
+## 📄 Publications
+
+- **LVT-EG: Edge-Guided License Plate Recognition via Learned Visual Tactility** — accepted at [**MAPR 2026**](https://mapr.uit.edu.vn/) (International Conference on Multimedia Analysis and Pattern Recognition), paper #37 (accepted 6 Jul 2026). See the [list of accepted papers](https://mapr.uit.edu.vn/list-accepted-papers-mapr-2026).
+
 ## 📌 Pinned
 
 <table>
