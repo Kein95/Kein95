@@ -61,7 +61,7 @@ As team **AIO_RIVA_RICE**, I placed **#20 of 99 valid submissions** (269 teams f
 <br><br>
 
 <a href="./htkien95-team.pdf">
-  <img src="./icpr2026_ranking_ho_trung_kien.png" alt="ICPR 2026 Top-20 Ranking Certificate" width="340">
+  <img src="./icpr2026_ranking_ho_trung_kien.png?v=2" alt="ICPR 2026 Top-20 Ranking Certificate" width="340">
 </a>
 &nbsp;&nbsp;
 <a href="./htkien95.pdf">
