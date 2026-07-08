@@ -44,6 +44,7 @@ award cohorts.
 
 | Year | Program / Competition | Focus | Result |
 |------|-------------|-------|--------|
+| 2026 | [MAPR 2026: Multimedia Analysis and Pattern Recognition](https://mapr.uit.edu.vn/) | LVT-EG: edge-guided license plate recognition (first-author paper #37) | 📄 **Paper accepted** |
 | 2026 | [ICPR 2026 Competition on Low-Resolution License Plate Recognition](https://icpr26lrlpr.github.io/) | License plate recognition on low-resolution imagery | 🏆 **#20 of 99** (269 teams · 41 countries) |
 | 2026 | [JOAI2026: 2nd Japanese Olympiad in AI](https://ioai-japan.org/) | Open category | 🏅 **Honorable Mention** (努力賞) |
 | 2026 | [AI for Impact: Education in the AI Era](https://steamforvietnam.org/) | Governance & creativity in the AI era | **Completed course** |
