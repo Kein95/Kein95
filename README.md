@@ -191,6 +191,8 @@ import/export. MIT license, 460+ tests, bilingual docs.
 [→ Live docs](https://kein95.github.io/luonvuituoi-cert/) &nbsp;·&nbsp;
 [→ Docs VI](https://kein95.github.io/luonvuituoi-cert/vi/)
 
+Built with teammate [@Liamlenguyen](https://github.com/Liamlenguyen).
+
 </td>
 </tr>
 <tr>
