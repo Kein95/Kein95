@@ -215,11 +215,25 @@ Researcher at [AI VIET NAM](https://aivietnam.edu.vn/).
 </td>
 <td width="50%">
 
-<sub>🔭 Browse every repository on [github.com/Kein95](https://github.com/Kein95?tab=repositories).</sub>
+### [📄 LVT-EG](https://github.com/Kein95/lvt-eg)
+
+Edge-Guided License Plate Recognition via Learned Visual Tactility. STN
+rectification + a 94.4K-param visual-tactile branch feeding four-channel
+RCTC recognition. Accepted at **MAPR 2026** (paper #37).
+
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+
+[→ Accepted papers list](https://mapr.uit.edu.vn/list-accepted-papers-mapr-2026)
+
+Mentored by [@duongtruongbinh](https://github.com/duongtruongbinh), AI
+Researcher at [AI VIET NAM](https://aivietnam.edu.vn/).
 
 </td>
 </tr>
 </table>
+
+<sub>🔭 Browse every repository on [github.com/Kein95](https://github.com/Kein95?tab=repositories).</sub>
 
 ## 📬 Contact
 
