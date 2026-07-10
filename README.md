@@ -28,7 +28,7 @@ award cohorts.
 
 **🚀 Shipped**
 
-- [`LUONVUITUOI-CERT`](https://github.com/Kein95/luonvuituoi-cert): full-stack cert portal toolkit (Python + Flask + MkDocs Material, bilingual EN/VI docs, Vercel + Docker deploy)
+- [`LUONVUITUOI-CERT`](https://github.com/Kein95/luonvuituoi-cert): full-stack cert portal toolkit (Python + Flask + MkDocs Material, bilingual EN/VI docs, Vercel + Docker deploy) with [live docs](https://kein95.github.io/luonvuituoi-cert/)
 - [`LUONVUITUOI-HONOR ROLL`](https://github.com/Kein95/luonvuituoi-honor-roll): config-driven student honor-roll toolkit (search, Hall of Fame, team awards, admin) with a [live demo](https://honor-roll.luonvuituoi.work) on Vercel
 - [`LUONVUITUOI-LPR-DATAHUB`](https://github.com/Kein95/luonvuituoi-lpr-datahub): all-in-one gateway for License Plate Recognition research (16+ datasets, 10+ countries) with a [live site](https://lpr-datahub.luonvuituoi.work) on Vercel
 
