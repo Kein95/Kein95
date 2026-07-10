@@ -207,7 +207,7 @@ import/export. MIT license, 460+ tests, bilingual docs.
 
 Built with teammate [@Liamlenguyen](https://github.com/Liamlenguyen).
 
-Farewell, and wishing you success on your chosen path ✨
+Farewell, and wishing you success on the chosen path ✨
 
 </td>
 <td width="50%">
