@@ -157,44 +157,19 @@ AIO2024 is AI Vietnam's All-In-One course for Data Science and Artificial Intell
 <tr>
 <td width="50%">
 
-### [🏆 LUONVUITUOI-HONOR ROLL](https://github.com/Kein95/luonvuituoi-honor-roll)
+### [📄 LVT-EG: Edge-Guided License Plate Recognition via Learned Visual Tactility](https://github.com/Kein95/lvt-eg)
 
-Config-driven student honor-roll toolkit. Public award gallery, student
-search, all-time Hall of Fame, team awards, and a password-protected
-admin. Bilingual docs, animated UI, login hardening (rate-limit + CSRF + audit).
+Accepted at **MAPR 2026** (paper #37).
 
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Flask](https://img.shields.io/badge/-Flask-000000?style=flat-square&logo=flask&logoColor=white)
-![SQLite](https://img.shields.io/badge/-SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
-![Vercel](https://img.shields.io/badge/-Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
+![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
 
-[→ Live demo](https://honor-roll.luonvuituoi.work) &nbsp;·&nbsp;
-[→ Docs](https://kein95.github.io/luonvuituoi-honor-roll/)
+[→ Accepted papers list](https://mapr.uit.edu.vn/list-accepted-papers-mapr-2026)
 
-</td>
-<td width="50%">
-
-### [🎓 LUONVUITUOI-CERT](https://github.com/Kein95/luonvuituoi-cert)
-
-Config-driven certificate portal toolkit. Bring your PDF template +
-student list → public lookup, admin panel, QR verify, bulk shipment
-import/export. MIT license, 460+ tests, bilingual docs.
-
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Flask](https://img.shields.io/badge/-Flask-000000?style=flat-square&logo=flask&logoColor=white)
-![SQLite](https://img.shields.io/badge/-SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
-![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Vercel](https://img.shields.io/badge/-Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
-
-[→ Live docs](https://kein95.github.io/luonvuituoi-cert/) &nbsp;·&nbsp;
-[→ Docs VI](https://kein95.github.io/luonvuituoi-cert/vi/)
-
-Built with teammate [@Liamlenguyen](https://github.com/Liamlenguyen). Farewell, and
-wishing you success on the path you've chosen ✨
+Mentored by [@duongtruongbinh](https://github.com/duongtruongbinh), AI
+Researcher at [AI VIET NAM](https://aivietnam.edu.vn/).
 
 </td>
-</tr>
-<tr>
 <td width="50%">
 
 ### [🚘 LUONVUITUOI-LPR-DATAHUB](https://github.com/Kein95/luonvuituoi-lpr-datahub)
@@ -212,19 +187,45 @@ Mentored by [@duongtruongbinh](https://github.com/duongtruongbinh), AI
 Researcher at [AI VIET NAM](https://aivietnam.edu.vn/).
 
 </td>
+</tr>
+<tr>
 <td width="50%">
 
-### [📄 LVT-EG: Edge-Guided License Plate Recognition via Learned Visual Tactility](https://github.com/Kein95/lvt-eg)
+### [🎓 LUONVUITUOI-CERT](https://github.com/Kein95/luonvuituoi-cert)
 
-Accepted at **MAPR 2026** (paper #37).
+Config-driven certificate portal toolkit. Bring your PDF template +
+student list → public lookup, admin panel, QR verify, bulk shipment
+import/export. MIT license, 460+ tests, bilingual docs.
 
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![Flask](https://img.shields.io/badge/-Flask-000000?style=flat-square&logo=flask&logoColor=white)
+![SQLite](https://img.shields.io/badge/-SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
+![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Vercel](https://img.shields.io/badge/-Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
 
-[→ Accepted papers list](https://mapr.uit.edu.vn/list-accepted-papers-mapr-2026)
+[→ Live docs](https://kein95.github.io/luonvuituoi-cert/) &nbsp;·&nbsp;
+[→ Docs VI](https://kein95.github.io/luonvuituoi-cert/vi/)
 
-Mentored by [@duongtruongbinh](https://github.com/duongtruongbinh), AI
-Researcher at [AI VIET NAM](https://aivietnam.edu.vn/).
+Built with teammate [@Liamlenguyen](https://github.com/Liamlenguyen).
+
+Farewell, and wishing you success on the path you've chosen ✨
+
+</td>
+<td width="50%">
+
+### [🏆 LUONVUITUOI-HONOR ROLL](https://github.com/Kein95/luonvuituoi-honor-roll)
+
+Config-driven student honor-roll toolkit. Public award gallery, student
+search, all-time Hall of Fame, team awards, and a password-protected
+admin. Bilingual docs, animated UI, login hardening (rate-limit + CSRF + audit).
+
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Flask](https://img.shields.io/badge/-Flask-000000?style=flat-square&logo=flask&logoColor=white)
+![SQLite](https://img.shields.io/badge/-SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
+![Vercel](https://img.shields.io/badge/-Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
+
+[→ Live demo](https://honor-roll.luonvuituoi.work) &nbsp;·&nbsp;
+[→ Docs](https://kein95.github.io/luonvuituoi-honor-roll/)
 
 </td>
 </tr>
