@@ -35,8 +35,6 @@ award cohorts.
 
 **🧭 Mentor**: [@duongtruongbinh](https://github.com/duongtruongbinh), AI Researcher at [AI VIET NAM](https://aivietnam.edu.vn/)
 
-**🤝 Teammate**: [@Liamlenguyen](https://github.com/Liamlenguyen). Farewell, and wishing you success on the path you've chosen ✨
-
 ## 🏆 Milestones
 
 | Year | Program / Competition | Focus | Result |
@@ -191,7 +189,8 @@ import/export. MIT license, 460+ tests, bilingual docs.
 [→ Live docs](https://kein95.github.io/luonvuituoi-cert/) &nbsp;·&nbsp;
 [→ Docs VI](https://kein95.github.io/luonvuituoi-cert/vi/)
 
-Built with teammate [@Liamlenguyen](https://github.com/Liamlenguyen).
+Built with teammate [@Liamlenguyen](https://github.com/Liamlenguyen). Farewell, and
+wishing you success on the path you've chosen ✨
 
 </td>
 </tr>
