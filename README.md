@@ -215,11 +215,10 @@ Researcher at [AI VIET NAM](https://aivietnam.edu.vn/).
 </td>
 <td width="50%">
 
-### [📄 LVT-EG](https://github.com/Kein95/lvt-eg)
+### [📄 LVT-EG: Edge-Guided License Plate Recognition via Learned Visual Tactility](https://github.com/Kein95/lvt-eg)
 
-Edge-Guided License Plate Recognition via Learned Visual Tactility. STN
-rectification + a 94.4K-param visual-tactile branch feeding four-channel
-RCTC recognition. Accepted at **MAPR 2026** (paper #37).
+STN rectification + a 94.4K-param visual-tactile branch feeding
+four-channel RCTC recognition. Accepted at **MAPR 2026** (paper #37).
 
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
