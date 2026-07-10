@@ -142,9 +142,9 @@ AIO2024 is AI Vietnam's All-In-One course for Data Science and Artificial Intell
 ✅ Verify certificates: [Certificate verification portal](https://lms.aivietnam.edu.vn/verification)
 <br><br>
 
-<a href="https://cdn.jsdelivr.net/gh/Kein95/Kein95@main/0306/certificate_machine_learning_ho_trung_kien_23148920.png"><img src="https://cdn.jsdelivr.net/gh/Kein95/Kein95@main/0306/certificate_machine_learning_ho_trung_kien_23148920.png" alt="AI Vietnam AIO2024 Machine Learning certificate" width="180"></a>
-<a href="https://cdn.jsdelivr.net/gh/Kein95/Kein95@main/0306/certificate_deep_learning_ho_trung_kien_44828246.png"><img src="https://cdn.jsdelivr.net/gh/Kein95/Kein95@main/0306/certificate_deep_learning_ho_trung_kien_44828246.png" alt="AI Vietnam AIO2024 Deep Learning certificate" width="180"></a>
-<a href="https://cdn.jsdelivr.net/gh/Kein95/Kein95@main/0306/certificate_genai_llm_ho_trung_kien_81865591.png"><img src="https://cdn.jsdelivr.net/gh/Kein95/Kein95@main/0306/certificate_genai_llm_ho_trung_kien_81865591.png" alt="AI Vietnam AIO2024 GenAI and LLM certificate" width="180"></a>
+<a href="https://cdn.jsdelivr.net/gh/Kein95/Kein95@main/ai-vietnam-cert/certificate_machine_learning_ho_trung_kien_23148920.png"><img src="https://cdn.jsdelivr.net/gh/Kein95/Kein95@main/ai-vietnam-cert/certificate_machine_learning_ho_trung_kien_23148920.png" alt="AI Vietnam AIO2024 Machine Learning certificate" width="180"></a>
+<a href="https://cdn.jsdelivr.net/gh/Kein95/Kein95@main/ai-vietnam-cert/certificate_deep_learning_ho_trung_kien_44828246.png"><img src="https://cdn.jsdelivr.net/gh/Kein95/Kein95@main/ai-vietnam-cert/certificate_deep_learning_ho_trung_kien_44828246.png" alt="AI Vietnam AIO2024 Deep Learning certificate" width="180"></a>
+<a href="https://cdn.jsdelivr.net/gh/Kein95/Kein95@main/ai-vietnam-cert/certificate_genai_llm_ho_trung_kien_81865591.png"><img src="https://cdn.jsdelivr.net/gh/Kein95/Kein95@main/ai-vietnam-cert/certificate_genai_llm_ho_trung_kien_81865591.png" alt="AI Vietnam AIO2024 GenAI and LLM certificate" width="180"></a>
 <br>
 <sub>🔎 Click each certificate image to view full size</sub>
 
