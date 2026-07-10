@@ -77,7 +77,7 @@ As team **AIO_RIVA_RICE**, I placed **#20 of 99 valid submissions** (269 teams f
 
 </div>
 
-> **🙏 If this work interests you and the paper fits your research, please don't forget to cite it.** The competition report ([arXiv:2604.22506](https://arxiv.org/abs/2604.22506)) names the **top 5 teams** as co-authors; my team ranked **6th to 20th**, so full credit goes to the authors listed below.
+> **🙏 If this work interests you and the paper fits your research, please don't forget to cite it.** The competition report ([arXiv:2604.22506](https://arxiv.org/abs/2604.22506)) names the **top 5 teams** as co-authors; my team ranked **20th**, so full credit goes to the authors listed below.
 
 <details>
 <summary>📌 Authors & citation (BibTeX)</summary>
