@@ -64,12 +64,12 @@ As team **AIO_RIVA_RICE**, I placed **#20 of 99 valid submissions** (269 teams f
 ✅ Verify certificates: [Ranking (Top&nbsp;20)](https://icpr26lrlpr.github.io/certificates/ranking/htkien95.pdf) &nbsp;·&nbsp; [Participation](https://icpr26lrlpr.github.io/certificates/participation/htkien95.pdf)
 <br><br>
 
-<a href="./htkien95-team.pdf">
-  <img src="https://cdn.jsdelivr.net/gh/Kein95/Kein95@main/icpr2026_top20_ranking_cert.png" alt="ICPR 2026 Top-20 Ranking Certificate" width="340">
+<a href="./assets/icpr2026/htkien95-team.pdf">
+  <img src="https://cdn.jsdelivr.net/gh/Kein95/Kein95@main/assets/icpr2026/icpr2026_top20_ranking_cert.png" alt="ICPR 2026 Top-20 Ranking Certificate" width="340">
 </a>
 &nbsp;&nbsp;
-<a href="./htkien95.pdf">
-  <img src="https://cdn.jsdelivr.net/gh/Kein95/Kein95@main/icpr2026_participation_ho_trung_kien.png" alt="ICPR 2026 Certificate of Participation" width="340">
+<a href="./assets/icpr2026/htkien95.pdf">
+  <img src="https://cdn.jsdelivr.net/gh/Kein95/Kein95@main/assets/icpr2026/icpr2026_participation_ho_trung_kien.png" alt="ICPR 2026 Certificate of Participation" width="340">
 </a>
 
 <br>
@@ -101,8 +101,8 @@ As team **AIO_RIVA_RICE**, I placed **#20 of 99 valid submissions** (269 teams f
 
 <div align="center">
 
-<a href="./JOAI2026_KIEN_努力賞.pdf">
-  <img src="https://cdn.jsdelivr.net/gh/Kein95/Kein95@main/JOAI2026_KIEN_honorable_mention.png" alt="JOAI2026 Honorable Mention certificate" width="240">
+<a href="./assets/joai2026/JOAI2026_KIEN_努力賞.pdf">
+  <img src="https://cdn.jsdelivr.net/gh/Kein95/Kein95@main/assets/joai2026/JOAI2026_KIEN_honorable_mention.png" alt="JOAI2026 Honorable Mention certificate" width="240">
 </a>
 
 <sub>📜 Click to download the signed PDF</sub>
@@ -120,8 +120,8 @@ As team **AIO_RIVA_RICE**, I placed **#20 of 99 valid submissions** (269 teams f
 ✅ Verify certificate: [eduone.ai verification portal](https://lms.eduone.ai/certificates/1058862c5c8a474c994443116571d568)
 <br><br>
 
-<a href="./ai_for_impact_giao_duc_thoi_ai_ho_trung_kien.pdf">
-  <img src="https://cdn.jsdelivr.net/gh/Kein95/Kein95@main/ai_for_impact_giao_duc_thoi_ai_ho_trung_kien.png" alt="AI for Impact: Education in the AI Era certificate" width="320">
+<a href="./assets/ai-for-impact/ai_for_impact_giao_duc_thoi_ai_ho_trung_kien.pdf">
+  <img src="https://cdn.jsdelivr.net/gh/Kein95/Kein95@main/assets/ai-for-impact/ai_for_impact_giao_duc_thoi_ai_ho_trung_kien.png" alt="AI for Impact: Education in the AI Era certificate" width="320">
 </a>
 
 <br>
