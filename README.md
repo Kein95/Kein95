@@ -40,7 +40,7 @@ award cohorts.
 
 **🤝 Teammate**: [@Liamlenguyen](https://github.com/Liamlenguyen). Farewell, and wishing you success on the path you've chosen ✨
 
-**🎓 Education**: [Học viện Tài chính](https://hvtc.edu.vn/) (Academy of Finance), Khóa 2013–2017
+**🎓 Education**: [Academy of Finance](https://hvtc.edu.vn/) (Học viện Tài chính), Class of 2013–2017
 
 ## 🏆 Achievements
 
