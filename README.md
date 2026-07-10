@@ -31,6 +31,7 @@ award cohorts.
 - [`LUONVUITUOI-CERT`](https://github.com/Kein95/luonvuituoi-cert): full-stack cert portal toolkit (Python + Flask + MkDocs Material, bilingual EN/VI docs, Vercel + Docker deploy) with [live docs](https://kein95.github.io/luonvuituoi-cert/)
 - [`LUONVUITUOI-HONOR ROLL`](https://github.com/Kein95/luonvuituoi-honor-roll): config-driven student honor-roll toolkit (search, Hall of Fame, team awards, admin) with a [live demo](https://honor-roll.luonvuituoi.work) on Vercel
 - [`LUONVUITUOI-LPR-DATAHUB`](https://github.com/Kein95/luonvuituoi-lpr-datahub): all-in-one gateway for License Plate Recognition research (16+ datasets, 10+ countries) with a [live site](https://lpr-datahub.luonvuituoi.work) on Vercel
+- [`LVT-EG`](https://github.com/Kein95/lvt-eg): reference implementation for my first-author paper accepted at **MAPR 2026** (paper #37) — edge-guided license plate recognition via learned visual tactility
 
 **🛠️ Stack**: Python, Flask, SQLite, Pydantic, openpyxl, reportlab, Docker, Vercel, MkDocs Material
 
@@ -40,7 +41,7 @@ award cohorts.
 
 **🤝 Teammate**: [@Liamlenguyen](https://github.com/Liamlenguyen). Farewell, and wishing you success on the path you've chosen ✨
 
-**🎓 Education**: [Academy of Finance](https://hvtc.edu.vn/) (Học viện Tài chính), Class of 2013–2017
+**🎓 Education**: [Academy of Finance](https://hvtc.edu.vn/), Class of 2013–2017
 
 ## 🏆 Achievements
 
