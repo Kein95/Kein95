@@ -41,9 +41,7 @@ award cohorts.
 
 **🤝 Teammate**: [@Liamlenguyen](https://github.com/Liamlenguyen). Farewell, and wishing you success on the path you've chosen ✨
 
-**🎓 Education**: [Academy of Finance](https://hvtc.edu.vn/), Class of 2013–2017
-
-## 🏆 Achievements
+## 🏆 Milestones
 
 | Year | Program / Competition | Focus | Result |
 |------|-------------|-------|--------|
@@ -52,6 +50,7 @@ award cohorts.
 | 2026 | [JOAI2026: 2nd Japanese Olympiad in AI](https://ioai-japan.org/) | Open category | 🏅 **Honorable Mention** (努力賞) |
 | 2026 | [AI for Impact: Education in the AI Era](https://steamforvietnam.org/) | Governance & creativity in the AI era | **Completed course** |
 | 2024&#8209;2025 | [AI Vietnam AIO2024](https://aivietnam.edu.vn/) | Data Science and Artificial Intelligence All-In-One course | **Completed course** |
+| 2013&#8209;2017 | [Academy of Finance](https://hvtc.edu.vn/) | Bachelor's degree | 🎓 **Graduated** |
 
 ## 📄 Publications
 
