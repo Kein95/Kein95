@@ -139,7 +139,7 @@ AIO2024 is AI Vietnam's All-In-One course for Data Science and Artificial Intell
 <br>
 🌐 Public channels: [AI Vietnam website](https://aivietnam.edu.vn/) · [Facebook fanpage](https://www.facebook.com/aivietnam.edu.vn)
 <br>
-✅ Verify certificates: [Certificate verification portal](https://lms.aivietnam.edu.vn/verification)
+✅ Verify certificates: [Machine Learning](https://lms.aivietnam.edu.vn/verification/accomplishments/23148920) &nbsp;·&nbsp; [Deep Learning](https://lms.aivietnam.edu.vn/verification/accomplishments/44828246) &nbsp;·&nbsp; [GenAI/LLM](https://lms.aivietnam.edu.vn/verification/accomplishments/81865591)
 <br><br>
 
 <a href="https://cdn.jsdelivr.net/gh/Kein95/Kein95@main/ai-vietnam-cert/certificate_machine_learning_ho_trung_kien_23148920.png"><img src="https://cdn.jsdelivr.net/gh/Kein95/Kein95@main/ai-vietnam-cert/certificate_machine_learning_ho_trung_kien_23148920.png" alt="AI Vietnam AIO2024 Machine Learning certificate" width="180"></a>
