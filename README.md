@@ -9,7 +9,7 @@
 <div align="center">
 
 <a href="https://github.com/Kein95">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=800&color=0D6E6E&center=true&vCenter=true&width=720&lines=Xin+ch%C3%A0o%2C+t%C3%B4i+l%C3%A0+Ki%C3%AAn+%F0%9F%91%8B;Vibe+coder+%F0%9F%A4%96;%F0%9F%A7%A0+INTP+%F0%9F%A6%89;Maintainer+of+LUONVUITUOI-CERT;Builder+of+LUONVUITUOI-HONOR+ROLL;Config-driven+portal+toolkit+builder;Python+%C2%B7+Flask+%C2%B7+Vercel+%C2%B7+Docker" alt="Typing SVG">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=800&color=0D6E6E&center=true&vCenter=true&width=720&lines=Xin+ch%C3%A0o%2C+t%C3%B4i+l%C3%A0+Ki%C3%AAn+%F0%9F%91%8B;Vibe+coder+%F0%9F%A4%96;%F0%9F%A7%A0+INTP+%F0%9F%A6%89;Independent+Researcher+%F0%9F%94%AC;Maintainer+of+LUONVUITUOI-CERT;Builder+of+LUONVUITUOI-HONOR+ROLL;Config-driven+portal+toolkit+builder;Python+%C2%B7+Flask+%C2%B7+Vercel+%C2%B7+Docker" alt="Typing SVG">
 </a>
 
 </div>
