@@ -12,6 +12,9 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=800&color=0D6E6E&center=true&vCenter=true&width=720&lines=Xin+ch%C3%A0o%2C+t%C3%B4i+l%C3%A0+Ki%C3%AAn+%F0%9F%91%8B;%F0%9F%A7%A0+INTP+%F0%9F%A6%89;Independent+Researcher+%F0%9F%94%AC;Vibe+coder+%F0%9F%A4%96;Config-driven+portal+toolkit+builder;Maintainer+of+LUONVUITUOI-CERT;Builder+of+LUONVUITUOI-HONOR+ROLL" alt="Typing SVG">
 </a>
 
+<br>
+<sub>🌐 Website: <a href="https://luonvuituoi.work"><strong>luonvuituoi.work</strong></a></sub>
+
 </div>
 
 <!-- About Me -->
@@ -236,6 +239,7 @@ admin. Bilingual docs, animated UI, login hardening (rate-limit + CSRF + audit).
 
 | Channel | Link |
 |---------|------|
+| 🌐 Website | [**luonvuituoi.work**](https://luonvuituoi.work) |
 | 📧 Email | [htkien95@gmail.com](mailto:htkien95@gmail.com) · [htkien95@luonvuituoi.work](mailto:htkien95@luonvuituoi.work) |
 | 📱 Phone / Zalo | [+84 348 635 408](tel:+84348635408) |
 | 🐙 GitHub | [@Kein95](https://github.com/Kein95) |
