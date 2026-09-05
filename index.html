@@ -4,15 +4,15 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Kien Ho Trung (Kein95) — LUONVUITUOI · Independent Researcher &amp; Vibe Coder</title>
-<meta name="description" content="Hồ Trung Kiên — vibe coder & independent researcher tại Việt Nam. Xây toolkit config-driven: cấp phát chứng chỉ, xác minh QR, honor roll, nghiên cứu nhận diện biển số xe.">
+<meta name="description" content="Kien Ho Trung — vibe coder & independent researcher tại Việt Nam. Xây toolkit config-driven: cấp phát chứng chỉ, xác minh QR, honor roll, nghiên cứu nhận diện biển số xe.">
 <link rel="canonical" href="https://luonvuituoi.work/">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://luonvuituoi.work/">
 <meta property="og:title" content="Kien Ho Trung (Kein95) — LUONVUITUOI">
 <meta property="og:description" content="Vibe coder & independent researcher. Toolkit config-driven: chứng chỉ, QR verification, honor roll, LPR research.">
 <meta property="og:image" content="https://luonvuituoi.work/assets/luonvuituoi-cover.webp">
-<meta name="theme-color" content="#101827">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23F43A20'/%3E%3Cstop offset='.5' stop-color='%23B835C7'/%3E%3Cstop offset='1' stop-color='%23155BFF'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='64' height='64' rx='14' fill='url(%23g)'/%3E%3Ctext x='32' y='45' font-family='Georgia,serif' font-weight='700' font-size='36' fill='white' text-anchor='middle'%3EK%3C/text%3E%3C/svg%3E">
+<meta name="theme-color" content="#F7F1E1">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23C89B3C'/%3E%3Cstop offset='1' stop-color='%238C6239'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='64' height='64' rx='14' fill='url(%23g)'/%3E%3Ctext x='32' y='45' font-family='Georgia,serif' font-weight='700' font-size='36' fill='%23FFF8E8' text-anchor='middle'%3EK%3C/text%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Montserrat:wght@400;500;600;800&display=swap" rel="stylesheet">
@@ -31,24 +31,23 @@
 </script>
 <style>
   :root {
-    --fire-red: #F43A20;
-    --fire-orange: #FF7A1A;
-    --fire-gold: #FFC247;
-    --fire-dark: #9D1B0D;
-    --galaxy-blue: #155BFF;
-    --celestial-cyan: #35C2FF;
-    --night-blue: #112E8A;
-    --water-light: #8CEBFF;
-    --gradient-purple: #B835C7;
-    --gradient-indigo: #5A3BEA;
-    --ink: #101827;
-    --bg: #0B0E17;
-    --bg-soft: #111524;
-    --text: #E8EBF4;
-    --text-dim: #9AA3B8;
-    --card: rgba(255, 255, 255, 0.04);
-    --border: rgba(255, 255, 255, 0.09);
-    --brand-gradient: linear-gradient(90deg, #F43A20 0%, #FF5A36 22%, #B835C7 48%, #5A3BEA 70%, #155BFF 100%);
+    --lacquer: #9E2B1E;
+    --lacquer-soft: #B23A28;
+    --bronze-800: #4A3016;
+    --bronze-700: #6B4A26;
+    --bronze-600: #8C6239;
+    --bronze-500: #96703D;
+    --bronze-400: #B08A4A;
+    --gold: #C89B3C;
+    --gold-light: #E8C97E;
+    --bg: #F7F1E1;
+    --card: #FFFDF4;
+    --card-alt: #FBF4DE;
+    --line: #E3D2A9;
+    --line-strong: #D2BC85;
+    --ink: #3B2B16;
+    --dim: #7A6647;
+    --brand-gradient: linear-gradient(90deg, #8C6239 0%, #C89B3C 35%, #E3BE6A 50%, #C89B3C 65%, #8C6239 100%);
     --serif: "Cinzel", "Times New Roman", serif;
     --sans: "Montserrat", system-ui, -apple-system, "Segoe UI", sans-serif;
   }
@@ -59,36 +58,33 @@
 
   body {
     background: var(--bg);
-    color: var(--text);
+    color: var(--ink);
     font-family: var(--sans);
     font-weight: 400;
     line-height: 1.7;
     overflow-x: hidden;
   }
 
-  ::selection { background: rgba(184, 53, 199, 0.45); }
+  ::selection { background: rgba(200, 155, 60, 0.45); }
 
-  /* decorative background orbs */
-  .orb {
-    position: fixed;
-    border-radius: 50%;
-    filter: blur(90px);
-    opacity: 0.22;
-    pointer-events: none;
-    z-index: 0;
+  /* faint bronze-drum ornaments in the page background */
+  .bg-drum {
+    position: fixed; z-index: 0; pointer-events: none;
   }
-  .orb-1 { width: 480px; height: 480px; top: -160px; left: -120px; background: #B835C7; }
-  .orb-2 { width: 420px; height: 420px; top: 30%; right: -140px; background: #155BFF; }
-  .orb-3 { width: 360px; height: 360px; bottom: -120px; left: 30%; background: #F43A20; opacity: 0.12; }
+  .bg-drum-1 { top: -180px; right: -200px; width: 660px; opacity: 0.07; }
+  .bg-drum-2 { bottom: -260px; left: -260px; width: 760px; opacity: 0.05; }
 
   .wrap { position: relative; z-index: 1; max-width: 1080px; margin: 0 auto; padding: 0 24px; }
+
+  /* Đông Sơn sawtooth divider */
+  .ds-band { display: block; width: 100%; height: 16px; margin-top: 6px; }
 
   /* ---------- nav ---------- */
   nav {
     position: sticky; top: 0; z-index: 10;
-    backdrop-filter: blur(14px);
-    background: rgba(11, 14, 23, 0.72);
-    border-bottom: 1px solid var(--border);
+    backdrop-filter: blur(12px);
+    background: rgba(252, 248, 238, 0.86);
+    border-bottom: 1px solid var(--line);
   }
   .nav-inner {
     max-width: 1080px; margin: 0 auto; padding: 14px 24px;
@@ -102,114 +98,119 @@
   }
   .nav-links { display: flex; align-items: center; gap: 22px; }
   .nav-links a {
-    color: var(--text-dim); text-decoration: none; font-size: 0.86rem;
+    color: var(--dim); text-decoration: none; font-size: 0.86rem;
     font-weight: 600; letter-spacing: 0.04em; transition: color 0.2s;
   }
-  .nav-links a:hover { color: var(--water-light); }
+  .nav-links a:hover { color: var(--lacquer); }
   .nav-gh {
     display: inline-flex; align-items: center; gap: 7px;
-    border: 1px solid var(--border); border-radius: 999px;
-    padding: 7px 14px; color: var(--text) !important; font-size: 0.82rem !important;
+    border: 1px solid var(--line-strong); border-radius: 999px;
+    padding: 7px 14px; color: var(--ink) !important; font-size: 0.82rem !important;
     transition: border-color 0.2s, background 0.2s;
   }
-  .nav-gh:hover { border-color: rgba(255, 255, 255, 0.3); background: rgba(255, 255, 255, 0.05); }
+  .nav-gh:hover { border-color: var(--bronze-400); background: var(--card-alt); }
 
   /* ---------- hero ---------- */
-  header { padding: 96px 0 48px; text-align: center; }
+  header { padding: 84px 0 40px; text-align: center; }
   .eyebrow {
     display: inline-flex; align-items: center; gap: 10px;
     font-size: 0.75rem; font-weight: 600; letter-spacing: 0.3em;
-    color: var(--text-dim); text-transform: uppercase;
-    margin-bottom: 26px;
+    color: var(--bronze-500); text-transform: uppercase;
+    margin-bottom: 24px;
   }
   .eyebrow::before, .eyebrow::after {
     content: ""; width: 34px; height: 1px;
-    background: linear-gradient(90deg, transparent, rgba(255,255,255,.35));
+    background: linear-gradient(90deg, transparent, rgba(140, 98, 57, 0.55));
   }
-  .eyebrow::after { background: linear-gradient(90deg, rgba(255,255,255,.35), transparent); }
+  .eyebrow::after { background: linear-gradient(90deg, rgba(140, 98, 57, 0.55), transparent); }
 
   h1.wordmark {
     font-family: var(--serif); font-weight: 700;
-    font-size: clamp(2.6rem, 9vw, 6.2rem);
+    font-size: clamp(2.6rem, 9vw, 6rem);
     line-height: 1.05; letter-spacing: 0.01em;
     background: var(--brand-gradient);
     -webkit-background-clip: text; background-clip: text; color: transparent;
-    filter: drop-shadow(0 0 28px rgba(184, 53, 199, 0.28));
+    filter: drop-shadow(0 3px 10px rgba(140, 98, 57, 0.22));
   }
   .version-tag {
     font-size: 0.82rem; font-weight: 600; letter-spacing: 0.55em;
-    text-transform: uppercase; color: var(--text-dim);
-    margin: 10px 0 34px; text-indent: 0.55em;
+    text-transform: uppercase; color: var(--bronze-400);
+    margin: 10px 0 0; text-indent: 0.55em;
+  }
+  .drum-face {
+    display: block; width: min(330px, 76vw); margin: 36px auto 30px;
+    filter: drop-shadow(0 16px 28px rgba(107, 74, 38, 0.22));
   }
   .hero-name { font-size: 1.15rem; font-weight: 800; margin-bottom: 6px; }
-  .hero-name span.zai { color: var(--fire-gold); }
+  .hero-name span.zai { color: var(--lacquer); }
   .hero-role {
-    min-height: 1.8em; font-size: 1rem; color: var(--celestial-cyan);
+    min-height: 1.8em; font-size: 1rem; color: var(--lacquer);
     font-weight: 600; letter-spacing: 0.02em; margin-bottom: 22px;
   }
   .hero-role .cursor {
     display: inline-block; width: 2px; height: 1em; margin-left: 3px;
-    background: var(--celestial-cyan); vertical-align: -0.15em;
+    background: var(--lacquer); vertical-align: -0.15em;
     animation: blink 1s steps(1) infinite;
   }
   @keyframes blink { 50% { opacity: 0; } }
   .hero-desc {
     max-width: 680px; margin: 0 auto 34px;
-    color: var(--text-dim); font-size: 0.98rem;
+    color: var(--dim); font-size: 0.98rem;
   }
-  .hero-desc strong { color: var(--text); }
+  .hero-desc strong { color: var(--ink); }
   .cta-row { display: flex; flex-wrap: wrap; gap: 14px; justify-content: center; }
   .btn {
     display: inline-flex; align-items: center; gap: 8px;
     padding: 13px 26px; border-radius: 999px;
-    font-size: 0.88rem; font-weight: 600; letter-spacing: 0.02em;
+    font-size: 0.88rem; font-weight: 700; letter-spacing: 0.02em;
     text-decoration: none; transition: transform 0.2s, box-shadow 0.2s, background 0.2s, border-color 0.2s;
   }
   .btn-primary {
-    background: var(--brand-gradient); color: #fff;
-    box-shadow: 0 6px 24px rgba(184, 53, 199, 0.35);
+    background: var(--brand-gradient); color: #2E1F0E;
+    box-shadow: 0 6px 18px rgba(140, 98, 57, 0.35);
   }
-  .btn-primary:hover { transform: translateY(-2px); box-shadow: 0 10px 30px rgba(184, 53, 199, 0.5); }
+  .btn-primary:hover { transform: translateY(-2px); box-shadow: 0 10px 26px rgba(140, 98, 57, 0.45); }
   .btn-ghost {
-    border: 1px solid var(--border); color: var(--text);
+    border: 1px solid var(--line-strong); color: var(--ink);
   }
-  .btn-ghost:hover { transform: translateY(-2px); border-color: rgba(255,255,255,.32); background: rgba(255,255,255,.04); }
+  .btn-ghost:hover { transform: translateY(-2px); border-color: var(--bronze-400); background: var(--card-alt); }
+  .btn-lacquer {
+    background: linear-gradient(135deg, #B23A28, #9E2B1E); color: #FFF6E8;
+    box-shadow: 0 6px 18px rgba(158, 43, 30, 0.3);
+  }
+  .btn-lacquer:hover { transform: translateY(-2px); box-shadow: 0 10px 26px rgba(158, 43, 30, 0.4); }
 
   .cover-card {
-    margin: 58px auto 0; max-width: 920px;
+    margin: 56px auto 0; max-width: 920px;
     border-radius: 18px; overflow: hidden;
-    border: 1px solid var(--border);
-    box-shadow: 0 24px 60px rgba(0, 0, 0, 0.45);
+    border: 1px solid var(--line);
+    box-shadow: 0 24px 50px rgba(107, 74, 38, 0.16);
     position: relative;
   }
   .cover-card img { display: block; width: 100%; height: auto; }
-  .cover-card::after {
-    content: ""; position: absolute; inset: 0; border-radius: 18px;
-    background: linear-gradient(180deg, rgba(255,255,255,.06), transparent 30%);
-    pointer-events: none;
-  }
 
   /* ---------- stats ---------- */
   .stats {
     display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
-    gap: 14px; margin: 64px 0 0;
+    gap: 14px; margin: 60px 0 0;
   }
   .stat {
-    background: var(--card); border: 1px solid var(--border);
+    background: var(--card); border: 1px solid var(--line);
     border-radius: 14px; padding: 20px 22px; text-align: center;
+    box-shadow: 0 8px 22px rgba(107, 74, 38, 0.07);
   }
   .stat b {
     display: block; font-size: 1.45rem; font-weight: 800;
     background: var(--brand-gradient);
     -webkit-background-clip: text; background-clip: text; color: transparent;
   }
-  .stat small { color: var(--text-dim); font-size: 0.8rem; letter-spacing: 0.02em; }
+  .stat small { color: var(--dim); font-size: 0.8rem; letter-spacing: 0.02em; }
 
   /* ---------- sections ---------- */
-  section { padding: 84px 0 0; }
+  section { padding: 76px 0 0; }
   .sec-label {
     font-size: 0.75rem; font-weight: 600; letter-spacing: 0.3em;
-    text-transform: uppercase; color: var(--gradient-purple);
+    text-transform: uppercase; color: var(--lacquer);
     margin-bottom: 10px;
   }
   h2 {
@@ -217,31 +218,35 @@
     letter-spacing: -0.01em; margin-bottom: 26px;
   }
 
-  .about-grid { display: grid; grid-template-columns: 1.4fr 1fr; gap: 26px; }
+  .about-grid { display: grid; grid-template-columns: 1.4fr 1fr; gap: 22px; }
   .about-card, .chips-card {
-    background: var(--card); border: 1px solid var(--border);
+    background: var(--card); border: 1px solid var(--line);
     border-radius: 16px; padding: 28px;
+    box-shadow: 0 8px 22px rgba(107, 74, 38, 0.07);
   }
-  .about-card p { color: var(--text-dim); font-size: 0.95rem; margin-bottom: 14px; }
+  .about-card p { color: var(--dim); font-size: 0.95rem; margin-bottom: 14px; }
   .about-card p:last-child { margin-bottom: 0; }
-  .about-card strong { color: var(--text); }
-  .chips-card h3 { font-size: 0.86rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--text-dim); margin-bottom: 16px; }
+  .about-card strong { color: var(--ink); }
+  .about-card a { color: var(--lacquer-soft); text-decoration: none; }
+  .about-card a:hover { text-decoration: underline; }
+  .chips-card h3 { font-size: 0.86rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--bronze-500); margin-bottom: 16px; }
   .chips { display: flex; flex-wrap: wrap; gap: 9px; }
   .chip {
     font-size: 0.78rem; font-weight: 600; padding: 6px 13px;
-    border-radius: 999px; border: 1px solid var(--border);
-    color: var(--text); background: rgba(255, 255, 255, 0.03);
+    border-radius: 999px; border: 1px solid var(--line-strong);
+    color: var(--bronze-700); background: var(--card-alt);
   }
-  .chip.hot { border-color: rgba(244, 58, 32, 0.4); color: #FFB4A3; }
-  .chip.cool { border-color: rgba(53, 194, 255, 0.35); color: var(--water-light); }
+  .chip.hot { border-color: rgba(158, 43, 30, 0.4); color: var(--lacquer); background: #FBEDE6; }
+  .chip.cool { border-color: rgba(140, 98, 57, 0.45); color: var(--bronze-600); background: #F8EED4; }
 
   /* ---------- projects ---------- */
   .proj-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 18px; }
   .proj {
     position: relative; overflow: hidden;
-    background: var(--card); border: 1px solid var(--border);
+    background: var(--card); border: 1px solid var(--line);
     border-radius: 16px; padding: 26px;
     display: flex; flex-direction: column; gap: 12px;
+    box-shadow: 0 8px 22px rgba(107, 74, 38, 0.07);
     transition: transform 0.25s, border-color 0.25s, box-shadow 0.25s;
   }
   .proj::before {
@@ -250,54 +255,58 @@
   }
   .proj:hover {
     transform: translateY(-5px);
-    border-color: rgba(255, 255, 255, 0.22);
-    box-shadow: 0 18px 44px rgba(0, 0, 0, 0.4);
+    border-color: var(--bronze-400);
+    box-shadow: 0 18px 40px rgba(107, 74, 38, 0.16);
   }
   .proj h3 { font-size: 1.06rem; font-weight: 800; }
-  .proj h3 a { color: var(--text); text-decoration: none; }
+  .proj h3 a { color: var(--ink); text-decoration: none; }
   .proj h3 a:hover { background: var(--brand-gradient); -webkit-background-clip: text; background-clip: text; color: transparent; }
   .proj .kicker {
     font-size: 0.72rem; font-weight: 600; letter-spacing: 0.18em;
-    text-transform: uppercase; color: var(--fire-orange);
+    text-transform: uppercase; color: var(--lacquer-soft);
   }
-  .proj p { color: var(--text-dim); font-size: 0.9rem; flex: 1; }
+  .proj p { color: var(--dim); font-size: 0.9rem; flex: 1; }
   .proj .meta { display: flex; flex-wrap: wrap; gap: 7px; }
   .proj .meta span {
     font-size: 0.72rem; font-weight: 600; padding: 4px 11px;
-    border-radius: 999px; background: rgba(255, 255, 255, 0.05);
-    border: 1px solid var(--border); color: var(--text-dim);
+    border-radius: 999px; background: #F6EDD2;
+    border: 1px solid #E5D5A6; color: var(--dim);
   }
   .proj .links { display: flex; flex-wrap: wrap; gap: 16px; }
   .proj .links a {
     font-size: 0.84rem; font-weight: 600; text-decoration: none;
-    color: var(--celestial-cyan);
+    color: var(--bronze-600);
   }
-  .proj .links a:hover { color: var(--water-light); text-decoration: underline; }
-  .proj .note { font-size: 0.78rem; color: var(--text-dim); }
+  .proj .links a:hover { color: var(--lacquer); text-decoration: underline; }
+  .proj .note { font-size: 0.78rem; color: var(--dim); }
 
   /* ---------- milestones ---------- */
-  .timeline { position: relative; margin-left: 8px; padding-left: 30px; border-left: 2px solid transparent; border-image: linear-gradient(180deg, #F43A20, #B835C7, #155BFF) 1; }
+  .timeline {
+    position: relative; margin-left: 8px; padding-left: 30px;
+    border-left: 2px solid transparent;
+    border-image: linear-gradient(180deg, #B23A28, #C89B3C, #8C6239) 1;
+  }
   .titem { position: relative; padding-bottom: 30px; }
   .titem:last-child { padding-bottom: 0; }
   .titem::before {
-    content: ""; position: absolute; left: -37px; top: 7px;
+    content: ""; position: absolute; left: -38px; top: 6px;
     width: 12px; height: 12px; border-radius: 50%;
-    background: var(--brand-gradient);
-    box-shadow: 0 0 0 4px rgba(184, 53, 199, 0.18);
+    background: var(--gold-light); border: 2px solid var(--bronze-600);
+    box-shadow: 0 0 0 4px rgba(200, 155, 60, 0.25);
   }
   .titem .year {
     font-size: 0.76rem; font-weight: 800; letter-spacing: 0.14em;
-    color: var(--fire-gold); text-transform: uppercase;
+    color: var(--lacquer-soft); text-transform: uppercase;
   }
   .titem h4 { font-size: 1rem; font-weight: 700; margin: 3px 0 2px; }
-  .titem h4 a { color: var(--text); text-decoration: none; }
-  .titem h4 a:hover { color: var(--water-light); }
-  .titem p { color: var(--text-dim); font-size: 0.88rem; }
+  .titem h4 a { color: var(--ink); text-decoration: none; }
+  .titem h4 a:hover { color: var(--lacquer); }
+  .titem p { color: var(--dim); font-size: 0.88rem; }
   .titem .result {
     display: inline-block; margin-top: 7px;
-    font-size: 0.78rem; font-weight: 700; color: #FFD9A8;
-    background: rgba(255, 122, 26, 0.12);
-    border: 1px solid rgba(255, 122, 26, 0.3);
+    font-size: 0.78rem; font-weight: 700; color: #7A5719;
+    background: #F8ECD0;
+    border: 1px solid #D9BE7F;
     padding: 3px 12px; border-radius: 999px;
   }
 
@@ -305,25 +314,28 @@
   .contact-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 14px; }
   .ccard {
     display: block; text-decoration: none;
-    background: var(--card); border: 1px solid var(--border);
+    background: var(--card); border: 1px solid var(--line);
     border-radius: 14px; padding: 22px;
+    box-shadow: 0 8px 22px rgba(107, 74, 38, 0.07);
     transition: transform 0.2s, border-color 0.2s;
   }
-  .ccard:hover { transform: translateY(-4px); border-color: rgba(255,255,255,.25); }
+  .ccard:hover { transform: translateY(-4px); border-color: var(--bronze-400); }
   .ccard .ico { font-size: 1.5rem; margin-bottom: 8px; }
-  .ccard b { display: block; font-size: 0.92rem; color: var(--text); margin-bottom: 2px; }
-  .ccard small { color: var(--text-dim); font-size: 0.82rem; word-break: break-all; }
+  .ccard b { display: block; font-size: 0.92rem; color: var(--ink); margin-bottom: 2px; }
+  .ccard small { color: var(--dim); font-size: 0.82rem; word-break: break-all; }
   .contact-cta {
     margin-top: 22px; text-align: center;
-    background: var(--card); border: 1px solid var(--border);
+    background: var(--card); border: 1px solid var(--line);
     border-radius: 16px; padding: 30px;
+    box-shadow: 0 8px 22px rgba(107, 74, 38, 0.07);
   }
-  .contact-cta p { color: var(--text-dim); font-size: 0.92rem; margin-bottom: 18px; }
-  .contact-cta p strong { color: var(--text); }
+  .contact-cta p { color: var(--dim); font-size: 0.92rem; margin-bottom: 18px; }
+  .contact-cta p strong { color: var(--ink); }
 
   /* ---------- footer ---------- */
   footer {
-    margin-top: 96px; border-top: 1px solid var(--border);
+    margin-top: 88px; border-top: 1px solid var(--line);
+    background: #F3EACF;
     padding: 34px 0 44px; text-align: center;
   }
   .foot-mark {
@@ -331,8 +343,8 @@
     background: var(--brand-gradient);
     -webkit-background-clip: text; background-clip: text; color: transparent;
   }
-  footer p { color: var(--text-dim); font-size: 0.82rem; margin-top: 8px; }
-  footer a { color: var(--celestial-cyan); text-decoration: none; }
+  footer p { color: var(--dim); font-size: 0.82rem; margin-top: 8px; }
+  footer a { color: var(--lacquer-soft); text-decoration: none; }
   footer a:hover { text-decoration: underline; }
 
   /* ---------- reveal ---------- */
@@ -347,15 +359,113 @@
   @media (max-width: 820px) {
     .about-grid { grid-template-columns: 1fr; }
     .nav-links a:not(.nav-gh) { display: none; }
-    header { padding-top: 64px; }
+    header { padding-top: 60px; }
+    .bg-drum-2 { display: none; }
   }
 </style>
 </head>
 <body>
 
-<div class="orb orb-1"></div>
-<div class="orb orb-2"></div>
-<div class="orb orb-3"></div>
+<!-- Đông Sơn shared defs: bronze-drum face, Lac bird, sawtooth band -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <linearGradient id="goldGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#E8C97E"/><stop offset=".55" stop-color="#C89B3C"/>
+      <stop offset="1" stop-color="#96703D"/>
+    </linearGradient>
+    <g id="lacbird">
+      <path d="M-6,-13 C-16,-24 -26,-26 -33,-20 M-6,-11 C-14,-18 -22,-19 -27,-14" fill="none" stroke="#96703D" stroke-width="2.6" stroke-linecap="round"/>
+      <ellipse cx="-1" cy="-12" rx="13" ry="7.5" fill="#96703D"/>
+      <path d="M8,-14 C11,-22 17,-24 21,-21 L24,-19 C20,-16 15,-15 11,-16 Z" fill="#96703D"/>
+      <path d="M23,-20 l7,1.5 l-7,2.5 Z" fill="#96703D"/>
+      <path d="M14,-21 c1,-4 4,-6 7,-6" fill="none" stroke="#96703D" stroke-width="2" stroke-linecap="round"/>
+      <path d="M-4,-5 l-1,5 M5,-5 l1,5 M-9,-0.5 h5 M4,-0.5 h5" stroke="#96703D" stroke-width="2.2" stroke-linecap="round" fill="none"/>
+    </g>
+    <g id="drumface">
+      <circle cx="300" cy="300" r="278" fill="#FDFAF0"/>
+      <circle cx="300" cy="300" r="10" fill="#96703D"/>
+      <circle cx="300" cy="300" r="18" fill="none" stroke="#8C6239" stroke-width="2"/>
+      <polygon points="300,205 312.9,243.5 341.2,214.4 336.2,254.7 374.3,240.8 352.3,274.8 392.6,278.9 358,300 392.6,321.1 352.3,325.2 374.3,359.2 336.2,345.3 341.2,385.6 312.9,356.5 300,395 287.1,356.5 258.8,385.6 263.8,345.3 225.7,359.2 247.7,325.2 207.4,321.1 242,300 207.4,278.9 247.7,274.8 225.7,240.8 263.8,254.7 258.8,214.4 287.1,243.5" fill="url(#goldGrad)" stroke="#6B4A26" stroke-width="2.5" stroke-linejoin="round"/>
+      <circle cx="300" cy="300" r="104" fill="none" stroke="#8C6239" stroke-width="2"/>
+      <circle cx="300" cy="178" r="13" fill="none" stroke="#B08A4A" stroke-width="2"/>
+      <circle cx="331.6" cy="182.2" r="13" fill="none" stroke="#B08A4A" stroke-width="2"/>
+      <circle cx="361" cy="194.3" r="13" fill="none" stroke="#B08A4A" stroke-width="2"/>
+      <circle cx="386.3" cy="213.7" r="13" fill="none" stroke="#B08A4A" stroke-width="2"/>
+      <circle cx="405.7" cy="239" r="13" fill="none" stroke="#B08A4A" stroke-width="2"/>
+      <circle cx="417.8" cy="268.4" r="13" fill="none" stroke="#B08A4A" stroke-width="2"/>
+      <circle cx="422" cy="300" r="13" fill="none" stroke="#B08A4A" stroke-width="2"/>
+      <circle cx="417.8" cy="331.6" r="13" fill="none" stroke="#B08A4A" stroke-width="2"/>
+      <circle cx="405.7" cy="361" r="13" fill="none" stroke="#B08A4A" stroke-width="2"/>
+      <circle cx="386.3" cy="386.3" r="13" fill="none" stroke="#B08A4A" stroke-width="2"/>
+      <circle cx="361" cy="405.7" r="13" fill="none" stroke="#B08A4A" stroke-width="2"/>
+      <circle cx="331.6" cy="417.8" r="13" fill="none" stroke="#B08A4A" stroke-width="2"/>
+      <circle cx="300" cy="422" r="13" fill="none" stroke="#B08A4A" stroke-width="2"/>
+      <circle cx="268.4" cy="417.8" r="13" fill="none" stroke="#B08A4A" stroke-width="2"/>
+      <circle cx="239" cy="405.7" r="13" fill="none" stroke="#B08A4A" stroke-width="2"/>
+      <circle cx="213.7" cy="386.3" r="13" fill="none" stroke="#B08A4A" stroke-width="2"/>
+      <circle cx="194.3" cy="361" r="13" fill="none" stroke="#B08A4A" stroke-width="2"/>
+      <circle cx="182.2" cy="331.6" r="13" fill="none" stroke="#B08A4A" stroke-width="2"/>
+      <circle cx="178" cy="300" r="13" fill="none" stroke="#B08A4A" stroke-width="2"/>
+      <circle cx="182.2" cy="268.4" r="13" fill="none" stroke="#B08A4A" stroke-width="2"/>
+      <circle cx="194.3" cy="239" r="13" fill="none" stroke="#B08A4A" stroke-width="2"/>
+      <circle cx="213.7" cy="213.7" r="13" fill="none" stroke="#B08A4A" stroke-width="2"/>
+      <circle cx="239" cy="194.3" r="13" fill="none" stroke="#B08A4A" stroke-width="2"/>
+      <circle cx="268.4" cy="182.2" r="13" fill="none" stroke="#B08A4A" stroke-width="2"/>
+      <circle cx="300" cy="300" r="140" fill="none" stroke="#8C6239" stroke-width="2"/>
+      <use href="#lacbird" transform="rotate(0 300 300) translate(300 128)"/>
+      <use href="#lacbird" transform="rotate(45 300 300) translate(300 128)"/>
+      <use href="#lacbird" transform="rotate(90 300 300) translate(300 128)"/>
+      <use href="#lacbird" transform="rotate(135 300 300) translate(300 128)"/>
+      <use href="#lacbird" transform="rotate(180 300 300) translate(300 128)"/>
+      <use href="#lacbird" transform="rotate(225 300 300) translate(300 128)"/>
+      <use href="#lacbird" transform="rotate(270 300 300) translate(300 128)"/>
+      <use href="#lacbird" transform="rotate(315 300 300) translate(300 128)"/>
+      <circle cx="300" cy="300" r="178" fill="none" stroke="#8C6239" stroke-width="2"/>
+      <path d="M300,114 L316.5,90.6 L329.1,116.3 Z M329.1,116.3 L349,95.8 L357.5,123.1 Z M357.5,123.1 L380.4,106 L384.4,134.3 Z M384.4,134.3 L409.7,120.9 L409.3,149.5 Z M409.3,149.5 L436.4,140.3 L431.5,168.5 Z M431.5,168.5 L459.7,163.6 L450.5,190.7 Z M450.5,190.7 L479.1,190.3 L465.7,215.6 Z M465.7,215.6 L494,219.6 L476.9,242.5 Z M476.9,242.5 L504.2,251 L483.7,270.9 Z M483.7,270.9 L509.4,283.5 L486,300 Z M486,300 L509.4,316.5 L483.7,329.1 Z M483.7,329.1 L504.2,349 L476.9,357.5 Z M476.9,357.5 L494,380.4 L465.7,384.4 Z M465.7,384.4 L479.1,409.7 L450.5,409.3 Z M450.5,409.3 L459.7,436.4 L431.5,431.5 Z M431.5,431.5 L436.4,459.7 L409.3,450.5 Z M409.3,450.5 L409.7,479.1 L384.4,465.7 Z M384.4,465.7 L380.4,494 L357.5,476.9 Z M357.5,476.9 L349,504.2 L329.1,483.7 Z M329.1,483.7 L316.5,509.4 L300,486 Z M300,486 L283.5,509.4 L270.9,483.7 Z M270.9,483.7 L251,504.2 L242.5,476.9 Z M242.5,476.9 L219.6,494 L215.6,465.7 Z M215.6,465.7 L190.3,479.1 L190.7,450.5 Z M190.7,450.5 L163.6,459.7 L168.5,431.5 Z M168.5,431.5 L140.3,436.4 L149.5,409.3 Z M149.5,409.3 L120.9,409.7 L134.3,384.4 Z M134.3,384.4 L106,380.4 L123.1,357.5 Z M123.1,357.5 L95.8,349 L116.3,329.1 Z M116.3,329.1 L90.6,316.5 L114,300 Z M114,300 L90.6,283.5 L116.3,270.9 Z M116.3,270.9 L95.8,251 L123.1,242.5 Z M123.1,242.5 L106,219.6 L134.3,215.6 Z M134.3,215.6 L120.9,190.3 L149.5,190.7 Z M149.5,190.7 L140.3,163.6 L168.5,168.5 Z M168.5,168.5 L163.6,140.3 L190.7,149.5 Z M190.7,149.5 L190.3,120.9 L215.6,134.3 Z M215.6,134.3 L219.6,106 L242.5,123.1 Z M242.5,123.1 L251,95.8 L270.9,116.3 Z M270.9,116.3 L283.5,90.6 L300,114 Z" fill="#E8C97E" stroke="#8C6239" stroke-width="1"/>
+      <circle cx="300" cy="300" r="218" fill="none" stroke="#8C6239" stroke-width="2"/>
+      <circle cx="300" cy="68" r="4.5" fill="#B08A4A"/>
+      <circle cx="348.2" cy="73.1" r="4.5" fill="#B08A4A"/>
+      <circle cx="394.4" cy="88.1" r="4.5" fill="#B08A4A"/>
+      <circle cx="436.4" cy="112.3" r="4.5" fill="#B08A4A"/>
+      <circle cx="472.4" cy="144.8" r="4.5" fill="#B08A4A"/>
+      <circle cx="500.9" cy="184" r="4.5" fill="#B08A4A"/>
+      <circle cx="520.6" cy="228.3" r="4.5" fill="#B08A4A"/>
+      <circle cx="530.7" cy="275.7" r="4.5" fill="#B08A4A"/>
+      <circle cx="530.7" cy="324.3" r="4.5" fill="#B08A4A"/>
+      <circle cx="520.6" cy="371.7" r="4.5" fill="#B08A4A"/>
+      <circle cx="500.9" cy="416" r="4.5" fill="#B08A4A"/>
+      <circle cx="472.4" cy="455.2" r="4.5" fill="#B08A4A"/>
+      <circle cx="436.4" cy="487.7" r="4.5" fill="#B08A4A"/>
+      <circle cx="394.4" cy="511.9" r="4.5" fill="#B08A4A"/>
+      <circle cx="348.2" cy="526.9" r="4.5" fill="#B08A4A"/>
+      <circle cx="300" cy="532" r="4.5" fill="#B08A4A"/>
+      <circle cx="251.8" cy="526.9" r="4.5" fill="#B08A4A"/>
+      <circle cx="205.6" cy="511.9" r="4.5" fill="#B08A4A"/>
+      <circle cx="163.6" cy="487.7" r="4.5" fill="#B08A4A"/>
+      <circle cx="127.6" cy="455.2" r="4.5" fill="#B08A4A"/>
+      <circle cx="99.1" cy="416" r="4.5" fill="#B08A4A"/>
+      <circle cx="79.4" cy="371.7" r="4.5" fill="#B08A4A"/>
+      <circle cx="69.3" cy="324.3" r="4.5" fill="#B08A4A"/>
+      <circle cx="69.3" cy="275.7" r="4.5" fill="#B08A4A"/>
+      <circle cx="79.4" cy="228.3" r="4.5" fill="#B08A4A"/>
+      <circle cx="99.1" cy="184" r="4.5" fill="#B08A4A"/>
+      <circle cx="127.6" cy="144.8" r="4.5" fill="#B08A4A"/>
+      <circle cx="163.6" cy="112.3" r="4.5" fill="#B08A4A"/>
+      <circle cx="205.6" cy="88.1" r="4.5" fill="#B08A4A"/>
+      <circle cx="251.8" cy="73.1" r="4.5" fill="#B08A4A"/>
+      <circle cx="300" cy="300" r="246" fill="none" stroke="#8C6239" stroke-width="2"/>
+      <circle cx="300" cy="300" r="254" fill="none" stroke="#6B4A26" stroke-width="2"/>
+      <circle cx="300" cy="300" r="262" fill="none" stroke="#B08A4A" stroke-width="8"/>
+      <circle cx="300" cy="300" r="272" fill="none" stroke="#6B4A26" stroke-width="2"/>
+    </g>
+    <pattern id="sawband" width="28" height="16" patternUnits="userSpaceOnUse">
+      <path d="M0,14 L14,3 L28,14 Z" fill="#F3E4BC" stroke="#B08A4A" stroke-width="1.5" stroke-linejoin="round"/>
+    </pattern>
+  </defs>
+</svg>
+
+<svg class="bg-drum bg-drum-1" viewBox="0 0 600 600" aria-hidden="true"><use href="#drumface"/></svg>
+<svg class="bg-drum bg-drum-2" viewBox="0 0 600 600" aria-hidden="true"><use href="#drumface"/></svg>
 
 <nav>
   <div class="nav-inner">
@@ -379,6 +489,9 @@
     <div class="eyebrow">Independent Researcher · Việt Nam</div>
     <h1 class="wordmark">LUONVUITUOI</h1>
     <div class="version-tag">Version 2026</div>
+
+    <svg class="drum-face reveal" viewBox="0 0 600 600" role="img" aria-label="Họa tiết mặt trống đồng Đông Sơn — sao 14 cánh, chim Lạc, vòng tròn đồng tâm"><use href="#drumface"/></svg>
+
     <div class="hero-name"><span class="zai">Kien</span> Ho Trung</div>
     <div class="hero-role"><span id="typed"></span><span class="cursor"></span></div>
     <p class="hero-desc">
@@ -405,6 +518,8 @@
     </div>
   </header>
 
+  <svg class="ds-band" aria-hidden="true"><rect width="100%" height="100%" fill="url(#sawband)"/></svg>
+
   <section id="about">
     <div class="sec-label">Giới thiệu</div>
     <h2>Vibe code có kỷ luật 🧠</h2>
@@ -422,7 +537,7 @@
           config-driven, mang theo dữ liệu của bạn là chạy được ngay.
         </p>
         <p>
-          <strong>🧭 Mentor:</strong> <a href="https://github.com/duongtruongbinh" style="color:var(--celestial-cyan);text-decoration:none;">@duongtruongbinh</a> — AI Researcher, AI VIET NAM.
+          <strong>🧭 Mentor:</strong> <a href="https://github.com/duongtruongbinh">@duongtruongbinh</a> — AI Researcher, AI VIET NAM.
         </p>
       </div>
       <div class="chips-card">
@@ -447,6 +562,8 @@
       </div>
     </div>
   </section>
+
+  <svg class="ds-band" aria-hidden="true"><rect width="100%" height="100%" fill="url(#sawband)"/></svg>
 
   <section id="projects">
     <div class="sec-label">Dự án</div>
@@ -498,6 +615,8 @@
     </div>
   </section>
 
+  <svg class="ds-band" aria-hidden="true"><rect width="100%" height="100%" fill="url(#sawband)"/></svg>
+
   <section id="milestones">
     <div class="sec-label">Cột mốc</div>
     <h2>Hành trình &amp; thành tích</h2>
@@ -541,6 +660,8 @@
     </div>
   </section>
 
+  <svg class="ds-band" aria-hidden="true"><rect width="100%" height="100%" fill="url(#sawband)"/></svg>
+
   <section id="contact">
     <div class="sec-label">Liên hệ</div>
     <h2>Kết nối với tôi 📬</h2>
@@ -568,17 +689,19 @@
     </div>
     <div class="contact-cta reveal">
       <p>Cần một portal <strong>cấp phát chứng chỉ / bảng vinh danh</strong> cho cuộc thi hoặc chương trình đào tạo của bạn?</p>
-      <a class="btn btn-primary" href="mailto:htkien95@gmail.com?subject=LUONVUITUOI%20collaboration">✉️ Trò chuyện cùng tôi</a>
+      <a class="btn btn-lacquer" href="mailto:htkien95@gmail.com?subject=LUONVUITUOI%20collaboration">✉️ Trò chuyện cùng tôi</a>
     </div>
   </section>
 
-  <footer>
-    <div class="foot-mark">LUONVUITUOI</div>
-    <p>Luôn vui tuổi ✨ · Version 2026</p>
-    <p>© <span id="year">2026</span> Kien Ho Trung — vibe coded with AI, hardened by hand · <a href="https://github.com/Kein95" target="_blank" rel="noopener">@Kein95</a></p>
-  </footer>
-
 </div>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-mark">LUONVUITUOI</div>
+    <p>Luôn vui tuổi ✨ · Version 2026 · Họa tiết trống đồng Đông Sơn</p>
+    <p>© <span id="year">2026</span> Kien Ho Trung — vibe coded with AI, hardened by hand · <a href="https://github.com/Kein95" target="_blank" rel="noopener">@Kein95</a></p>
+  </div>
+</footer>
 
 <script>
   // typing roles
