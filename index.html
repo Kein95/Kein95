@@ -157,6 +157,18 @@
     pointer-events: none;
   }
 
+  .hero-greet {
+    font-size: 0.98rem; font-weight: 600; letter-spacing: 0.02em;
+    color: var(--dim); margin: 0 0 4px;
+  }
+  .hero-greet .wave { display: inline-block; animation: wave 2.4s ease-in-out infinite; transform-origin: 70% 70%; }
+  @keyframes wave {
+    0%, 55%, 100% { transform: rotate(0deg); }
+    10% { transform: rotate(16deg); }
+    20% { transform: rotate(-8deg); }
+    30% { transform: rotate(14deg); }
+    40% { transform: rotate(-4deg); }
+  }
   .hero-name { font-size: 1.15rem; font-weight: 800; margin-bottom: 6px; }
   .hero-name span.zai { color: var(--fire-gold); }
   .hero-role {
@@ -501,6 +513,7 @@
     html { scroll-behavior: auto; }
     .reveal { opacity: 1; transform: none; transition: none; }
     .hero-role .cursor { animation: none; }
+    .hero-greet .wave { animation: none; }
   }
   @media (max-width: 820px) {
     .about-grid { grid-template-columns: 1fr; }
@@ -546,6 +559,10 @@
       <img src="assets/luonvuituoi-cover.webp" alt="LUONVUITUOI Version 2026">
     </div>
 
+    <p class="hero-greet">
+      <span class="t-en"><span class="wave">👋</span> Hello! I'm</span>
+      <span class="t-vi"><span class="wave">👋</span> Xin chào! Mình là</span>
+    </p>
     <div class="hero-name"><span class="zai">Kien</span> Ho Trung</div>
     <div class="hero-role"><span id="typed"></span><span class="cursor"></span></div>
     <p class="hero-desc">
