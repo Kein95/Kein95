@@ -379,11 +379,26 @@
     border: 1px solid var(--border); border-radius: 10px;
     padding: 12px 14px;
   }
-  .bibtex-title { font-size: 0.84rem; font-weight: 600; color: var(--celestial-cyan); margin-bottom: 8px; }
+  .bibtex-title { font-size: 0.84rem; font-weight: 600; color: var(--celestial-cyan); }
+  .bibtex-head { display: flex; align-items: center; justify-content: space-between; gap: 10px; margin-bottom: 8px; }
+  .copy-btn {
+    font: inherit; font-size: 0.72rem; font-weight: 600;
+    color: var(--celestial-cyan); background: rgba(53, 194, 255, 0.08);
+    border: 1px solid rgba(53, 194, 255, 0.35); border-radius: 999px;
+    padding: 4px 14px; cursor: pointer;
+    transition: background .2s, border-color .2s, transform .1s;
+  }
+  .copy-btn:hover { background: rgba(53, 194, 255, 0.16); border-color: rgba(53, 194, 255, 0.6); }
+  .copy-btn:active { transform: scale(0.95); }
+  .copy-btn .ok-lbl { display: none; }
+  .copy-btn.ok { color: #7CE38B; border-color: rgba(124, 227, 139, 0.5); background: rgba(124, 227, 139, 0.1); }
+  .copy-btn.ok .lbl { display: none; }
+  .copy-btn.ok .ok-lbl { display: inline; }
   .bibtex pre {
     margin: 0; padding: 12px;
     background: rgba(0, 0, 0, 0.35); border-radius: 8px;
-    overflow-x: auto; font-size: 0.74rem; line-height: 1.55; color: #C9D3E8;
+    white-space: pre-wrap; word-break: break-word;
+    font-size: 0.74rem; line-height: 1.55; color: #C9D3E8;
   }
 
   /* ---------- milestones ---------- */
@@ -721,8 +736,14 @@
         <span class="t-vi">🙏 Báo cáo cuộc thi ghi <strong>top 5 đội</strong> là đồng tác giả — đội tôi hạng 20, toàn bộ credit thuộc về các tác giả được liệt kê. Nếu phù hợp nghiên cứu của bạn, hãy trích dẫn:</span>
       </div>
       <div class="bibtex">
-        <div class="bibtex-title">📌 BibTeX</div>
-        <pre>@inproceedings{laroca2026competition,
+        <div class="bibtex-head">
+          <div class="bibtex-title">📌 BibTeX</div>
+          <button class="copy-btn" id="copy-bib" type="button" aria-label="Copy BibTeX to clipboard">
+            <span class="lbl"><span class="t-en">⧉ Copy</span><span class="t-vi">⧉ Sao chép</span></span>
+            <span class="ok-lbl"><span class="t-en">✓ Copied</span><span class="t-vi">✓ Đã chép</span></span>
+          </button>
+        </div>
+        <pre id="bibtex-code">@inproceedings{laroca2026competition,
   title = {{ICPR} 2026 {C}ompetition on Low-Resolution License Plate Recognition},
   author = {R. {Laroca} and V. {Nascimento} and D. {Kim} and S. {Chung} and S. {Bae} and U. {Seo} and S. {Oh} and C. M. {Phung} and M. G. {Vo} and X. {Ye} and Y. {Du} and Y. {Su} and Z. {Chen} and S. {Heo} and H. {Lee} and K. {Na} and K. V. {Vu Nguyen} and S. T. {Pham} and D. N. N. {Phung} and T. P. {Le} and V. N. {Vo Tran} and D. {Menotti}},
   year = {2026},
@@ -955,6 +976,30 @@
   // reveal: show everything on load (no scroll gating)
   (function () {
     document.querySelectorAll(".reveal").forEach(function (e) { e.classList.add("in"); });
+  })();
+
+  // copy bibtex
+  (function () {
+    var btn = document.getElementById("copy-bib");
+    var code = document.getElementById("bibtex-code");
+    if (!btn || !code) return;
+    function fallbackCopy(text) {
+      var ta = document.createElement("textarea");
+      ta.value = text; ta.style.position = "fixed"; ta.style.opacity = "0";
+      document.body.appendChild(ta); ta.select();
+      try { document.execCommand("copy"); } catch (e) {}
+      document.body.removeChild(ta);
+    }
+    btn.addEventListener("click", function () {
+      var text = code.textContent;
+      var done = function () {
+        btn.classList.add("ok");
+        setTimeout(function () { btn.classList.remove("ok"); }, 1800);
+      };
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(text).then(done, function () { fallbackCopy(text); done(); });
+      } else { fallbackCopy(text); done(); }
+    });
   })();
 
   document.getElementById("year").textContent = new Date().getFullYear();
