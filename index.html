@@ -370,10 +370,13 @@
   .cap a { color: var(--celestial-cyan); text-decoration: none; }
   .cap a:hover { color: var(--water-light); text-decoration: underline; }
   .cert-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(270px, 1fr)); gap: 16px; margin-top: 16px; align-items: stretch; }
+  .cert-grid .pub + .pub { margin-top: 0; }
   .cert-grid .pub { gap: 10px; }
   .cert-grid .cert-row { flex-direction: column; flex-wrap: nowrap; }
   .cert-grid .cert-row a { max-width: 100%; }
+  .cert-grid .pub > p { min-height: 98px; }
   .cert-grid .cert-row img { height: 210px; }
+  .cert-grid .cert-row img.portrait { height: auto; }
   .bibtex {
     background: rgba(255, 255, 255, 0.05);
     border: 1px solid var(--border); border-radius: 10px;
@@ -762,7 +765,7 @@
         <p class="t-vi">Hạng mục mở — Giải khuyến khích (努力賞).</p>
         <div class="cert-row">
           <a href="assets/joai2026/JOAI2026_KIEN_%E5%8A%AA%E5%8A%9B%E8%B3%9E.pdf" target="_blank" rel="noopener">
-            <img src="assets/joai2026/JOAI2026_KIEN_honorable_mention.png" alt="JOAI2026 Honorable Mention certificate">
+            <img class="portrait" src="assets/joai2026/JOAI2026_KIEN_honorable_mention.png" alt="JOAI2026 Honorable Mention certificate">
           </a>
         </div>
         <div class="cap">
