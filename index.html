@@ -274,6 +274,63 @@
   .proj .links a:hover { color: var(--water-light); text-decoration: underline; }
   .proj .note { font-size: 0.78rem; color: var(--dim); }
 
+  /* ---------- research / publications ---------- */
+  .pub {
+    position: relative; overflow: hidden;
+    background: var(--card); border: 1px solid var(--border);
+    border-radius: 16px; padding: 24px;
+    display: flex; flex-direction: column; gap: 12px;
+    transition: transform 0.25s, border-color 0.25s, box-shadow 0.25s;
+  }
+  .pub::before {
+    content: ""; position: absolute; top: 0; left: 0; right: 0; height: 3px;
+    background: var(--brand-gradient);
+  }
+  .pub:hover {
+    transform: translateY(-4px);
+    border-color: rgba(255, 255, 255, 0.22);
+    box-shadow: 0 18px 44px rgba(0, 0, 0, 0.4);
+  }
+  .pub h3 { font-size: 1.05rem; font-weight: 800; }
+  .pub h3 a { color: var(--text); text-decoration: none; }
+  .pub h3 a:hover { background: var(--brand-gradient); -webkit-background-clip: text; background-clip: text; color: transparent; }
+  .pub .kicker { font-size: 0.72rem; font-weight: 600; letter-spacing: 0.18em; text-transform: uppercase; color: var(--fire-orange); }
+  .pub p { color: var(--dim); font-size: 0.9rem; text-align: justify; }
+  .pub strong { color: var(--text); }
+  .pub .links { display: flex; flex-wrap: wrap; gap: 16px; }
+  .pub .links a { font-size: 0.84rem; font-weight: 600; text-decoration: none; color: var(--celestial-cyan); }
+  .pub .links a:hover { color: var(--water-light); text-decoration: underline; }
+  .pub + .pub { margin-top: 16px; }
+  .cert-row { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 4px; }
+  .cert-row a { flex: 1 1 200px; max-width: 260px; }
+  .cert-row img {
+    width: 100%; height: auto; display: block;
+    border-radius: 10px; border: 1px solid var(--border);
+    transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
+  }
+  .cert-row a:hover img {
+    transform: translateY(-3px);
+    border-color: rgba(255, 255, 255, 0.3);
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.45);
+  }
+  .cap { font-size: 0.76rem; color: var(--dim); }
+  .cap a { color: var(--celestial-cyan); text-decoration: none; }
+  .cap a:hover { color: var(--water-light); text-decoration: underline; }
+  .cert-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(270px, 1fr)); gap: 16px; margin-top: 16px; }
+  .cert-grid .pub { gap: 10px; }
+  .cert-grid .cert-row a { flex: 1 1 90px; }
+  details.bibtex {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid var(--border); border-radius: 10px;
+    padding: 10px 14px;
+  }
+  details.bibtex summary { cursor: pointer; font-size: 0.84rem; font-weight: 600; color: var(--celestial-cyan); }
+  details.bibtex pre {
+    margin: 10px 0 4px; padding: 12px;
+    background: rgba(0, 0, 0, 0.35); border-radius: 8px;
+    overflow-x: auto; font-size: 0.74rem; line-height: 1.55; color: #C9D3E8;
+  }
+
   /* ---------- milestones ---------- */
   .timeline {
     position: relative; margin-left: 8px; padding-left: 30px;
@@ -357,6 +414,7 @@
     <div class="nav-links">
       <a href="#about"><span class="t-en">About</span><span class="t-vi">Giới thiệu</span></a>
       <a href="#projects"><span class="t-en">Projects</span><span class="t-vi">Dự án</span></a>
+      <a href="#research"><span class="t-en">Research</span><span class="t-vi">Công bố</span></a>
       <a href="#milestones"><span class="t-en">Milestones</span><span class="t-vi">Cột mốc</span></a>
       <a href="#contact"><span class="t-en">Contact</span><span class="t-vi">Liên hệ</span></a>
       <div class="lang-switch" role="group" aria-label="Language">
@@ -523,6 +581,162 @@
             <span class="t-en">→ Live demo</span><span class="t-vi">→ Demo chạy thật</span>
           </a>
           <a href="https://github.com/Kein95/luonvuituoi-honor-roll" target="_blank" rel="noopener">→ GitHub</a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section id="research">
+    <div class="sec-label"><span class="t-en">Research</span><span class="t-vi">Công bố</span></div>
+    <h2>
+      <span class="t-en">Publications &amp; certificates 🎖️</span>
+      <span class="t-vi">Công bố &amp; chứng chỉ 🎖️</span>
+    </h2>
+
+    <article class="pub reveal">
+      <div class="kicker">
+        <span class="t-en">📄 MAPR 2026 · First Author</span><span class="t-vi">📄 MAPR 2026 · First author</span>
+      </div>
+      <h3>LVT-EG: Edge-Guided License Plate Recognition via Learned Visual Tactility</h3>
+      <p class="t-en">
+        Accepted at <strong>MAPR 2026</strong> — International Conference on Multimedia Analysis and
+        Pattern Recognition (paper #37, accepted 6 Jul 2026). Mentored by @duongtruongbinh,
+        AI Researcher at AI VIET NAM.
+      </p>
+      <p class="t-vi">
+        Được chấp nhận tại <strong>MAPR 2026</strong> — International Conference on Multimedia Analysis
+        and Pattern Recognition (paper #37, chấp nhận 06/07/2026). Dẵn dường bởi @duongtruongbinh,
+        AI Researcher tại AI VIET NAM.
+      </p>
+      <div class="links">
+        <a href="https://mapr.uit.edu.vn/list-accepted-papers-mapr-2026" target="_blank" rel="noopener">
+          <span class="t-en">→ Accepted papers list</span><span class="t-vi">→ Danh sách paper accepted</span>
+        </a>
+        <a href="https://mapr.uit.edu.vn/" target="_blank" rel="noopener">
+          <span class="t-en">→ Conference site</span><span class="t-vi">→ Trang hội nghị</span>
+        </a>
+      </div>
+    </article>
+
+    <article class="pub reveal">
+      <div class="kicker">
+        <span class="t-en">🚘 ICPR 2026 Competition · Team AIO_RIVA_RICE</span><span class="t-vi">🚘 Cuộc thi ICPR 2026 · Đội AIO_RIVA_RICE</span>
+      </div>
+      <h3>ICPR 2026 Competition on Low-Resolution License Plate Recognition</h3>
+      <p class="t-en">
+        Reading license plates from heavily degraded, low-resolution imagery (the <strong>LRLPR-26</strong>
+        dataset). Placed <strong>#20 of 99 valid submissions</strong> — 269 teams from 41 countries.
+      </p>
+      <p class="t-vi">
+        Đọc biển số xe từ ảnh bị suy giảm nặng, độ phân giải thấp (bộ dữ liệu <strong>LRLPR-26</strong>).
+        Đạt <strong>#20 / 99 bài hợp lệ</strong> — 269 đội đến từ 41 quốc gia.
+      </p>
+      <div class="links">
+        <a href="https://www.codabench.org/competitions/12259/#/results-tab" target="_blank" rel="noopener">
+          <span class="t-en">→ Leaderboard (Codabench)</span><span class="t-vi">→ Bảng xếp hạng (Codabench)</span>
+        </a>
+        <a href="https://arxiv.org/abs/2604.22506" target="_blank" rel="noopener">
+          <span class="t-en">→ Report (arXiv:2604.22506)</span><span class="t-vi">→ Báo cáo (arXiv:2604.22506)</span>
+        </a>
+        <a href="https://github.com/raysonlaroca/lrlpr-26-dataset" target="_blank" rel="noopener">
+          <span class="t-en">→ LRLPR-26 dataset</span><span class="t-vi">→ Bộ dữ liệu LRLPR-26</span>
+        </a>
+      </div>
+      <div class="cert-row">
+        <a href="assets/icpr2026/htkien95-team.pdf" target="_blank" rel="noopener">
+          <img src="assets/icpr2026/icpr2026_top20_ranking_cert.png" alt="ICPR 2026 Top-20 ranking certificate">
+        </a>
+        <a href="assets/icpr2026/htkien95.pdf" target="_blank" rel="noopener">
+          <img src="assets/icpr2026/icpr2026_participation_ho_trung_kien.png" alt="ICPR 2026 certificate of participation">
+        </a>
+      </div>
+      <div class="cap">
+        <span class="t-en">📜 Click a certificate to download the signed PDF · verify:
+          <a href="https://icpr26lrlpr.github.io/certificates/ranking/htkien95.pdf" target="_blank" rel="noopener">ranking</a> ·
+          <a href="https://icpr26lrlpr.github.io/certificates/participation/htkien95.pdf" target="_blank" rel="noopener">participation</a></span>
+        <span class="t-vi">📜 Bấm vào chứng chỉ để tải PDF có chữ ký · xác minh:
+          <a href="https://icpr26lrlpr.github.io/certificates/ranking/htkien95.pdf" target="_blank" rel="noopener">xếp hạng</a> ·
+          <a href="https://icpr26lrlpr.github.io/certificates/participation/htkien95.pdf" target="_blank" rel="noopener">tham dự</a></span>
+      </div>
+      <div class="cap">
+        <span class="t-en">🙏 The competition report names the <strong>top 5 teams</strong> as co-authors — my team ranked 20th, so full credit goes to the listed authors. If the paper fits your research, please cite it:</span>
+        <span class="t-vi">🙏 Báo cáo cuộc thi ghi <strong>top 5 đội</strong> là đồng tác giả — đội tôi hạng 20, toàn bộ credit thuộc về các tác giả được liệt kê. Nếu phù hợp nghiên cứu của bạn, hãy trích dẫn:</span>
+      </div>
+      <details class="bibtex">
+        <summary>📌 BibTeX</summary>
+        <pre>@inproceedings{laroca2026competition,
+  title = {{ICPR} 2026 {C}ompetition on Low-Resolution License Plate Recognition},
+  author = {R. {Laroca} and V. {Nascimento} and D. {Kim} and S. {Chung} and S. {Bae} and U. {Seo} and S. {Oh} and C. M. {Phung} and M. G. {Vo} and X. {Ye} and Y. {Du} and Y. {Su} and Z. {Chen} and S. {Heo} and H. {Lee} and K. {Na} and K. V. {Vu Nguyen} and S. T. {Pham} and D. N. N. {Phung} and T. P. {Le} and V. N. {Vo Tran} and D. {Menotti}},
+  year = {2026},
+  month = {Aug},
+  booktitle = {International Conference on Pattern Recognition (ICPR)},
+  pages = {1-20}
+}</pre>
+      </details>
+    </article>
+
+    <div class="cert-grid">
+      <article class="pub reveal">
+        <div class="kicker">🏅 JOAI2026</div>
+        <h3><a href="https://ioai-japan.org/" target="_blank" rel="noopener">2nd Japanese Olympiad in AI</a></h3>
+        <p class="t-en">Open category — Honorable Mention (努力賞).</p>
+        <p class="t-vi">Hạng mục mở — Giải khuyến khích (努力賞).</p>
+        <div class="cert-row">
+          <a href="assets/joai2026/JOAI2026_KIEN_%E5%8A%AA%E5%8A%9B%E8%B3%9E.pdf" target="_blank" rel="noopener">
+            <img src="assets/joai2026/JOAI2026_KIEN_honorable_mention.png" alt="JOAI2026 Honorable Mention certificate">
+          </a>
+        </div>
+        <div class="cap">
+          <span class="t-en">📜 Click to download the signed PDF</span>
+          <span class="t-vi">📜 Bấm để tải PDF có chữ ký</span>
+        </div>
+      </article>
+
+      <article class="pub reveal">
+        <div class="kicker">
+          <span class="t-en">🎓 AI for Impact</span><span class="t-vi">🎓 AI for Impact</span>
+        </div>
+        <h3><span class="t-en">Education in the AI Era</span><span class="t-vi">Giáo dục thời AI</span></h3>
+        <p class="t-en">"Governance and Creativity" — STEAM for Vietnam, under AI Opportunity Fund: Asia Pacific (AVPN · Google.org · ADB · U.S. Mission Vietnam).</p>
+        <p class="t-vi">"Quản trị và sáng tạo" — STEAM for Vietnam, thuộc AI Opportunity Fund: Asia Pacific (AVPN · Google.org · ADB · U.S. Mission Vietnam).</p>
+        <div class="cert-row">
+          <a href="assets/ai-for-impact/ai_for_impact_giao_duc_thoi_ai_ho_trung_kien.pdf" target="_blank" rel="noopener">
+            <img src="assets/ai-for-impact/ai_for_impact_giao_duc_thoi_ai_ho_trung_kien.png" alt="AI for Impact certificate">
+          </a>
+        </div>
+        <div class="cap">
+          <span class="t-en">✅ <a href="https://lms.eduone.ai/certificates/1058862c5c8a474c994443116571d568" target="_blank" rel="noopener">Verify on eduone.ai</a></span>
+          <span class="t-vi">✅ <a href="https://lms.eduone.ai/certificates/1058862c5c8a474c994443116571d568" target="_blank" rel="noopener">Xác minh tại eduone.ai</a></span>
+        </div>
+      </article>
+
+      <article class="pub reveal">
+        <div class="kicker">
+          <span class="t-en">🎓 AI Vietnam — AIO2024</span><span class="t-vi">🎓 AI Vietnam — AIO2024</span>
+        </div>
+        <h3><a href="https://aivietnam.edu.vn/" target="_blank" rel="noopener">All-In-One Data Science &amp; AI</a></h3>
+        <p class="t-en">Completed the course with three certificates: Machine Learning, Deep Learning, GenAI/LLM.</p>
+        <p class="t-vi">Hoàn thành khóa học với ba chứng chỉ: Machine Learning, Deep Learning, GenAI/LLM.</p>
+        <div class="cert-row">
+          <a href="ai-vietnam-cert/certificate_machine_learning_ho_trung_kien_23148920.png" target="_blank" rel="noopener">
+            <img src="ai-vietnam-cert/certificate_machine_learning_ho_trung_kien_23148920.png" alt="AIO2024 Machine Learning certificate">
+          </a>
+          <a href="ai-vietnam-cert/certificate_deep_learning_ho_trung_kien_44828246.png" target="_blank" rel="noopener">
+            <img src="ai-vietnam-cert/certificate_deep_learning_ho_trung_kien_44828246.png" alt="AIO2024 Deep Learning certificate">
+          </a>
+          <a href="ai-vietnam-cert/certificate_genai_llm_ho_trung_kien_81865591.png" target="_blank" rel="noopener">
+            <img src="ai-vietnam-cert/certificate_genai_llm_ho_trung_kien_81865591.png" alt="AIO2024 GenAI/LLM certificate">
+          </a>
+        </div>
+        <div class="cap">
+          <span class="t-en">✅ Verify:
+            <a href="https://lms.aivietnam.edu.vn/verification/accomplishments/23148920" target="_blank" rel="noopener">ML</a> ·
+            <a href="https://lms.aivietnam.edu.vn/verification/accomplishments/44828246" target="_blank" rel="noopener">DL</a> ·
+            <a href="https://lms.aivietnam.edu.vn/verification/accomplishments/81865591" target="_blank" rel="noopener">GenAI</a></span>
+          <span class="t-vi">✅ Xác minh:
+            <a href="https://lms.aivietnam.edu.vn/verification/accomplishments/23148920" target="_blank" rel="noopener">ML</a> ·
+            <a href="https://lms.aivietnam.edu.vn/verification/accomplishments/44828246" target="_blank" rel="noopener">DL</a> ·
+            <a href="https://lms.aivietnam.edu.vn/verification/accomplishments/81865591" target="_blank" rel="noopener">GenAI</a></span>
         </div>
       </article>
     </div>
