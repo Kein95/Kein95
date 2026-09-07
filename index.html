@@ -301,10 +301,11 @@
   .pub .links a { font-size: 0.84rem; font-weight: 600; text-decoration: none; color: var(--celestial-cyan); }
   .pub .links a:hover { color: var(--water-light); text-decoration: underline; }
   .pub + .pub { margin-top: 16px; }
-  .cert-row { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 4px; }
+  .cert-row { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 4px; justify-content: center; }
   .cert-row a { flex: 1 1 200px; max-width: 260px; }
   .cert-row img {
-    width: 100%; height: auto; display: block;
+    width: 100%; height: 240px; object-fit: contain; display: block;
+    background: rgba(255, 255, 255, 0.02);
     border-radius: 10px; border: 1px solid var(--border);
     transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
   }
@@ -316,17 +317,19 @@
   .cap { font-size: 0.76rem; color: var(--dim); }
   .cap a { color: var(--celestial-cyan); text-decoration: none; }
   .cap a:hover { color: var(--water-light); text-decoration: underline; }
-  .cert-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(270px, 1fr)); gap: 16px; margin-top: 16px; }
+  .cert-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(270px, 1fr)); gap: 16px; margin-top: 16px; align-items: stretch; }
   .cert-grid .pub { gap: 10px; }
-  .cert-grid .cert-row a { flex: 1 1 90px; }
-  details.bibtex {
+  .cert-grid .cert-row { flex-direction: column; flex-wrap: nowrap; }
+  .cert-grid .cert-row a { max-width: 100%; }
+  .cert-grid .cert-row img { height: 210px; }
+  .bibtex {
     background: rgba(255, 255, 255, 0.05);
     border: 1px solid var(--border); border-radius: 10px;
-    padding: 10px 14px;
+    padding: 12px 14px;
   }
-  details.bibtex summary { cursor: pointer; font-size: 0.84rem; font-weight: 600; color: var(--celestial-cyan); }
-  details.bibtex pre {
-    margin: 10px 0 4px; padding: 12px;
+  .bibtex-title { font-size: 0.84rem; font-weight: 600; color: var(--celestial-cyan); margin-bottom: 8px; }
+  .bibtex pre {
+    margin: 0; padding: 12px;
     background: rgba(0, 0, 0, 0.35); border-radius: 8px;
     overflow-x: auto; font-size: 0.74rem; line-height: 1.55; color: #C9D3E8;
   }
@@ -662,8 +665,8 @@
         <span class="t-en">🙏 The competition report names the <strong>top 5 teams</strong> as co-authors — my team ranked 20th, so full credit goes to the listed authors. If the paper fits your research, please cite it:</span>
         <span class="t-vi">🙏 Báo cáo cuộc thi ghi <strong>top 5 đội</strong> là đồng tác giả — đội tôi hạng 20, toàn bộ credit thuộc về các tác giả được liệt kê. Nếu phù hợp nghiên cứu của bạn, hãy trích dẫn:</span>
       </div>
-      <details class="bibtex">
-        <summary>📌 BibTeX</summary>
+      <div class="bibtex">
+        <div class="bibtex-title">📌 BibTeX</div>
         <pre>@inproceedings{laroca2026competition,
   title = {{ICPR} 2026 {C}ompetition on Low-Resolution License Plate Recognition},
   author = {R. {Laroca} and V. {Nascimento} and D. {Kim} and S. {Chung} and S. {Bae} and U. {Seo} and S. {Oh} and C. M. {Phung} and M. G. {Vo} and X. {Ye} and Y. {Du} and Y. {Su} and Z. {Chen} and S. {Heo} and H. {Lee} and K. {Na} and K. V. {Vu Nguyen} and S. T. {Pham} and D. N. N. {Phung} and T. P. {Le} and V. N. {Vo Tran} and D. {Menotti}},
@@ -672,7 +675,7 @@
   booktitle = {International Conference on Pattern Recognition (ICPR)},
   pages = {1-20}
 }</pre>
-      </details>
+      </div>
     </article>
 
     <div class="cert-grid">
