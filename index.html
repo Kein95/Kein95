@@ -254,7 +254,9 @@
   .chip {
     font-size: 0.78rem; font-weight: 600; padding: 6px 13px;
     border-radius: 999px; border: 1px solid var(--border);
-    color: var(--text); background: rgba(255, 255, 255, 0.03);
+    color: var(--text);
+    background: color-mix(in srgb, var(--glow, #35C2FF) 12%, rgba(255, 255, 255, 0.03));
+    border-color: color-mix(in srgb, var(--glow, #35C2FF) 22%, rgba(255, 255, 255, 0.14));
   }
   .chip.hot { border-color: rgba(244, 58, 32, 0.45); color: #FFB4A3; }
   .chip.cool { border-color: rgba(53, 194, 255, 0.4); color: var(--water-light); }
@@ -301,8 +303,10 @@
   .proj .meta { display: flex; flex-wrap: wrap; gap: 7px; }
   .proj .meta span {
     font-size: 0.72rem; font-weight: 600; padding: 4px 11px;
-    border-radius: 999px; background: rgba(255, 255, 255, 0.05);
-    border: 1px solid var(--border); color: var(--dim);
+    border-radius: 999px;
+    background: color-mix(in srgb, var(--glow, #B835C7) 13%, transparent);
+    border: 1px solid color-mix(in srgb, var(--glow, #B835C7) 24%, rgba(255, 255, 255, 0.12));
+    color: var(--dim);
   }
   .proj .links { display: flex; flex-wrap: wrap; gap: 16px; }
   .proj .links a {
@@ -375,7 +379,7 @@
   .cert-grid .cert-row img { height: 210px; }
   .cert-grid .cert-row img.portrait { height: auto; }
   .bibtex {
-    background: rgba(255, 255, 255, 0.05);
+    background: color-mix(in srgb, var(--glow, #155BFF) 9%, rgba(255, 255, 255, 0.04));
     border: 1px solid var(--border); border-radius: 10px;
     padding: 12px 14px;
   }
@@ -464,6 +468,28 @@
   /* ---------- reveal ---------- */
   .reveal { opacity: 0; transform: translateY(18px); transition: opacity 0.5s ease, transform 0.5s ease; }
   .reveal.in { opacity: 1; transform: none; }
+
+  /* tinted brand surfaces — each card carries its own hue via --glow (kept last so it wins over per-section rules) */
+  .about-card { --glow: #B835C7; }
+  .chips-card { --glow: #35C2FF; }
+  .stats .stat:nth-child(4n+1) { --glow: #F43A20; }
+  .stats .stat:nth-child(4n+2) { --glow: #FFC247; }
+  .stats .stat:nth-child(4n+3) { --glow: #B835C7; }
+  .stats .stat:nth-child(4n+4) { --glow: #155BFF; }
+  .contact-grid .ccard:nth-child(4n+1) { --glow: #F43A20; }
+  .contact-grid .ccard:nth-child(4n+2) { --glow: #FFC247; }
+  .contact-grid .ccard:nth-child(4n+3) { --glow: #B835C7; }
+  .contact-grid .ccard:nth-child(4n+4) { --glow: #155BFF; }
+  .stat, .about-card, .chips-card, .proj, .pub, .ccard {
+    background: var(--card);
+    background:
+      linear-gradient(160deg,
+        color-mix(in srgb, var(--glow, #5A3BEA) 22%, transparent) 0%,
+        color-mix(in srgb, var(--glow, #5A3BEA) 7%, transparent) 55%,
+        transparent 100%),
+      linear-gradient(165deg, #1E2749 0%, #182243 55%, #161E3A 100%);
+    border-color: color-mix(in srgb, var(--glow, #5A3BEA) 30%, rgba(255, 255, 255, 0.14));
+  }
 
   @media (prefers-reduced-motion: reduce) {
     html { scroll-behavior: auto; }
