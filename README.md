@@ -17,11 +17,6 @@
 
 </div>
 
-<!-- Dynamic metrics — auto-rendered by .github/workflows/metrics.yml every 6h -->
-<div align="center">
-  <img src="assets/generated/metrics.svg" alt="GitHub metrics: stars, repos, contributions and top languages" width="100%">
-</div>
-
 <!-- About Me -->
 
 ## 👨‍💻 About Me
@@ -252,16 +247,6 @@ admin. Bilingual docs, animated UI, login hardening (rate-limit + CSRF + audit).
 | 📱 Phone / Zalo | [+84 348 635 408](tel:+84348635408) |
 | 🐙 GitHub | [@Kein95](https://github.com/Kein95) |
 | 🌐 Live projects | [honor-roll demo](https://honor-roll.luonvuituoi.work) · [luonvuituoi-cert docs](https://kein95.github.io/luonvuituoi-cert/) · [lpr-dataset-hub](https://lpr-datahub.luonvuituoi.work) |
-
-## 🐍 Contribution snake
-
-<!-- Animated SVG — auto-generated every 6h by .github/workflows/metrics.yml -->
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/generated/snake-dark.svg">
-    <img src="assets/generated/snake.svg" alt="Contribution snake animation" width="100%">
-  </picture>
-</div>
 
 ---
 
