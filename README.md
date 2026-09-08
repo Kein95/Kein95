@@ -17,6 +17,11 @@
 
 </div>
 
+<!-- Dynamic metrics — auto-rendered by .github/workflows/metrics.yml every 6h -->
+<div align="center">
+  <img src="assets/generated/metrics.svg" alt="GitHub metrics: stars, repos, contributions and top languages" width="100%">
+</div>
+
 <!-- About Me -->
 
 ## 👨‍💻 About Me
@@ -88,13 +93,16 @@ As team **AIO_RIVA_RICE**, I placed **#20 of 99 valid submissions** (269 teams f
 **Authors:** Rayson Laroca, Valfride Nascimento, Donggun Kim, Sanghyeok Chung, Subin Bae, Uihwan Seo, Seungsang Oh, Chi M. Phung, Minh G. Vo, Xingsong Ye, Yongkun Du, Yuchen Su, Zhineng Chen, Sunhee Heo, Hyangwoo Lee, Kihyun Na, Khanh V. Vu Nguyen, Sang T. Pham, Duc N. N. Phung, Trong P. Le, Vy N. Vo Tran, David Menotti.
 
 ```bibtex
-@inproceedings{laroca2026competition,
-  title = {{ICPR} 2026 {C}ompetition on Low-Resolution License Plate Recognition},
-  author = {R. {Laroca} and V. {Nascimento} and D. {Kim} and S. {Chung} and S. {Bae} and U. {Seo} and S. {Oh} and C. M. {Phung} and M. G. {Vo} and X. {Ye} and Y. {Du} and Y. {Su} and Z. {Chen} and S. {Heo} and H. {Lee} and K. {Na} and K. V. {Vu Nguyen} and S. T. {Pham} and D. N. N. {Phung} and T. P. {Le} and V. N. {Vo Tran} and D. {Menotti}},
-  year = {2026},
-  month = {Aug},
-  booktitle = {International Conference on Pattern Recognition (ICPR)},
-  pages = {1-20}
+@InProceedings{10.1007/978-3-032-31936-4_18,
+  author = {Laroca, Rayson and Nascimento, Valfride and Kim, Donggun and Chung, Sanghyeok and Bae, Subin and Seo, Uihwan and Oh, Seungsang and Phung, Chi M. and Vo, Minh G. and Ye, Xingsong and Du, Yongkun and Su, Yuchen and Chen, Zhineng and Heo, Sunhee and Lee, Hyangwoo and Na, Kihyun and Nguyen, Khanh V. Vu and Pham, Sang T. and Phung, Duc N. N. and Le, Trong P. and Tran, Vy N. Vo and Menotti, David},
+  editor = {De Marsico, Maria and Ho, Tin Kam and Jurie, Frederic and Liu, Cheng-Lin and Lopresti, Daniel and Nystr{\"o}m, Ingela and Ogier, Jean-Marc and Ross, Arun and Wang, Liang},
+  title = {ICPR 2026 Competition on Low-Resolution License Plate Recognition},
+  booktitle = {Pattern Recognition},
+  year = {2027},
+  publisher = {Springer Nature Switzerland},
+  address = {Cham},
+  pages = {256--275},
+  isbn = {978-3-032-31936-4}
 }
 ```
 
@@ -244,6 +252,16 @@ admin. Bilingual docs, animated UI, login hardening (rate-limit + CSRF + audit).
 | 📱 Phone / Zalo | [+84 348 635 408](tel:+84348635408) |
 | 🐙 GitHub | [@Kein95](https://github.com/Kein95) |
 | 🌐 Live projects | [honor-roll demo](https://honor-roll.luonvuituoi.work) · [luonvuituoi-cert docs](https://kein95.github.io/luonvuituoi-cert/) · [lpr-dataset-hub](https://lpr-datahub.luonvuituoi.work) |
+
+## 🐍 Contribution snake
+
+<!-- Animated SVG — auto-generated every 6h by .github/workflows/metrics.yml -->
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/generated/snake-dark.svg">
+    <img src="assets/generated/snake.svg" alt="Contribution snake animation" width="100%">
+  </picture>
+</div>
 
 ---
 

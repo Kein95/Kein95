@@ -1,0 +1,54 @@
+name: Render profile metrics
+
+on:
+  schedule:
+    - cron: "0 */6 * * *" # every 6h UTC
+  workflow_dispatch:
+  push:
+    paths:
+      - "scripts/render-metrics.mjs"
+      - ".github/workflows/metrics.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: render-metrics
+  cancel-in-progress: false
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Contribution snake (animated SVG)
+        uses: Platane/snk@v3
+        with:
+          github_user_name: Kein95
+          outputs: |
+            assets/generated/snake.svg?palette=github-light
+            assets/generated/snake-dark.svg?palette=github-dark
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Render metrics card
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/render-metrics.mjs
+
+      - name: Commit generated assets
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/generated
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "ci: refresh profile metrics [skip ci]"
+            git push
+          fi
