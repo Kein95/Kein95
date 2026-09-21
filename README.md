@@ -42,7 +42,8 @@ award cohorts.
 
 | Year | Program / Competition | Focus | Result |
 |------|-------------|-------|--------|
-| 2026 | [MAPR 2026: Multimedia Analysis and Pattern Recognition](https://mapr.uit.edu.vn/) | LVT-EG: Edge-Guided License Plate Recognition via Learned Visual Tactility (first-author paper #37) | 📄 **Paper accepted** |
+| 2026 | ACCV 2026: Asian Conference on Computer Vision | Paper submission | ❌ **Reject** (avg score 3.67/6, 3 reviewers) |
+| 2026 | [MAPR 2026: Multimedia Analysis and Pattern Recognition](https://mapr.uit.edu.vn/) | LVT-EG: Edge-Guided License Plate Recognition via Learned Visual Tactility (first-author paper #37) | 📄 **Published** ([IEEE Xplore](https://doi.org/10.1109/MAPR72750.2026.11685754)) |
 | 2026 | [ICPR 2026 Competition on Low-Resolution License Plate Recognition](https://icpr26lrlpr.github.io/) | License plate recognition on low-resolution imagery | 🏆 **#20 of 99** (269 teams · 41 countries) |
 | 2026 | [JOAI2026: 2nd Japanese Olympiad in AI](https://ioai-japan.org/) | Open category | 🏅 **Honorable Mention** (努力賞) |
 | 2026 | [AI for Impact: Education in the AI Era](https://steamforvietnam.org/) | Governance & creativity in the AI era | **Completed course** |
@@ -53,9 +54,25 @@ award cohorts.
 
 **LVT-EG: Edge-Guided License Plate Recognition via Learned Visual Tactility**
 
-- 📚 Venue: [**MAPR 2026**](https://mapr.uit.edu.vn/) — International Conference on Multimedia Analysis and Pattern Recognition
-- ✅ Status: accepted 6 Jul 2026 (paper #37) · see the [list of accepted papers](https://mapr.uit.edu.vn/list-accepted-papers-mapr-2026)
+- 📚 Venue: **2026 International Conference on Multimedia Analysis and Pattern Recognition (MAPR)**
+- ✅ Status: published, pp. 97-102 · [IEEE Xplore](https://doi.org/10.1109/MAPR72750.2026.11685754) (DOI: 10.1109/MAPR72750.2026.11685754) · accepted 6 Jul 2026 (paper #37, [accepted papers list](https://mapr.uit.edu.vn/list-accepted-papers-mapr-2026))
 - 🧭 Mentor: [@duongtruongbinh](https://github.com/duongtruongbinh)
+
+<details>
+<summary>📌 Citation (BibTeX)</summary>
+
+```bibtex
+@INPROCEEDINGS{11685754,
+  author={Trung, Kien Ho and Duong, Truong-Binh},
+  booktitle={2026 International Conference on Multimedia Analysis and Pattern Recognition (MAPR)},
+  title={LVT-EG: Edge-Guided License Plate Recognition via Learned Visual Tactility},
+  year={2026},
+  pages={97-102},
+  doi={10.1109/MAPR72750.2026.11685754}
+}
+```
+
+</details>
 
 ### 🚘 ICPR 2026 Competition on Low-Resolution License Plate Recognition
 
@@ -165,12 +182,12 @@ AIO2024 is AI Vietnam's All-In-One course for Data Science and Artificial Intell
 
 ### [📄 LVT-EG: Edge-Guided License Plate Recognition via Learned Visual Tactility](https://github.com/Kein95/lvt-eg)
 
-Accepted at **MAPR 2026** (paper #37).
+Published at **MAPR 2026**, pp. 97-102 (paper #37).
 
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
 
-[→ Accepted papers list](https://mapr.uit.edu.vn/list-accepted-papers-mapr-2026)
+[→ IEEE Xplore](https://doi.org/10.1109/MAPR72750.2026.11685754)
 
 Mentored by [@duongtruongbinh](https://github.com/duongtruongbinh), AI
 Researcher at [AI VIET NAM](https://aivietnam.edu.vn/).
