@@ -42,6 +42,7 @@ award cohorts.
 
 | Year | Program / Competition | Focus | Result |
 |------|-------------|-------|--------|
+| 2026 | [RIVF 2026: The 20th International Conference on Computing and Communication Technologies](https://rivf2026.org/) | 3 first-author papers (HORSE-RM, AIODT, VAR) in SS1: Artificial Intelligence for Smart Cities | 🎉 **3 papers accepted** · 29 Oct 2026 · presented Dec 18-20 at VinUniversity |
 | 2026 | ACCV 2026: Asian Conference on Computer Vision | Paper submission | ❌ **Reject** (avg score 3.67/6, 3 reviewers) |
 | 2026 | [MAPR 2026: Multimedia Analysis and Pattern Recognition](https://mapr.uit.edu.vn/) | LVT-EG: Edge-Guided License Plate Recognition via Learned Visual Tactility (first-author paper #37) | 📄 **Published** ([IEEE Xplore](https://doi.org/10.1109/MAPR72750.2026.11685754)) |
 | 2026 | [ICPR 2026 Competition on Low-Resolution License Plate Recognition](https://icpr26lrlpr.github.io/) | License plate recognition on low-resolution imagery | 🏆 **#20 of 99** (269 teams · 41 countries) |
@@ -51,6 +52,16 @@ award cohorts.
 | 2013&#8209;2017 | [Academy of Finance](https://hvtc.edu.vn/) | Bachelor's degree | 🎓 **Graduated** |
 
 ## 📄 Publications
+
+**🎉 RIVF 2026 · SS1: Artificial Intelligence for Smart Cities**
+
+- 📚 Venue: **The 20th International Conference on Computing and Communication Technologies (RIVF 2026)** · Dec 18-20, 2026 · VinUniversity, Hanoi · [rivf2026.org](https://rivf2026.org/)
+- ✅ Status: accepted 29 Oct 2026 · first author on all three papers
+- 📄 Papers:
+  1. **HORSE-RM**: Recognition-First License Plate Recognition under Degradation for Smart-City Traffic
+  2. **AIODT**: Assisted Interactive Operator-in-the-Loop Discovery Toolkit for Vietnamese Urban Video Retrieval
+  3. **VAR**: Testing Agent Invariance in Third-Party AI Assessment for Smart Cities
+- 🙏 Acknowledgment: carried out by the authors in their personal capacities · no external funding.
 
 **LVT-EG: Edge-Guided License Plate Recognition via Learned Visual Tactility**
 
