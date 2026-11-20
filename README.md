@@ -45,7 +45,7 @@ award cohorts.
 | 2026 | [VANJ 2026: 7th Annual Conference on Interdisciplinary Research and Innovation](https://conf.vanj.jp/2026/) | When AI Stops and Humans Decide: A Production Case Study of AI-Assisted Digital Transformation in Vietnamese Private Examination Operations (presentation) | 🎤 **Presented** · 14 Nov 2026 · Abstract accepted 2 Oct · Hiroshima University, Japan |
 | 2026 | [RIVF 2026: The 20th International Conference on Computing and Communication Technologies](https://rivf2026.org/) | 3 first-author papers (HORSE-RM, AIODT, VAR) in SS1: Artificial Intelligence for Smart Cities | 🎉 **3 papers accepted** · 29 Oct 2026 · presented Dec 18-20 at VinUniversity |
 | 2026 | ACCV 2026: Asian Conference on Computer Vision | Paper submission | ❌ **Reject** (avg score 3.67/6, 3 reviewers) |
-| 2026 | [2026 International Conference on Multimedia Analysis and Pattern Recognition (MAPR)](https://mapr.uit.edu.vn/) | LVT-EG: Edge-Guided License Plate Recognition via Learned Visual Tactility (first-author paper #37) | 📄 **Published** ([IEEE Xplore](https://doi.org/10.1109/MAPR72750.2026.11685754)) · presented 13-14 Aug 2026 in Hue |
+| 2026 | [2026 International Conference on Multimedia Analysis and Pattern Recognition (MAPR)](https://mapr.uit.edu.vn/) | LVT-EG: Edge-Guided License Plate Recognition via Learned Visual Tactility (first-author paper #37) | 🎤 **Presented** · 13-14 Aug 2026 in Hue · 📄 **Published** ([IEEE Xplore](https://doi.org/10.1109/MAPR72750.2026.11685754)) · 17 Sep 2026 |
 | 2026 | [ICPR 2026 Competition on Low-Resolution License Plate Recognition](https://icpr26lrlpr.github.io/) | License plate recognition on low-resolution imagery | 🏆 **#20 of 99** (269 teams · 41 countries) |
 | 2026 | [JOAI2026: 2nd Japanese Olympiad in AI](https://ioai-japan.org/) | Open category | 🏅 **Honorable Mention** (努力賞) |
 | 2026 | [AI for Impact: Education in the AI Era](https://steamforvietnam.org/) | Governance & creativity in the AI era | **Completed course** |
@@ -67,7 +67,7 @@ award cohorts.
 **LVT-EG: Edge-Guided License Plate Recognition via Learned Visual Tactility**
 
 - 📚 Venue: **2026 International Conference on Multimedia Analysis and Pattern Recognition (MAPR)**
-- ✅ Status: published, pp. 97-102 · [IEEE Xplore](https://doi.org/10.1109/MAPR72750.2026.11685754) (DOI: 10.1109/MAPR72750.2026.11685754) · accepted 6 Jul 2026 (paper #37, [accepted papers list](https://mapr.uit.edu.vn/list-accepted-papers-mapr-2026))
+- ✅ Status: accepted 6 Jul 2026 · presented 13-14 Aug 2026 in Hue · published in IEEE Xplore 17 Sep 2026, pp. 97-102 (paper #37, [IEEE Xplore](https://doi.org/10.1109/MAPR72750.2026.11685754), [accepted papers list](https://mapr.uit.edu.vn/list-accepted-papers-mapr-2026))
 - 🧭 Mentor: [@duongtruongbinh](https://github.com/duongtruongbinh)
 
 <details>
