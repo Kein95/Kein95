@@ -398,7 +398,6 @@
   .cert-grid .pub { gap: 10px; }
   .cert-grid .cert-row { flex-direction: column; flex-wrap: nowrap; }
   .cert-grid .cert-row a { max-width: 100%; }
-  .cert-grid .pub > p { min-height: 98px; }
   .cert-grid .cert-row img { height: 210px; }
   .cert-grid .cert-row img.portrait { height: auto; }
   .cert-grid .pub:nth-child(4) { grid-column: 1 / -1; }
@@ -406,7 +405,6 @@
   .cert-grid .pub:nth-child(4) .cert-row a { flex: 1 1 0; min-width: 0; }
   .cert-grid .pub:nth-child(4) .cert-row img { height: auto; width: 100%; }
   .cert-grid .pub:nth-child(1) .cert-row { margin-top: 16px; }
-  .cert-grid .pub:nth-child(4) > p { min-height: 0; }
   .bibtex {
     background: color-mix(in srgb, var(--glow, #155BFF) 9%, rgba(255, 255, 255, 0.04));
     border: 1px solid var(--border); border-radius: 10px;
@@ -456,6 +454,9 @@
   .titem h4 a { color: var(--text); text-decoration: none; }
   .titem h4 a:hover { color: var(--water-light); }
   .titem p { color: var(--dim); font-size: 0.88rem; text-align: justify; }
+  .titem ol.titem-papers { margin: 4px 0 0; padding-left: 20px; color: var(--dim); font-size: 0.88rem; text-align: justify; }
+  .titem ol.titem-papers li { margin: 2px 0; }
+  .titem ol.titem-papers strong { color: var(--text); }
   .titem .result {
     display: inline-block; margin-top: 7px;
     font-size: 0.78rem; font-weight: 700; color: #FFD9A8;
@@ -779,6 +780,24 @@
           <span class="t-en">→ Conference site</span><span class="t-vi">→ Trang hội nghị</span>
         </a>
       </div>
+      <div class="bibtex">
+        <div class="bibtex-head">
+          <div class="bibtex-title">📌 BibTeX</div>
+          <button class="copy-btn" id="copy-bib-mapr" type="button" data-code="bibtex-code-mapr" aria-label="Copy BibTeX to clipboard">
+            <span class="lbl"><span class="t-en">⧉ Copy</span><span class="t-vi">⧉ Sao chép</span></span>
+            <span class="ok-lbl"><span class="t-en">✓ Copied</span><span class="t-vi">✓ Đã chép</span></span>
+          </button>
+        </div>
+        <pre id="bibtex-code-mapr">@inproceedings{kienho2026lvteg,
+  title     = {{LVT-EG}: Edge-Guided License Plate Recognition via Learned Visual Tactility},
+  author    = {Kien Ho Trung and Truong-Binh Duong},
+  booktitle = {2026 International Conference on Multimedia Analysis and Pattern Recognition (MAPR)},
+  year      = {2026},
+  month     = aug,
+  pages     = {97--102},
+  doi       = {10.1109/MAPR72750.2026.11685754},
+}</pre>
+      </div>
     </article>
 
     <article class="pub reveal">
@@ -831,7 +850,7 @@
       <div class="bibtex">
         <div class="bibtex-head">
           <div class="bibtex-title">📌 BibTeX</div>
-          <button class="copy-btn" id="copy-bib" type="button" aria-label="Copy BibTeX to clipboard">
+          <button class="copy-btn" id="copy-bib" type="button" data-code="bibtex-code" aria-label="Copy BibTeX to clipboard">
             <span class="lbl"><span class="t-en">⧉ Copy</span><span class="t-vi">⧉ Sao chép</span></span>
             <span class="ok-lbl"><span class="t-en">✓ Copied</span><span class="t-vi">✓ Đã chép</span></span>
           </button>
@@ -950,8 +969,18 @@
       <div class="titem">
         <div class="year">2026</div>
         <h4><a href="https://rivf2026.org/" target="_blank" rel="noopener">RIVF 2026 — 20th International Conference on Computing and Communication Technologies</a></h4>
-        <p class="t-en">Session SS1, Artificial Intelligence for Smart Cities. Three first-author papers: HORSE-RM (license plate recognition under degradation), AIODT (Vietnamese urban video retrieval), VAR (agent invariance testing for third-party AI assessment).</p>
-        <p class="t-vi">Thuộc SS1 (Artificial Intelligence for Smart Cities). Ba paper first-author: HORSE-RM nhận diện biển số trên ảnh suy giảm, AIODT truy xuất video đô thị Việt Nam, VAR kiểm thử tính bất biến của agent.</p>
+        <p class="t-en">Session SS1, Artificial Intelligence for Smart Cities. Three first-author papers:</p>
+        <ol class="t-en titem-papers">
+          <li><strong>HORSE-RM</strong> (license plate recognition under degradation)</li>
+          <li><strong>AIODT</strong> (Vietnamese urban video retrieval)</li>
+          <li><strong>VAR</strong> (agent invariance testing for third-party AI assessment)</li>
+        </ol>
+        <p class="t-vi">Thuộc SS1 (Artificial Intelligence for Smart Cities). Ba paper first-author:</p>
+        <ol class="t-vi titem-papers">
+          <li>HORSE-RM nhận diện biển số trên ảnh suy giảm</li>
+          <li>AIODT truy xuất video đô thị Việt Nam</li>
+          <li>VAR kiểm thử tính bất biến của agent</li>
+        </ol>
         <span class="result"><span class="t-en">🎉 3 papers accepted · 29 Oct 2026</span><span class="t-vi">🎉 3 paper được chấp nhận · 29/10/2026</span></span>
       </div>
       <div class="titem">
@@ -971,9 +1000,9 @@
       <div class="titem">
         <div class="year">2026</div>
         <h4><a href="https://doi.org/10.1109/MAPR72750.2026.11685754" target="_blank" rel="noopener">MAPR 2026</a></h4>
-        <p class="t-en">LVT-EG: Edge-Guided License Plate Recognition via Learned Visual Tactility — first-author paper #37, pp. 97-102. Accepted 6 Jul 2026, presented 13-14 Jul 2026 in Hue, Vietnam.</p>
-        <p class="t-vi">LVT-EG: nhận diện biển số via Learned Visual Tactility — paper first-author #37, tr. 97-102. Chấp nhận 6/7/2026, trình bày 13-14/7/2026 tại Huế.</p>
-        <span class="result"><span class="t-en">📄 Published · 13-14 Jul 2026 · Hue</span><span class="t-vi">📄 Đã đăng · 13-14/7/2026 · Huế</span></span>
+        <p class="t-en">LVT-EG: Edge-Guided License Plate Recognition via Learned Visual Tactility — first-author paper #37, pp. 97-102. Accepted 6 Jul 2026, presented 13-14 Aug 2026 in Hue, Vietnam.</p>
+        <p class="t-vi">LVT-EG: nhận diện biển số via Learned Visual Tactility — paper first-author #37, tr. 97-102. Chấp nhận 6/7/2026, trình bày 13-14/8/2026 tại Huế.</p>
+        <span class="result"><span class="t-en">📄 Published · 13-14 Aug 2026 · Hue</span><span class="t-vi">📄 Đã đăng · 13-14/8/2026 · Huế</span></span>
       </div>
       <div class="titem">
         <div class="year">2026</div>
@@ -1118,11 +1147,8 @@
     document.querySelectorAll(".reveal").forEach(function (e) { e.classList.add("in"); });
   })();
 
-  // copy bibtex
+  // copy bibtex (one handler per .copy-btn, target pre id in data-code)
   (function () {
-    var btn = document.getElementById("copy-bib");
-    var code = document.getElementById("bibtex-code");
-    if (!btn || !code) return;
     function fallbackCopy(text) {
       var ta = document.createElement("textarea");
       ta.value = text; ta.style.position = "fixed"; ta.style.opacity = "0";
@@ -1130,15 +1156,19 @@
       try { document.execCommand("copy"); } catch (e) {}
       document.body.removeChild(ta);
     }
-    btn.addEventListener("click", function () {
-      var text = code.textContent;
-      var done = function () {
-        btn.classList.add("ok");
-        setTimeout(function () { btn.classList.remove("ok"); }, 1800);
-      };
-      if (navigator.clipboard && navigator.clipboard.writeText) {
-        navigator.clipboard.writeText(text).then(done, function () { fallbackCopy(text); done(); });
-      } else { fallbackCopy(text); done(); }
+    document.querySelectorAll(".copy-btn").forEach(function (btn) {
+      var code = document.getElementById(btn.dataset.code || "bibtex-code");
+      if (!code) return;
+      btn.addEventListener("click", function () {
+        var text = code.textContent;
+        var done = function () {
+          btn.classList.add("ok");
+          setTimeout(function () { btn.classList.remove("ok"); }, 1800);
+        };
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+          navigator.clipboard.writeText(text).then(done, function () { fallbackCopy(text); done(); });
+        } else { fallbackCopy(text); done(); }
+      });
     });
   })();
 
