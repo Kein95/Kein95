@@ -86,6 +86,26 @@ award cohorts.
 
 </details>
 
+### 🎤 VANJ Conference 2026
+
+<div align="center">
+
+Presented **"When AI Stops and Humans Decide: A Production Case Study of AI-Assisted Digital Transformation in Vietnamese Private Examination Operations"** at the **7th VANJ Annual Conference on Interdisciplinary Research and Innovation** (VANJ Conference 2026).
+<br>
+🗓️ November 13-15, 2026 · 📍 Hiroshima University, Japan (presented 14 Nov 2026) · ✉️ Abstract accepted 2 Oct 2026
+<br>
+🌐 [conf.vanj.jp/2026](https://conf.vanj.jp/2026/)
+<br><br>
+
+<a href="./assets/vanj2026/vanj2026_certificate_kien_trung_ho.pdf">
+  <img src="https://cdn.jsdelivr.net/gh/Kein95/Kein95@main/assets/vanj2026/vanj2026_certificate_kien_trung_ho.png" alt="VANJ Conference 2026 Certificate of Appreciation" width="340">
+</a>
+
+<br>
+<sub>📜 Click to download the PDF</sub>
+
+</div>
+
 ### 🚘 ICPR 2026 Competition on Low-Resolution License Plate Recognition
 
 <div align="center">
@@ -132,26 +152,6 @@ As team **AIO_RIVA_RICE**, I placed **#20 of 99 valid submissions** (269 teams f
 ```
 
 </details>
-
-### 🎤 VANJ Conference 2026
-
-<div align="center">
-
-Presented **"When AI Stops and Humans Decide: A Production Case Study of AI-Assisted Digital Transformation in Vietnamese Private Examination Operations"** at the **7th VANJ Annual Conference on Interdisciplinary Research and Innovation** (VANJ Conference 2026).
-<br>
-🗓️ November 13-15, 2026 · 📍 Hiroshima University, Japan (presented 14 Nov 2026) · ✉️ Abstract accepted 2 Oct 2026
-<br>
-🌐 [conf.vanj.jp/2026](https://conf.vanj.jp/2026/)
-<br><br>
-
-<a href="./assets/vanj2026/vanj2026_certificate_kien_trung_ho.pdf">
-  <img src="https://cdn.jsdelivr.net/gh/Kein95/Kein95@main/assets/vanj2026/vanj2026_certificate_kien_trung_ho.png" alt="VANJ Conference 2026 Certificate of Appreciation" width="340">
-</a>
-
-<br>
-<sub>📜 Click to download the PDF</sub>
-
-</div>
 
 ### 🏅 JOAI2026: 2nd Japanese Olympiad in AI
 
