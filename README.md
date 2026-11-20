@@ -42,6 +42,7 @@ award cohorts.
 
 | Year | Program / Competition | Focus | Result |
 |------|-------------|-------|--------|
+| 2026 | [ASEAN Ahead: AI Career Readiness Training](https://ada.aseanfoundation.org/) | Practical AI training for career planning (ASEAN Foundation × LinkedIn) | 🎓 **Certificate of Completion** · 20 Nov 2026 |
 | 2026 | [VANJ 2026: 7th Annual Conference on Interdisciplinary Research and Innovation](https://conf.vanj.jp/2026/) | When AI Stops and Humans Decide: A Production Case Study of AI-Assisted Digital Transformation in Vietnamese Private Examination Operations (presentation) | 🎤 **Presented** · 14 Nov 2026 · Abstract accepted 2 Oct · Hiroshima University, Japan |
 | 2026 | [RIVF 2026: The 20th International Conference on Computing and Communication Technologies](https://rivf2026.org/) | 3 first-author papers (HORSE-RM, AIODT, VAR) in SS1: Artificial Intelligence for Smart Cities | 🎉 **3 papers accepted** · 29 Oct 2026 · presented Dec 18-20 at VinUniversity |
 | 2026 | ACCV 2026: Asian Conference on Computer Vision | Paper submission | ❌ **Reject** (avg score 3.67/6, 3 reviewers) |
@@ -87,6 +88,26 @@ award cohorts.
 ```
 
 </details>
+
+### 🎓 ASEAN Ahead — AI Career Readiness
+
+<div align="center">
+
+Completed the **AI Career Readiness Training** under **ASEAN Ahead** on [ada.aseanfoundation.org](https://ada.aseanfoundation.org/).
+<br>
+🤝 Practical training by the **ASEAN Foundation** (supported by **LinkedIn**) for NEET youth and university/TVET students across ASEAN.
+<br>
+🗓️ Certificate of Completion · November 20, 2026
+<br><br>
+
+<a href="./assets/asean-ahead/certificate_ai-career-readiness.png">
+  <img src="https://cdn.jsdelivr.net/gh/Kein95/Kein95@main/assets/asean-ahead/certificate_ai-career-readiness.png" alt="ASEAN Ahead AI Career Readiness Certificate of Completion" width="340">
+</a>
+
+<br>
+<sub>🔎 Click to view full size</sub>
+
+</div>
 
 ### 🎤 VANJ Conference 2026
 

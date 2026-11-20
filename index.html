@@ -359,6 +359,7 @@
   .cert-grid .pub:nth-child(2) { --glow: #35C2FF; }
   .cert-grid .pub:nth-child(3) { --glow: #B835C7; }
   .cert-grid .pub:nth-child(4) { --glow: #3ECF8E; }
+  .cert-grid .pub:nth-child(5) { --glow: #FF8A3D; }
   .pub::before {
     content: ""; position: absolute; top: 0; left: 0; right: 0; height: 3px;
     background: var(--brand-gradient);
@@ -400,11 +401,11 @@
   .cert-grid .cert-row a { max-width: 100%; }
   .cert-grid .cert-row img { height: 210px; }
   .cert-grid .cert-row img.portrait { height: auto; }
-  .cert-grid .pub:nth-child(4) { grid-column: 1 / -1; }
-  .cert-grid .pub:nth-child(4) .cert-row { flex-direction: row; flex-wrap: nowrap; }
-  .cert-grid .pub:nth-child(4) .cert-row a { flex: 1 1 0; min-width: 0; }
-  .cert-grid .pub:nth-child(4) .cert-row img { height: auto; width: 100%; }
-  .cert-grid .pub:nth-child(1) .cert-row { margin-top: 16px; }
+  .cert-grid .pub.cert-wide { grid-column: 1 / -1; }
+  .cert-grid .pub.cert-wide .cert-row { flex-direction: row; flex-wrap: nowrap; }
+  .cert-grid .pub.cert-wide .cert-row a { flex: 1 1 0; min-width: 0; }
+  .cert-grid .pub.cert-wide .cert-row img { height: auto; width: 100%; }
+  .cert-grid .pub.cert-vanj .cert-row { margin-top: 16px; }
   .bibtex {
     background: color-mix(in srgb, var(--glow, #155BFF) 9%, rgba(255, 255, 255, 0.04));
     border: 1px solid var(--border); border-radius: 10px;
@@ -872,6 +873,22 @@
 
     <div class="cert-grid">
       <article class="pub reveal">
+        <div class="kicker">🎓 ASEAN Ahead</div>
+        <h3><a href="https://ada.aseanfoundation.org/" target="_blank" rel="noopener">AI Career Readiness Training</a></h3>
+        <p class="t-en">Certificate of Completion, 20 Nov 2026. Practical training by the ASEAN Foundation (supported by LinkedIn) for NEET youth and university/TVET students across ASEAN.</p>
+        <p class="t-vi">Hoàn thành khóa học AI Career Readiness ngày 20/11/2026. Khóa học thực hành của ASEAN Foundation (hỗ trợ bởi LinkedIn) dành cho thanh niên NEET và sinh viên đại học/TVET trên khắp ASEAN.</p>
+        <div class="cert-row">
+          <a href="assets/asean-ahead/certificate_ai-career-readiness.png" target="_blank" rel="noopener">
+            <img src="assets/asean-ahead/certificate_ai-career-readiness.png" alt="ASEAN Ahead AI Career Readiness Certificate of Completion">
+          </a>
+        </div>
+        <div class="cap">
+          <span class="t-en">🌐 <a href="https://ada.aseanfoundation.org/" target="_blank" rel="noopener">ada.aseanfoundation.org</a></span>
+          <span class="t-vi">🌐 <a href="https://ada.aseanfoundation.org/" target="_blank" rel="noopener">ada.aseanfoundation.org</a></span>
+        </div>
+      </article>
+
+      <article class="pub reveal cert-vanj">
         <div class="kicker">🎤 VANJ Conference 2026</div>
         <h3><a href="https://conf.vanj.jp/2026/" target="_blank" rel="noopener">7th Annual Conference on Interdisciplinary Research and Innovation</a></h3>
         <p class="t-en">Presented "When AI Stops and Humans Decide: A Production Case Study of AI-Assisted Digital Transformation in Vietnamese Private Examination Operations" at Hiroshima University, Japan. Abstract accepted 2 Oct 2026, presented 14 Nov 2026.</p>
@@ -921,7 +938,7 @@
         </div>
       </article>
 
-      <article class="pub reveal">
+      <article class="pub reveal cert-wide">
         <div class="kicker">
           <span class="t-en">🎓 AI Vietnam — AIO2024</span><span class="t-vi">🎓 AI Vietnam — AIO2024</span>
         </div>
@@ -960,6 +977,13 @@
       <span class="t-vi">Hành trình &amp; thành tích</span>
     </h2>
     <div class="timeline reveal">
+      <div class="titem">
+        <div class="year">2026</div>
+        <h4><a href="https://ada.aseanfoundation.org/" target="_blank" rel="noopener">ASEAN Ahead — AI Career Readiness Training</a></h4>
+        <p class="t-en">Completed the AI Career Readiness Training by the ASEAN Foundation (supported by LinkedIn), helping NEET youth and university/TVET students across ASEAN use AI for career planning.</p>
+        <p class="t-vi">Hoàn thành khóa AI Career Readiness Training của ASEAN Foundation (hỗ trợ bởi LinkedIn), dành cho thanh niên NEET và sinh viên đại học/TVET trên khắp ASEAN.</p>
+        <span class="result"><span class="t-en">🎓 Certificate of Completion · 20 Nov 2026</span><span class="t-vi">🎓 Hoàn thành · 20/11/2026</span></span>
+      </div>
       <div class="titem">
         <div class="year">2026</div>
         <h4><a href="https://conf.vanj.jp/2026/" target="_blank" rel="noopener">VANJ 2026 — 7th Annual Conference on Interdisciplinary Research and Innovation</a></h4>
