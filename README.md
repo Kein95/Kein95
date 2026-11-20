@@ -79,9 +79,11 @@ award cohorts.
   booktitle={2026 International Conference on Multimedia Analysis and Pattern Recognition (MAPR)},
   title={LVT-EG: Edge-Guided License Plate Recognition via Learned Visual Tactility},
   year={2026},
+  volume={},
+  number={},
   pages={97-102},
-  doi={10.1109/MAPR72750.2026.11685754}
-}
+  keywords={Licenses;Plating;Training;Crops;Modeling;Nuclear facility regulation;Printing;License plate recognition;Learning (artificial intelligence);Superresolution;License plate recognition;scene text recognition;edge-guided learning;synthetic degradation;structural representation},
+  doi={10.1109/MAPR72750.2026.11685754}}
 ```
 
 </details>
