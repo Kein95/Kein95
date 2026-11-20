@@ -401,6 +401,10 @@
   .cert-grid .pub > p { min-height: 98px; }
   .cert-grid .cert-row img { height: 210px; }
   .cert-grid .cert-row img.portrait { height: auto; }
+  .cert-grid .pub:nth-child(4) { grid-column: 1 / -1; }
+  .cert-grid .pub:nth-child(4) .cert-row { flex-direction: row; flex-wrap: nowrap; }
+  .cert-grid .pub:nth-child(4) .cert-row a { flex: 1 1 0; min-width: 0; }
+  .cert-grid .pub:nth-child(4) .cert-row img { height: auto; width: 100%; }
   .bibtex {
     background: color-mix(in srgb, var(--glow, #155BFF) 9%, rgba(255, 255, 255, 0.04));
     border: 1px solid var(--border); border-radius: 10px;
