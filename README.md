@@ -42,7 +42,7 @@ award cohorts.
 
 | Year | Program / Competition | Focus | Result |
 |------|-------------|-------|--------|
-| 2026 | [VANJ 2026: 7th Annual Conference on Interdisciplinary Research and Innovation](https://conf.vanj.jp/2026/) | When AI Stops and Humans Decide: A Production Case Study of AI-Assisted Digital Transformation in Vietnamese Private Examination Operations (presentation) | 🎤 **Presented** · 14 Nov 2026 · abstract accepted 2 Oct · Hiroshima University, Japan |
+| 2026 | [VANJ 2026: 7th Annual Conference on Interdisciplinary Research and Innovation](https://conf.vanj.jp/2026/) | When AI Stops and Humans Decide: A Production Case Study of AI-Assisted Digital Transformation in Vietnamese Private Examination Operations (presentation) | 🎤 **Presented** · 14 Nov 2026 · Abstract accepted 2 Oct · Hiroshima University, Japan |
 | 2026 | [RIVF 2026: The 20th International Conference on Computing and Communication Technologies](https://rivf2026.org/) | 3 first-author papers (HORSE-RM, AIODT, VAR) in SS1: Artificial Intelligence for Smart Cities | 🎉 **3 papers accepted** · 29 Oct 2026 · presented Dec 18-20 at VinUniversity |
 | 2026 | ACCV 2026: Asian Conference on Computer Vision | Paper submission | ❌ **Reject** (avg score 3.67/6, 3 reviewers) |
 | 2026 | [MAPR 2026: Multimedia Analysis and Pattern Recognition](https://mapr.uit.edu.vn/) | LVT-EG: Edge-Guided License Plate Recognition via Learned Visual Tactility (first-author paper #37) | 📄 **Published** ([IEEE Xplore](https://doi.org/10.1109/MAPR72750.2026.11685754)) |
@@ -139,7 +139,7 @@ As team **AIO_RIVA_RICE**, I placed **#20 of 99 valid submissions** (269 teams f
 
 Presented **"When AI Stops and Humans Decide: A Production Case Study of AI-Assisted Digital Transformation in Vietnamese Private Examination Operations"** at the **7th VANJ Annual Conference on Interdisciplinary Research and Innovation** (VANJ Conference 2026).
 <br>
-🗓️ November 13-15, 2026 · 📍 Hiroshima University, Japan (presented 14 Nov 2026) · ✉️ abstract accepted 2 Oct 2026
+🗓️ November 13-15, 2026 · 📍 Hiroshima University, Japan (presented 14 Nov 2026) · ✉️ Abstract accepted 2 Oct 2026
 <br>
 🌐 [conf.vanj.jp/2026](https://conf.vanj.jp/2026/)
 <br><br>
