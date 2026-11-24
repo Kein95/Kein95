@@ -89,6 +89,19 @@ award cohorts.
 
 </details>
 
+📜 **Certificate of Participation** (Hue, 13-14 Aug 2026): [PDF](./assets/mapr2026/mapr2026_certificate_of_participation.pdf)
+
+<div align="center">
+
+<a href="./assets/mapr2026/mapr2026_certificate_of_participation.pdf">
+  <img src="https://cdn.jsdelivr.net/gh/Kein95/Kein95@main/assets/mapr2026/mapr2026_certificate_of_participation.png" alt="MAPR 2026 Certificate of Participation" width="420">
+</a>
+
+<br>
+<sub>📜 Click to download the PDF</sub>
+
+</div>
+
 ### 🎓 ASEAN Ahead — AI Career Readiness
 
 <div align="center">
